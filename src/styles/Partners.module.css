@@ -1,10 +1,6 @@
 .partners{
     padding-top: 35px;
     padding-bottom: 35px;
-    background-color: #02adb54d;
+    background-color: #288386;
     font-family: 'Montserrat';
-}
-
-.partners img{
-    filter: invert(1);
 }

@@ -9,10 +9,10 @@ import cover1 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
 import cover2 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
 import cover3 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
 import cover4 from '../public/images/thousandsofstruggling/Book-Mockup4.png'
-import cover5 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
-import cover6 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
-import cover7 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
-import cover8 from '../public/images/thousandsofstruggling/Book-Mockup8.png'
+import cover5 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
+import cover6 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
+import cover7 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
+import cover8 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
 
 const Strugglingwriters = () => {
 
@@ -110,7 +110,7 @@ const Strugglingwriters = () => {
                                 <Image loading="lazy" alt="Texas Book Publishing" src={cover4} className='img-fluid' />
                             </div>
                         </Slider>
-                        <Slider {...mockupslider2} className='mt-3 mockupslider'>
+                        <Slider {...mockupslider2} className='mt-5 mockupslider'>
                             <div>
                                 <Image loading="lazy" alt="Texas Book Publishing" src={cover5} className='img-fluid' />
                             </div>

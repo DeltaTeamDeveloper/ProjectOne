@@ -23,9 +23,12 @@ import Script from 'next/script'
 
 export default function Home() {
 
-  const exprtSpan = <span className='fw500 font50 text-black font-f t-center font-f mb-4'><span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
+  const exprtSpan = <span className='fw500 font50 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Your ONE-STOP</span> <Link className='dblockmobile textdocationnone color-blue hover' href="/"> Ghostwriting, Editing And Publishing Service </Link>  <span className=''>Provider!</span> </h1>;
+  const newSpan = <>
+    <h1 className='font50 fw700 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone color-blue hover' href="/">Professional Book Writers</Link>: Where Your Voice Finds Page</h1>
+    <h5 className='font20 fw500 text-blacks font-f hero-span mt-3'>Your story = our expertise – we put the pages together.</h5>
+  </>;
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
@@ -90,7 +93,7 @@ export default function Home() {
 
 
 
-  
+
 
   return (
     <>
@@ -162,7 +165,7 @@ export default function Home() {
 
         <Homebanner
           title={newSpan}
-          text='We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.'
+          text='Welcome to Texas Book Publishing: where professional book writers bind your dreams, self-publishing on Amazon becomes a breeze, and the best in the USA await your story’s adventure.'
           discuss={discuss}
           homebannernum='(213) 289 3888'
           homebanlogos={homebannerlogos}
