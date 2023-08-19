@@ -73,7 +73,7 @@ const About = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='Why Choose Book Writing Cube?'
+        title='Why Choose Texas Book Publishing?'
         text="Started as a small online organization, expanded the team from a few to a handful of people, and set the office. We put our skills, experience, and everything we knew of book writing, editing, publishing, and marketing to acquire a significant clientele. Soon, we got partnerships with publications houses, reputable editors, and experienced marketers—it was my dream come true!"
         number="(346) 502-3898"
         discuss="LET'S DISCUSS"
