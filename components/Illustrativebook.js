@@ -16,7 +16,7 @@ const Illustrativebook = (props) => {
                    <p className='text-black font-f hero-span font14'>{ props.para }</p> 
 
                    <div className='mt-4'>
-                        <Link className={styles.discuss} href="telto:(213) 289 3888">(213) 289 3888</Link>
+                        <Link className={styles.discuss} href="telto:(346) 502-3898">(346) 502-3898</Link>
                         <Link className={styles.homenumer} href="#"> LET'S DISCUSS</Link>
                   </div>
 

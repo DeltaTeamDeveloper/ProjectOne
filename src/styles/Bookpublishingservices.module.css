@@ -2,7 +2,7 @@
   padding-top: 100px;
   padding-bottom:200px;
   font-family: "Montserrat";
-  background-color: #02adb54d;
+  background-color: #02adb5;
   /* height: 100vh; */
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@
 }
 
 .flipcardfront1 {
-  background: #02adb54d;
+  background: #defafb4d;
   border: 1px solid #fff;
 
   display: flex;

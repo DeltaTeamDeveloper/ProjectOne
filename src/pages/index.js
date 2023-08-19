@@ -23,7 +23,7 @@ import Script from 'next/script'
 
 export default function Home() {
 
-  const exprtSpan = <span className='fw500 font50 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
+  const exprtSpan = <span className='fw500 font50 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
   const newSpan = <>
     <h1 className='font50 fw700 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone color-blue hover' href="/">Professional Book Writers</Link>: Where Your Voice Finds Page</h1>
@@ -167,7 +167,7 @@ export default function Home() {
           title={newSpan}
           text='Welcome to Texas Book Publishing: where professional book writers bind your dreams, self-publishing on Amazon becomes a breeze, and the best in the USA await your story’s adventure.'
           discuss={discuss}
-          homebannernum='(213) 289 3888'
+          homebannernum='(346) 502-3898'
           homebanlogos={homebannerlogos}
           homebanlogos2={homebanlogos2}
           bannershome='banner'
@@ -190,14 +190,14 @@ export default function Home() {
           list8="Continuous Revisions"
           btn1="Get a free Proposal"
           btn2="Talk to an expert"
-          btn3="(213) 289 3888"
+          btn3="(346) 502-3898"
         />
 
         {/* Talk To Our Experts! */}
         <Experts
           title={exprtSpan}
           text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
-          number="(213) 289 3888"
+          number="(346) 502-3898"
           discuss="LET'S DISCUSS"
         />
 
@@ -232,7 +232,7 @@ export default function Home() {
         {/* <Experts
           title={exprtSpan}
           text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
-          number="(213) 289 3888"
+          number="(346) 502-3898"
           discuss="LET'S DISCUSS"
         /> */}
 

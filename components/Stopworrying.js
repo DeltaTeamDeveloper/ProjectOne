@@ -67,7 +67,7 @@ const Stopworrying = (props) => {
 
           
               <Link href='#' className={styles.btn1}> {props.btn2} </Link>
-              <Link href='tel:2132893888' className={styles.btn2}>Call Us At (213) 289 3888</Link>
+              <Link href='tel:2132893888' className={styles.btn2}>Call Us At (346) 502-3898</Link>
 
             </div>
 

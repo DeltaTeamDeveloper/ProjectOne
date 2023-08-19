@@ -172,7 +172,7 @@ const Contact = () => {
                                     Let’s get in touch!
                                 </p>
                                 <p className='font20 fw500 font-f text-black'>
-                                    <span className=''>Phone:</span> <Link href='tel:213-289-3888' className={` ${styles.numpost} fw700 text-black textdocationnone`}> (213) 289 3888 </Link>
+                                    <span className=''>Phone:</span> <Link href='tel:213-289-3888' className={` ${styles.numpost} fw700 text-black textdocationnone`}> (346) 502-3898 </Link>
                                 </p>
                                 <p className='font20 fw500 font-f text-black'>
                                     <span className=''>Email:</span> <Link href='mailto:info(@)bookwritingcube(.)com' className={` ${styles.numpost} fw700 text-black textdocationnone`}>
@@ -198,7 +198,7 @@ const Contact = () => {
 
                             <h4 className='font-f fw400 font20 text-black t-center mt-3' >(Operations)</h4>
                             <p className='font-f fw300 mt-3 text-black t-center' >
-                                445 S.Figueroa Street, Los Angeles, CA 90071
+                               801 Travis Street, 2101, Houston, TX 77002, United States
                             </p>
 
 

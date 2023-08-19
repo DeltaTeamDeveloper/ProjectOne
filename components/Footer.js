@@ -4,7 +4,7 @@ import styles from '@/styles/Footer.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 // images 
-import footerlogo from '../public/images/logo.png'
+import footerlogo from '../public/images/footerlogo.png'
 import protectedlogo from '../public/images/footer/protected.png'
 import visa from '../public/images/footer/visa.png'
 import logo1 from '../public/images/footer/logo1.png'
@@ -155,8 +155,8 @@ const Footer = () => {
               <Image loading="lazy" className={styles.footerlogosize} src={footerlogo} alt='Texas Book Publishing'></Image>
               <ul className={styles.footermenu1}>
                 <li className={`${styles.footermenulinks} mt-4`}><MdEmail size={16} />  <Link className={styles.styleset} href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link></li>
-                <li className={`${styles.footermenulinks} pt-3`}><BsFillTelephoneFill size={12} /> <Link className={styles.styleset} href="tel:213-289-3888"> (213) 289 3888 </Link></li>
-                <li className={`${styles.footermenulinks} pt-3`}> <ImLocation2 size={16} /> 445 S.Figueroa Street, Los Angeles, CA 90071 </li>
+                <li className={`${styles.footermenulinks} pt-3`}><BsFillTelephoneFill size={12} /> <Link className={styles.styleset} href="tel:213-289-3888"> (346) 502-3898 </Link></li>
+                <li className={`${styles.footermenulinks} pt-3`}> <ImLocation2 size={16} />801 Travis Street, 2101, Houston, TX 77002, United States </li>
 
 
 
