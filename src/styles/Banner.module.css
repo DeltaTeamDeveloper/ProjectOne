@@ -421,9 +421,6 @@
 .homebannerlogo {
   margin-top: 40px;
 }
-.homebannerlogo img {
-  filter: brightness(100) invert(1);
-}
 
 .bgVideo1 {
   width: 100%;

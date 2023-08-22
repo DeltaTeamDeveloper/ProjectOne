@@ -31,8 +31,6 @@ const Header = () => {
   function toggle() {
 
     setclick((prevState) => !prevState);
-
-
   }
 
   const [show, setShow] = useState(false);
@@ -42,6 +40,13 @@ const Header = () => {
 
 
   const router = useRouter();
+
+
+  const [isActive, setIsActive] = useState(false);
+
+  const handleMenu = () => {
+    setIsActive((prev) => !prev);
+  }
 
 
 
@@ -54,7 +59,6 @@ const Header = () => {
 
             <Link href="/"><Image loading="lazy" className={styles.logonew} src={logo} alt='logo'></Image> </Link>
 
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className={styles.navalign}>
               <ul className={styles.align_menu}>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/">Home</Link></li>
@@ -93,6 +97,11 @@ const Header = () => {
                           </div>
                         </li>
                       </ul>
+                      <div className={styles.navTogle} onClick={handleMenu}>
+                        <span className={isActive ? `${styles.line} ${styles.line1}` : `${styles.line}`}></span>
+                        <span className={isActive ? `${styles.line} ${styles.line2}` : `${styles.line}`}></span>
+                        <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
+                      </div>
                     </Col>
                     <Col md={4}>
                       <ul className={`${styles.border}`} >

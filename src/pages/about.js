@@ -1,6 +1,7 @@
 import React from 'react'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
+import Link from 'next/link'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Head from 'next/head'
@@ -11,6 +12,7 @@ import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import whychoosebookritingcube from '/public/images/whychoosebookritingcube/whychoosebookritingcube.png'
 import Dowecome from '../../components/Dowecome'
 import Aspiring from '../../components/Aspiring'
+import Stopworrying from '../../components/Stopworrying'
 
 const About = () => {
 
@@ -22,7 +24,7 @@ const About = () => {
 
   const bannertext = [
     {
-      title:newSpan,
+      title: newSpan,
       pra: 'At Texas Book Publishing, every voice is heard, every story is celebrated, and every idea is encouraged.',
       pra2: 'We`ve put together a team of savvy book writing consultants and the best book publishers who love making your dreams come true, no matter the genre.',
       discuss: 'LET S DISCUSS',
@@ -32,6 +34,9 @@ const About = () => {
     }
   ]
 
+
+  const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
+
   return (
     <>
 
@@ -39,7 +44,7 @@ const About = () => {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      
+
       {/* banner components */}
       {bannertext.map((item, i) =>
         <Banner key={i}
@@ -98,6 +103,16 @@ const About = () => {
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
+      {/* Stopworrying */}
+      <div className='dataSetCo'>
+        <Stopworrying
+          title='Stop worrying about publishing books!'
+          subtitle={posdata}
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
+
       {/* Aspiring */}
       <Aspiring
         title='Over to you, all the courageous aspiring authors!'
@@ -106,9 +121,6 @@ const About = () => {
         number="(346) 502-3898"
         discuss="LET'S DISCUSS"
       />
-
-
-
 
     </>
   )
