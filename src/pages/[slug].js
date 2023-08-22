@@ -86,7 +86,7 @@ const Slug = () => {
                           
                           <Col md={12} key={i}>
                               <div className={styles.bloglist}>
-                                  {/* <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="book_writing_cube" /> */}
+                                  {/* <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="Texas_Book_Publishing" /> */}
                                   <div className={styles.cardbodylist}>
                                   {/* <h3>{item.title.rendered}</h3> */}
                                   <div dangerouslySetInnerHTML={{__html: item.content.rendered}}>
@@ -101,7 +101,7 @@ const Slug = () => {
                         {/* <Col md={8}>
 
                             <div className='d-flex gap-2'>
-                                <Image loading="lazy" src={sideicon} alt="book_writing_cube" width="25" height="25" />
+                                <Image loading="lazy" src={sideicon} alt="Texas_Book_Publishing" width="25" height="25" />
                                 <p className='fw500 font18 colortextgrey font-f'> By BWC Team in 2023</p>
                             </div>
 

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #02adb54d;
+  background-color: #288386;
   color: #fff;
   padding-top: 80px;
   font-family: "Montserrat";
@@ -10,7 +10,7 @@
 }
 .footermenu1 .footermenulinks {
   font-family: "Montserrat";
-  color: #222;
+  color: #fff;
   font-weight: 500;
   font-size: 13px;
   list-style: none;
@@ -46,7 +46,7 @@
 }
 
 .styleset {
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
 .rightlogo {
@@ -65,7 +65,7 @@
 }
 
 .footerborder {
-  border-top: 1px solid #222;
+  border-top: 1px solid #fff;
   padding-top: 1%;
 }
 
@@ -84,23 +84,15 @@
 }
 
 .footer p {
-  color: #222;
-}
-
-.footer img {
-  filter: invert(1);
-}
-
-.footer .pay {
-  filter: invert(0) !important;
+  color: #fff;
 }
 
 .footer h2 {
-  color: #222;
+  color: #fff;
 }
 
 .footer h2 {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #fff;
   padding-bottom: 15px;
 }
 

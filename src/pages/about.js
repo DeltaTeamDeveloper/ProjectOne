@@ -26,7 +26,7 @@ const About = () => {
       pra: 'At Texas Book Publishing, every voice is heard, every story is celebrated, and every idea is encouraged.',
       pra2: 'We`ve put together a team of savvy book writing consultants and the best book publishers who love making your dreams come true, no matter the genre.',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(213) 289 3888',
+      homebannernum: '(346) 502-3898',
       banlogo: homebannerlogos,
       aboutbanners: 'aboutbanner',
     }
@@ -64,7 +64,7 @@ const About = () => {
         title='How Do We Come Into Being?'
         text="It calls for storytime! At first, it was just an idea to escape the daily 9 to 5 frustration and explore the storyteller hiding within. So after attempting multiple book writing projects, it convinced me of my storytelling destiny. Relaxing and solving the rubic’s cube, I came up with the name and booked the domain. It was my eureka moment!"
         subtext="So it is our story of inspiration and courage to do what we want. If you are inspired to write and put the courage to pen down a story, we are pretty sure you want it to be a bestseller? Why not let us be your guide in the journey from a writer to a bestseller?"
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={howdoimg}
         Dowecome="Dowecome"
@@ -77,9 +77,9 @@ const About = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='Why Choose Book Writing Cube?'
+        title='Why Choose Texas Book Publishing?'
         text="Started as a small online organization, expanded the team from a few to a handful of people, and set the office. We put our skills, experience, and everything we knew of book writing, editing, publishing, and marketing to acquire a significant clientele. Soon, we got partnerships with publications houses, reputable editors, and experienced marketers—it was my dream come true!"
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={whychoosebookritingcube}
         whychooseclass="whychoosebookwritingcube"
@@ -90,7 +90,7 @@ const About = () => {
       <Experts
         title="Talk To Our Experts!"
         text="Call and get a free consultation, sample, & a price quote."
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
       />
 
@@ -103,7 +103,7 @@ const About = () => {
         title='Over to you, all the courageous aspiring authors!'
         //  title= 'Over to you, all the courageous aspiring authors!' {...greeting}
         text="“A book is all about the verbal artificiality of reality and how well you convey your idea through this—and this is what we aim to bring out. We respect the efforts of every client, as we know what it takes to write a book. That’s why we try not to disrupt the original idea but make it sound convincing.” – A message from teams of The Bookwriting Cube."
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
       />
 

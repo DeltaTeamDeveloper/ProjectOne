@@ -31,7 +31,7 @@ const Selfpublishing = (props) => {
 
                                 <div className='mt-4'>
                                     <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
-                                    <Link className={styles.asnumber} href="tel:(213) 289 3888"> {props.number}</Link>
+                                    <Link className={styles.asnumber} href="tel:(346) 502-3898"> {props.number}</Link>
 
                                 </div>
 

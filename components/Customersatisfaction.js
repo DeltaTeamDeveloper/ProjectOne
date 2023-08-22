@@ -81,7 +81,7 @@ const Customersatisfaction = () => {
                                     <div className={styles.customerbrandimg}>
                                         <Image loading="lazy" src={item.customerimages} alt='Texas Book Publishing' className='img-fluid'></Image>
                                     </div>
-                                    <h3 className='text-black font15 fw500 t-center font-f mt-4 pt-3'>{item.title}</h3>
+                                    <h3 className='text-white font15 fw500 t-center font-f mt-4 pt-3'>{item.title}</h3>
                                 </Col>
 
                             )}

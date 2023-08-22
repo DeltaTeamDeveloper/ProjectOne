@@ -44,7 +44,7 @@ const Bookpublishingservices = () => {
       title: newSpan,
       pra: 'Is Your Book Ready to Be Read, But Struggling to Reach Its Target Audience?',
       discuss: discuss,
-      homebannernum: 'Call Our Team At (213) 289 3888',
+      homebannernum: 'Call Our Team At (346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'bookmarketingservices',
 
@@ -408,7 +408,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       <Selfpublishing
         title='Our Personalized Approach to Strategic Planning:'
         text='We believe in developing a comprehensive, tailored marketing strategy for every book we work with. Our experts will carefully analyze your book, target audience, and market trends to develop a roadmap that will help you achieve your goals.'
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices1}
         whychooseclass="marketyourbook"
@@ -419,7 +419,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       <Whychoosebookwritingcube
         title='Our Unique Approach to Boosting Visibility:'
         text={support}
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices2}
         whychooseclass="marketyourbook"
@@ -431,7 +431,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       <Selfpublishing
         title= {second}
         text={demands}
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices3}
         whychooseclass="marketyourbook"
@@ -442,7 +442,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       <Whychoosebookwritingcube
         title={impressive}
         text={tailored}
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="Let’s Discuss Your Project"
         image={bookmarketingservices4}
         whychooseclass="marketyourbook"
@@ -462,7 +462,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <Aspiring
           title={industry}
           text={challenging}
-          number="Call Our Team - (213) 289 3888"
+          number="Call Our Team - (346) 502-3898"
         />
 
       </div>

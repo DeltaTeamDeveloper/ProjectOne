@@ -37,7 +37,7 @@ function Illustrationbook() {
     {
       title: newSpan,
       free: 'FREE AUTHOR CONSULTATION CALL',
-      homebannernum: '(213) 289 3888',
+      homebannernum: '(346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'illustrationbook',
     }
@@ -196,7 +196,7 @@ function Illustrationbook() {
           list8="Continuous Revisions"
           btn1="Get a free Proposal"
           btn2="Talk to an expert"
-          btn3="(213) 289 3888"
+          btn3="(346) 502-3898"
         />
 
         <Illustrativebook
@@ -221,7 +221,7 @@ function Illustrationbook() {
           stopworrying = 'stopworrying'
         />
 
-        {/* Why Choose Book Writing Cube? */}
+        {/* Why Choose Texas Book Publishing? */}
         <Whychoosebook
           title="Why Choose Texas Book Publishing?"
           text="We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute. To ensure the greatest efficacy, we firmly believe in and work towards a transparent collaboration between you and us. For the greatest candor, we develop intricate production processes that accommodate each of our clients uniquely. The typical content around here is remarkable, genuine, and original!"

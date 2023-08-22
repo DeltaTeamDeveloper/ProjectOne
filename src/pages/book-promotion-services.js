@@ -39,7 +39,7 @@ const Bookpublishingservices = () => {
       ),
       pra: 'Are you struggling to connect with your intended audience? Worry no more because your book is yearning for readers to immerse themselves in its pages, but the world has yet to discover its wonders!',
       discuss: 'Hire Our Book Promotion Services Today!',
-      homebannernum: 'Call Us Now at (213) 289 3888',
+      homebannernum: 'Call Us Now at (346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'bookpromotionservices',
     }
@@ -389,7 +389,7 @@ const Bookpublishingservices = () => {
           <Row>
             <h2 className='font50 fw700 color-blue t-center'>Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!</h2>
             <p className='font15  textcolor t-center pb-5 mt-3'>
-              Book Writing Cube is a creative studio that offers book promotion services to help authors and business personas get their work noticed by potential readers. We offer various services to suit your needs, including book trailer creation, social media marketing, and more. We're here to help you get your work out there and seen by as many people as possible. Here are a few FAQs that our professional book marketers curated to add information to your knowledge bag.
+              Texas Book Publishing is a creative studio that offers book promotion services to help authors and business personas get their work noticed by potential readers. We offer various services to suit your needs, including book trailer creation, social media marketing, and more. We're here to help you get your work out there and seen by as many people as possible. Here are a few FAQs that our professional book marketers curated to add information to your knowledge bag.
             </p>
 
           </Row>
@@ -447,7 +447,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title={<> Transforming Your Book into a Literary Gem: Join the Ranks of Literature With The Best <Link className='textdocationnone color-blue fw700 hover' href='/book-promotion-services/'>Book Promotion Services</Link>! </>}
           text={<> Ready to witness your work soar to new heights? Look no further than the <strong>Texas Book Publishing</strong>. Our extensive industry experience gives us the knowledge and expertise to make your book stand out and garner unparalleled exposure. Take the leap and call us today to propel your book to the next level! </>}
-          number="Call us at (213) 289 3888"
+          number="Call us at (346) 502-3898"
         />
       </div>
 

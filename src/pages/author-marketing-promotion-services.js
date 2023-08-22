@@ -31,7 +31,7 @@ const Authormarketingpromotionservices = () => {
       title: 'Capitalize On Your Visibility and Online Presence with Finest Author Marketing Promotion Services',
       pra: 'Reach a broader audience with author marketing promotion services. Our author book marketing services guarantee you an improved reputation and sales.',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(213) 289 3888',
+      homebannernum: '(346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'authormarketingpromotionservices',
 
@@ -60,7 +60,7 @@ const Authormarketingpromotionservices = () => {
     },
     {
       title: 'What are some things I should avoid when marketing my book?',
-      text: 'There are a few things to avoid when marketing a book, such as spamming potential customers or over-hyping your book. It’s also important to remember that not everyone will be interested in your book, so don’t take rejections personally. Instead, focus on finding the readers who will appreciate your work. Book Writing Cube’s team of author marketing experts creates engaging ads for authors and helps expand their reach.',
+      text: 'There are a few things to avoid when marketing a book, such as spamming potential customers or over-hyping your book. It’s also important to remember that not everyone will be interested in your book, so don’t take rejections personally. Instead, focus on finding the readers who will appreciate your work. Texas Book Publishing’s team of author marketing experts creates engaging ads for authors and helps expand their reach.',
       col6: '6',
     },
 
@@ -269,7 +269,7 @@ const Authormarketingpromotionservices = () => {
         title={dateset}
         text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
         subtext='Trust the marketing professionals for it, do not risk it!'
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         img={together}
       />
@@ -299,7 +299,7 @@ const Authormarketingpromotionservices = () => {
           <Row>
             <h2 className='font48 fw900 color-blue t-center'>Combining The Elements Of Author Marketing And Public Relations</h2>
             <p className='font15 fw500 colortextgrey t-center pb-5'>
-              In general, the purpose of the author is to entertain the readers with the story, inform them of reality, and persuade them of the truth. But with digital marketing on the rise, this purpose has an additional aspect—to market themselves for readership. The author's skill is reflected in the narrative and style they write in, but their readership is built when they are marketed well. With Book Writing Cube's author promotion services, we create captivation ads for authors. Whether they are Facebook ads for authors or Amazon ads for authors, we deliver!
+              In general, the purpose of the author is to entertain the readers with the story, inform them of reality, and persuade them of the truth. But with digital marketing on the rise, this purpose has an additional aspect—to market themselves for readership. The author's skill is reflected in the narrative and style they write in, but their readership is built when they are marketed well. With Texas Book Publishing's author promotion services, we create captivation ads for authors. Whether they are Facebook ads for authors or Amazon ads for authors, we deliver!
             </p>
 
           </Row>
@@ -348,10 +348,10 @@ const Authormarketingpromotionservices = () => {
 
 
 
-      {/* Why Choose Book Writing Cube? */}
+      {/* Why Choose Texas Book Publishing? */}
       <Whychoosebook
         title="Our Efficient Author Marketing Process"
-        text="The Book Writing Cube's 5-step author marketing process is designed to help authors connect with their audience, build a platform, and sell more books."
+        text="The Texas Book Publishing's 5-step author marketing process is designed to help authors connect with their audience, build a platform, and sell more books."
         whychoose={ourefficientauthor}
       />
 
@@ -360,7 +360,7 @@ const Authormarketingpromotionservices = () => {
       <Aspiring
         title='Create the right buzz for every title you pen down with our Author Marketing Promotion Services!'
         text="From amateur author to a brilliant success story, our author marketing services transform your name into a recognized brand."
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
       />
 

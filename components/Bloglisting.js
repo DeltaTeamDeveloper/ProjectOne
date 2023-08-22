@@ -53,7 +53,7 @@ const Bloglisting = () => {
 
 
                                 <div className={styles.bloglist}>
-                                    <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="book_writing_cube" />
+                                    <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="Texas_Book_Publishing" />
                                     <div className={styles.cardbodylist}>
                                         <h3><Link href={`/${item.slug}`} className="mt-3 font-f color-black textdocationnone hover">{item.title.rendered}</Link></h3>
                                         <Link href={`/${item.slug}`} className={`${styles.blogbtn} mt-3`}>Continue Reading »</Link>

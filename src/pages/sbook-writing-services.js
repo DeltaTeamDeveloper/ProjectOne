@@ -24,7 +24,7 @@ const Bookwritingservices = () => {
       title: 'Turn Your Dream Of Becoming A Published Writer With Our Book Writing Services!',
       pra: 'Dream to become a published book writer? Then what are you waiting for? Avail our professional book writing services and manifest your dreams into reality. Talk to our book writing consultant today, and get it all started.',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(213) 289 3888',
+      homebannernum: '(346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'bookwritingservices',
 
@@ -235,7 +235,7 @@ const Bookwritingservices = () => {
       <Dowecome
         title='Book Writing Can Be A Nightmare If You Are Not As Fluent With Your Words As You Are With Your Thoughts'
         text="When you think about writing a book, know that it doesn't have to be complicated. As absurd as it may sound, thoughts or ideas may already exist within your head as seed or germinating premises of stories that still need development before they can blossom into anything concrete and comprehensive for readers around the world. Luckily, you have our professional book writers who can help turn those thoughts from just an idea into something worth sharing with friends, family members & strangers alike. Let us help you get rid of writer's block and take that burden off your shoulders."
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         Dowecome="publishmybook"
         image={bookwritingcanbe}
@@ -257,7 +257,7 @@ const Bookwritingservices = () => {
           <Row >
             <h2 className='font48 fw900 color-blue  t-center font-f mb-2'>Fine-toothed book writing to give your readers a truly immersive experience with the help of our team of professional eBook writers!</h2>
 
-            <p className='font15 fw500 colortextgrey t-center pb-2'>Book Writing Cube is a portal to bring your thoughts, ideas, or dreams to paper for your readers.</p>
+            <p className='font15 fw500 colortextgrey t-center pb-2'>Texas Book Publishing is a portal to bring your thoughts, ideas, or dreams to paper for your readers.</p>
 
           </Row>
 
@@ -281,7 +281,7 @@ const Bookwritingservices = () => {
 
 
 
-      {/* Why Choose Book Writing Cube? */}
+      {/* Why Choose Texas Book Publishing? */}
       <Whychoosebook
         title="What Is Our Book Writing Process?"
         text="Our professional book writing services is a collaborative process between our client and our team that has the following steps:"
@@ -293,7 +293,7 @@ const Bookwritingservices = () => {
       <Aspiring
         title='Allow us to dominate all the bookshelves and digital libraries, entrust our professional book writers with your book today!'
         text={bookwritersforhire}
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
       />
 

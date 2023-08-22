@@ -42,7 +42,7 @@ const Bookpublishingservices = () => {
         </>
       ),
       discuss: discuss,
-      homebannernum: 'Call Us At (213) 289 3888',
+      homebannernum: 'Call Us At (346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'offeringyoubook',
 
@@ -524,7 +524,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title={`Navigating Rough Waters? We've Got Your Back!`}
           text={qualified}
-          number="Call Now At (213) 289 3888"
+          number="Call Now At (346) 502-3898"
         />
 
       </div>

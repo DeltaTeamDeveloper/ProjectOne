@@ -23,7 +23,7 @@ const Aspiring = (props) => {
                             <div className='mt-5'>
                          
                                 <Link className={styles.btn1} href="#">Get A Free Proposal</Link>
-                                <Link className={styles.btn2} href="tel:(213) 289 3888"> {props.number}</Link>
+                                <Link className={styles.btn2} href="tel:(346) 502-3898"> {props.number}</Link>
 
                             </div>
 

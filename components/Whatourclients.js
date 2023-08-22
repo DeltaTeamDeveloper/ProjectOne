@@ -71,10 +71,10 @@ const Whatourclients = () => {
 
 
               </div>
-              <h3 className='font18 fw700 color-blue mb-4'>Client Testimonials </h3>
+              <h3 className='font18 fw700 color-blue mb-3'>Client Testimonials </h3>
 
               <h2 className={styles.value}>Glowing Testimonials: Hear What <br /> Our Esteemed Clients Say!</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>
+              <p className={`${styles.canva}`}>
 
                 Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Texas Book Publishing’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
 
@@ -96,9 +96,9 @@ const Whatourclients = () => {
 
             <div >
               <div className={styles.whatclientlogo}>    </div>
-              <h3 className='font18 fw700 color-blue mb-4'>Client Testimonials </h3>
+              <h3 className='font18 fw700 color-blue mb-3'>Client Testimonials </h3>
               <h2 className={styles.value}>Glowing Testimonials: Hear What <br /> Our Esteemed Clients Say!</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Texas Book Publishing book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
+              <p className={`${styles.canva}`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Texas Book Publishing book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time. I had some difficulty understanding the formatting process for chapters and their titles.
               </p>
 
               <div className={styles.clientData}>
@@ -117,9 +117,9 @@ const Whatourclients = () => {
 
             <div>
               <div className={styles.whatclientlogo}>    </div>
-              <h3 className='font18 fw700 color-blue mb-4'>Client Testimonials </h3>
+              <h3 className='font18 fw700 color-blue mb-3'>Client Testimonials </h3>
               <h2 className={styles.value}>Glowing Testimonials: Hear What <br /> Our Esteemed Clients Say!</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process. I had some difficulty understanding the formatting process for chapters and their titles. Sam walked me through it with very few problems. I now think of Sam as a friend. I have already written several chapters for a new book, and when it’s ready, Sam will be the one I look for to help me.</p>
+              <p className={`${styles.canva}`}>I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process.</p>
 
               <div className={styles.clientData}>
                 <div>

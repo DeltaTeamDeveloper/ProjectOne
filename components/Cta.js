@@ -21,7 +21,7 @@ const Cta = () => {
                                 <div className='mt-5'>
                 
                                     <Link className={styles.btn1} href="#">Chat With Our Expert Now!</Link>
-                                    <Link className={styles.btn2} href="tel:(213) 289 3888"> Call Us At (213) 289 3888</Link>
+                                    <Link className={styles.btn2} href="tel:(346) 502-3898"> Call Us At (346) 502-3898</Link>
                                 </div>
                             </div>
                         </Col>

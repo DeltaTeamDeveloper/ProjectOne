@@ -132,7 +132,7 @@ const Banner = (props) => {
                 {props.discuss ?
                   <div className='mt-5'>
                     <Link className={styles.discuss} href="#">{props.discuss}</Link>
-                    <Link className={styles.homenumer} href="tel:(213) 289 3888"> {props.homebannernum}</Link>
+                    <Link className={styles.homenumer} href="tel:(346) 502-3898"> {props.homebannernum}</Link>
 
 
                     {props.processs ?

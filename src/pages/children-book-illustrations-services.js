@@ -28,7 +28,7 @@ const Childrenbookillustrationsservices = () => {
       title: newSpan,
       pra: 'While your words might do justice, illustrations take your book experience to a whole new level. Let us bring your imaginary characters on the paper for your readers to connect.',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(213) 289 3888',
+      homebannernum: '(346) 502-3898',
       banlogo: homebannerlogos,
       banners: 'bookpublishingservices',
 
@@ -39,7 +39,7 @@ const Childrenbookillustrationsservices = () => {
 
   const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone color-blue hover' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone color-blue hover' href="#">self publishing</Link> .</span>;
 
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a Texas Book Publishing. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
   const reasons = [
 
@@ -241,7 +241,7 @@ const Childrenbookillustrationsservices = () => {
  title= {dateset}
  text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
  subtext= 'Trust the marketing professionals for it, do not risk it!'
- number="(213) 289 3888"
+ number="(346) 502-3898"
  discuss="LET'S DISCUSS"
  img= {together}
 />
@@ -326,7 +326,7 @@ const Childrenbookillustrationsservices = () => {
         title='What Type Of Books Do We Publish?'
         text={text}
         subtext={subtext}
-        number="(213) 289 3888"
+        number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={publishmybook}
         whychooseclass="marketyourbook"
@@ -336,10 +336,10 @@ const Childrenbookillustrationsservices = () => {
 
 
 
-      {/* Why Choose Book Writing Cube? */}
+      {/* Why Choose Texas Book Publishing? */}
       {/* <Whychoosebook
    title="5 Steps To Our Children's Book Illustrations Process!"
-  text="We at Book Writing Cube have a detailed five-step process to getting your Children's Book Illustrations as good as you want them to be. This process is pretty much similar for illustrators all over the world, and we appreciate it if we educate our clients beforehand on what goes on in the entire illustration process."
+  text="We at Texas Book Publishing have a detailed five-step process to getting your Children's Book Illustrations as good as you want them to be. This process is pretty much similar for illustrators all over the world, and we appreciate it if we educate our clients beforehand on what goes on in the entire illustration process."
   whychoose= {stepstoour}
  /> */}
 
@@ -349,7 +349,7 @@ const Childrenbookillustrationsservices = () => {
         <Aspiring
           title='You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
           text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
-          number="(213) 289 3888"
+          number="(346) 502-3898"
           discuss="LET'S DISCUSS"
         />
       </div>
