@@ -10,15 +10,16 @@
 }
 .middle {
   justify-content: space-between;
+  padding: 75px 0;
 }
 .marketyourbook {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.middle img{
-  transition: all .2s ease-in-out;
+.middle img {
+  transition: all 0.2s ease-in-out;
 }
-.middle:hover img{
+.middle:hover img {
   border: 3px solid #049ea5;
 }
 .asnumber:hover {

@@ -242,9 +242,10 @@ body {
 }
 .brandnewlogo {
   padding: 5%;
+  filter: invert(1);
 }
+
 .brandnewlogo:hover {
-  filter: contrast(0.5);
   transform: scale(1.1);
   transition: 0.4s linear;
   cursor: pointer;
@@ -765,9 +766,14 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 /* ================== */
 
 .makestories img,
+.newStory img,
 .mockupslider img {
   width: 70%;
   margin: 0 auto;
+}
+
+.newStory .slick-slide{
+  width: 50%;
 }
 
 /* --------------------------- */

@@ -15,10 +15,16 @@ import Aspiring from '../../components/Aspiring'
 const About = () => {
 
 
+  const newSpan = <>
+    <h1 className='font50 fw700 text-blacks font-f hero-span'>We are devoted to bringing your story across the globe because it matters!</h1>
+  </>
+
+
   const bannertext = [
     {
-      title: 'Who Are We?',
-      pra: 'As self-searching as this question might sound, we are a book writing, editing, and publishing company. Well, that sounds a bit too over-simplified, but you get the gist. We produce, publish, and market book, a synergy of creativity fueled by a staff of writers, editors, publishers, developers, and designers.',
+      title:newSpan,
+      pra: 'At Texas Book Publishing, every voice is heard, every story is celebrated, and every idea is encouraged.',
+      pra2: 'We`ve put together a team of savvy book writing consultants and the best book publishers who love making your dreams come true, no matter the genre.',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -30,10 +36,7 @@ const About = () => {
     <>
 
       <Head>
-
-     
         <link rel="icon" href="/favicon.svg" />
-
       </Head>
 
       
@@ -42,6 +45,7 @@ const About = () => {
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext={item.pra2}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}

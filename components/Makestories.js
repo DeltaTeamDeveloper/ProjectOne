@@ -4,12 +4,12 @@ import { Container } from 'react-bootstrap'
 import Image from 'next/image'
 
 // images
-import makestories1 from '../public/images/makestories/makestories1.png'
-import makestories2 from '../public/images/makestories/makestories2.png'
-import makestories3 from '../public/images/makestories/makestories3.png'
-import makestories4 from '../public/images/makestories/makestories4.png'
-import makestories5 from '../public/images/makestories/makestories5.png'
-import makestories6 from '../public/images/makestories/makestories6.png'
+import makestories1 from '../public/images/makestories/Book-Mockup1.png'
+import makestories2 from '../public/images/makestories/Book-Mockup2.png'
+import makestories3 from '../public/images/makestories/Book-Mockup3.png'
+import makestories4 from '../public/images/makestories/Book-Mockup4.png'
+import makestories5 from '../public/images/makestories/Book-Mockup5.png'
+import makestories6 from '../public/images/makestories/Book-Mockup6.png'
 
 // slick css
 import "slick-carousel/slick/slick.css";
@@ -77,9 +77,9 @@ const Makestories = (props) => {
 
         <Container>
           <h2 className="fw900 font48 color-blue font-f t-center">{props.title} </h2>
-          <h2 className="font18 fw500 font-f t-center"> {props.para}</h2>
+          <h2 className="font18 fw500 font-f t-center mb-5"> {props.para}</h2>
 
-          <Slider {...makestories}>
+          <Slider {...makestories} className='newStory'>
 
             {makestoriesimg.map((item, i) => {
               return (

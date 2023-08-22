@@ -89,14 +89,14 @@ const Banner = (props) => {
 
                 {props.text ?
 
-                  <p className={`${styles.newPara}  font16 text-black font-f mt-4 m-0`}>{props.text}</p>
+                  <p className={`${styles.newPara}  font18 colortextgrey font-f mt-4 m-0`}>{props.text}</p>
                   :
                   ''
                 }
 
                 {props.subtext ?
 
-                  <p className={`${styles.newSubPara} fw500 font18 colortextgrey font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
+                  <p className={`${styles.newSubPara} font18 colortextgrey font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
                   :
                   ''
                 }
