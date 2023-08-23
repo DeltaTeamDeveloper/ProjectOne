@@ -26,7 +26,7 @@ const Termsofuse = () => {
 
       <Head>
 
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.png" />
 
       </Head>
 

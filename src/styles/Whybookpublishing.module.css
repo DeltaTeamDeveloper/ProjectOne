@@ -2,20 +2,20 @@
     background-image: url(/images/whybookpublishing/bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-position: center;
     font-family: 'Montserrat';
 }
 
 .publicservices{
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #f8f8f8;
 }
 
 .servicetitle{
     background-color: #f8f8f8;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .posttitle:before {
@@ -50,15 +50,15 @@
 
 .stillbookwritingservices{
     background-color: #02adb54d;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     counter-reset: section;
 }
 
 .finetoothedbook{
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #f8f8f8;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
    
     
 }

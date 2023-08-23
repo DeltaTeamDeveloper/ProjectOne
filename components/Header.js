@@ -174,25 +174,15 @@ const Header = () => {
                   </Row>
                 </li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/pricing">Pricing</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="/ourportfolio"> Our Portfolio</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="/blogs">Blogs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/contact">Contact us</Link></li>
               </ul>
 
-              <ul className={styles.align_menu}>
-
-
+              <ul className={`${styles.align_menu} ${styles.cntct}`}>
+              <li onClick={modal} className={`${styles.navlinks} ${styles.headertel} ${styles.headerbtnspacing}`}><Link className={styles.headerbtncolor} href="">Get A Quote</Link></li>
                 <li className={`${styles.navlinks} ${styles.headertel}`}>
-
                   <Link className={`${styles.headerbtncolor} ${styles.headericon}`} href="tel:(346) 502-3898">
-
                     <BsFillTelephoneFill className={styles.valuenum} size={12} /> (346) 502-3898 </Link>
-
                 </li>
-
-
-                <li onClick={modal} className={`${styles.navlinks} ${styles.headertel} ${styles.headerbtnspacing}`}><Link className={styles.headerbtncolor} href="">Get A Quote</Link></li>
-
               </ul>
             </Navbar.Collapse>
           </Container>

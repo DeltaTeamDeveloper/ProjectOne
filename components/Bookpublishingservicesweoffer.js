@@ -58,7 +58,7 @@ const Bookpublishingservicesweoffer = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <h2 className="fw700 font50 text-white font-f t-center mb-3">The <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Book Publishing Services</Link> We Provide!</h2>
+                            <h2 className="fw700 font40 text-white font-f t-center mb-3">The <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Book Publishing Services</Link> We Provide!</h2>
 
                             <p className="font15 text-white font-f t-center textcolor mb-3">Texas Book Publishing proudly provides a comprehensive range of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing services</Link>. From the initial manuscript evaluation to final proofreading, and including steps such as detailed editing, layout design, and cover art creation, we've got you covered. We also offer guidance through the often complex world of distribution, marketing, and copyright registration. Our commitment is to deliver a professional, seamless service that allows your unique voice to reach readers worldwide. Entrust your literary journey to our expert team.</p>
 

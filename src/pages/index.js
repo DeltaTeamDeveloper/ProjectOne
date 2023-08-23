@@ -23,14 +23,14 @@ import Script from 'next/script'
 
 export default function Home() {
 
-  const exprtSpan = <span className='fw500 font50 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
+  const exprtSpan = <span className='fw500 font40 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
   const newSpan = <>
-    <h1 className='font50 fw700 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone color-blue hover' href="/">Professional Book Writers</Link>: Where Your Voice Finds Page</h1>
-    <h5 className='font20 fw500 text-blacks font-f hero-span mt-3'>Your story = our expertise – we put the pages together.</h5>
+    <h1 className='font50 fw700 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone color-blue hover' href="/">Professional Book Writers</Link> Where Your Voice Finds Page</h1>
+    <h5 className='font16 fw600 text-blacks font-f hero-span mt-3'>Your story = our expertise – we put the pages together.</h5>
   </>;
 
-  const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
+  const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -110,7 +110,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="13 minutes" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.png" />
 
 
 

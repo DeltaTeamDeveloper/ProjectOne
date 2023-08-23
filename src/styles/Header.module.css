@@ -17,6 +17,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 .headerContainer {
@@ -66,10 +67,16 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 15px;
+  gap: 50px;
   height: 100%;
+  width: 100%;
   margin-bottom: unset;
   padding-left: 0;
+}
+
+.cntct{
+  justify-content: flex-start;
+  gap: 40px;
 }
 
 .menulinks {
@@ -93,7 +100,7 @@
 
 .headertel {
   font-size: 15px;
-  padding: 0px 18px;
+  padding: 0px 30px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -118,10 +125,6 @@
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.navalign {
-  justify-content: space-evenly;
 }
 
 .headertel:hover {
@@ -278,7 +281,7 @@
 }
 
 .menulinks:hover {
-  color: #0099ff;
+  color: #049ea5;
 }
 
 .megaLinks img {
@@ -302,9 +305,6 @@
     visibility: visible;
   }
 
-  .menulinks {
-    padding: 11px 0 13px 40px;
-  }
 }
 
 @media (max-width: 1440px) {
@@ -314,9 +314,6 @@
     visibility: visible;
   }
 
-  .menulinks {
-    padding: 10px 0 10px 12px;
-  }
 }
 @media (max-width: 1280px) {
   .valuenum {
@@ -334,17 +331,12 @@
     width: 100%;
   }
 
-  .megamenu ul li a {
-    font-size: 10px;
-    font-weight: 500;
-  }
 
   .menulinks {
-    font-size: 12px;
+    font-size: 16px;
   }
   .headertel {
     font-size: 12px;
-    padding: 12px 7px;
   }
 }
 

@@ -18,7 +18,7 @@ const Stopworrying = (props) => {
 
             {props.title2 ?
 
-              <h3 className='font50 font-f t-center text-white fw300'> {props.title2} </h3>
+              <h3 className='font40 font-f t-center text-white fw300'> {props.title2} </h3>
               :
 
               ''
@@ -50,7 +50,7 @@ const Stopworrying = (props) => {
             }
 
 
-            <h2 className='font50 text-white fw300 font-f t-center mt-4'>{props.subtitle}</h2>
+            <h2 className='font40 text-white fw300 font-f t-center mt-4'>{props.subtitle}</h2>
             {props.subtitle2 ?
 
               <p className='font18 text-white fw100 font-f t-center mt-4'>{props.subtitle2}</p>

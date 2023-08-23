@@ -9,10 +9,10 @@ import cover1 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
 import cover2 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
 import cover3 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
 import cover4 from '../public/images/thousandsofstruggling/Book-Mockup4.png'
-import cover5 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
-import cover6 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
-import cover7 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
-import cover8 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
+import cover5 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
+import cover6 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
+import cover7 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
+import cover8 from '../public/images/thousandsofstruggling/Book-Mockup8.png'
 
 const Strugglingwriters = () => {
 
@@ -88,7 +88,7 @@ const Strugglingwriters = () => {
             <Container>
                 <Row>
                     <Col md={12}>
-                        <h2 className='font-f font50 fw700 t-center color-blue'>Our Experts Have Helped Thousands Of Struggling Writers Come And Join The League!</h2>
+                        <h2 className='font-f font40 fw700 t-center color-blue'>Our Experts Have Helped Thousands Of Struggling Writers Come And Join The League!</h2>
                         <p className='font15 font-f t-center textcolor mt-3'>Our experienced publishing service providers remove the hurdles of publishing books. From printing and publishing to distribution and marketing books on a global level, we take the writers through all.</p>
                     </Col>
                 </Row>

@@ -25,7 +25,7 @@ const Whychoosebookwritingcube = (props) => {
 
                             <div className={styles.cube}>
 
-                                <h3 className="fw700 font50 colorexpertgrey font-f mb-2">{props.title}</h3>
+                                <h3 className="fw700 font30 colorexpertgrey font-f mb-3">{props.title}</h3>
                                 <p className='font15 textcolor font-f'>{props.text}</p>
                                 {props.subtext ?
 

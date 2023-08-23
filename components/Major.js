@@ -25,7 +25,7 @@ const Major = () => {
                     <Row className='mb-5 pb-2'>
                         <Col lg={10} className='mx-auto'>
                             <div>
-                                <h2 className='fw700 font50 text-black font-f t-center'>
+                                <h2 className='fw700 font40 text-white font-f t-center'>
                                     Many Got Featured In Major Publications Just By Working With Us.
                                 </h2>
                             </div>

@@ -255,7 +255,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="7 minutes" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.png" />
 
 
 

@@ -121,7 +121,7 @@ const Onestepsolutions = () => {
         <Container>
           <Row>
             <Col md={12}>
-              <h2 className='font-f fw500 colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone fw700' href="/">Book Writing Company</Link> Will Be A One Stop Solution For You!</h2>
+              <h2 className='font-fss fw500 colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone fw700' href="/">Book Writing Company</Link> Will Be A One Stop Solution For You!</h2>
             </Col>
 
             <Col md={12}>
@@ -131,7 +131,7 @@ const Onestepsolutions = () => {
                 {makestoriesimg.map((item, i) => {
                   return (
                     <div key={i}>
-                      <h3 className='color-blue font-f font30 fw600 mb-4'>{item.title}</h3>
+                      <h3 className='color-blue font-f font30 fw600 maxwidth mb-4'>{item.title}</h3>
                       <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
                       <Image loading="lazy" className='img-fluid' src={item.storiesimg} alt='Texas Book Publishing'></Image>
                     </div>

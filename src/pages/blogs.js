@@ -115,7 +115,7 @@ const Blogs = () => {
         <meta property="og:url" content="/blogs" />
         <meta property="og:site_name" content="Book Writing" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.png" />
       
 
         <script

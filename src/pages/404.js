@@ -18,7 +18,7 @@ const Error = () => {
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content="Page not found - Book Writing" />
                 <meta property="og:site_name" content="Book Writing" />
-                <link rel="icon" href="/favicon.svg" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
 
 

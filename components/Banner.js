@@ -73,11 +73,11 @@ const Banner = (props) => {
 
   return (
     <>
-      <div className={`${styles[props.bannershome]} bannergllobal`}>
+      <div className={`${styles[props.bannershome]}`}>
 
         <Container>
           <Row>
-            <Col md={12} className={styles[props.alignclass]}>
+            <Col md={7} className={styles[props.alignclass]}>
 
               <div className={`${styles.homebannertext} ${styles.otherBanner}`}>
 
@@ -89,42 +89,42 @@ const Banner = (props) => {
 
                 {props.text ?
 
-                  <p className={`${styles.newPara}  font18 colortextgrey font-f mt-4 m-0`}>{props.text}</p>
+                  <p className={`${styles.newPara}  font18 text-black font-f mt-4 m-0`}>{props.text}</p>
                   :
                   ''
                 }
 
                 {props.subtext ?
 
-                  <p className={`${styles.newSubPara} font18 colortextgrey font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
+                  <p className={`${styles.newSubPara} font18 text-black font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
                   :
                   ''
                 }
 
                 {props.subtext1 ?
 
-                  <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext1}</p>
+                  <p className='fw500 font18 text-black font-f m-0'> {props.subtext1}</p>
                   :
                   ''
                 }
 
                 {props.subtext2 ?
 
-                  <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext2}</p>
+                  <p className='fw500 font18 text-black font-f m-0'> {props.subtext2}</p>
                   :
                   ''
                 }
 
                 {props.subtext3 ?
 
-                  <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext3}</p>
+                  <p className='fw500 font18 text-black font-f m-0'> {props.subtext3}</p>
                   :
                   ''
                 }
 
                 {props.subtext4 ?
 
-                  <p className='fw500 font18 colortextgrey font-f'> {props.subtext4} <strong>{props.subtext4bold}</strong> </p>
+                  <p className='fw500 font18 text-black font-f'> {props.subtext4} <strong>{props.subtext4bold}</strong> </p>
                   :
                   ''
                 }
@@ -135,13 +135,13 @@ const Banner = (props) => {
                     <Link className={styles.homenumer} href="tel:(346) 502-3898"> {props.homebannernum}</Link>
 
 
-                    {props.processs ?
+                    {/* {props.processs ?
 
                       <Link onClick={handleShow} className={` ${styles.homenumer} ${styles.new1} `} href='#'> <BsFillPlayFill size={25} /> {props.processs} </Link>
 
                       :
                       ''
-                    }
+                    } */}
 
                   </div>
                   :
@@ -162,7 +162,7 @@ const Banner = (props) => {
                   : ''}
 
 
-                {props.homebanlogos ?
+                {/* {props.homebanlogos ?
 
                   <div className="row">
                     <div className="col-12 col-lg-12">
@@ -191,7 +191,7 @@ const Banner = (props) => {
                   </div>
                   :
                   ''
-                }
+                } */}
               </div>
 
 

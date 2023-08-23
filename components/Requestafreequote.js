@@ -56,7 +56,7 @@ const Requestafreequote = () => {
     <>
       <div className={styles.freequote}>
         <Container>
-          <h2 className="fw700 font50 color-blue font-f t-center mb-3 pt-5 mt-5">Request A Free Quote</h2>
+          <h2 className="fw700 font40 color-blue font-f t-center mb-3 pt-5 mt-5">Request A Free Quote</h2>
           <form className={styles.formalign} onSubmit={handleSubmit}>
             <Row>
               <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name'  /></Col>
@@ -68,7 +68,7 @@ const Requestafreequote = () => {
             <button className={styles.freebtn} type="submit"> {score} </button>
           </form>
           <Row className={styles.leftemail}>
-            <Col md={4}>    <h3 className="fw700 font48 colorexpertgrey font-f t-left">Email Us</h3></Col>
+            <Col md={4}>    <h3 className="fw700 font30 colorexpertgrey font-f t-left">Email Us</h3></Col>
             <Col md={4}>
               <div>
                 <h4 className='fw700 font17 colorexpertgrey font-f'> For project inquiries only: </h4>

@@ -1,9 +1,10 @@
 .major {
-  padding: 80px 0;
+  padding: 50px 0;
   background-color: #288386;
 }
 
 .major img {
+  width: 50%;
   transition: 0.7s;
   filter: brightness(0) invert(1);
 }

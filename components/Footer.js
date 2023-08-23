@@ -154,9 +154,20 @@ const Footer = () => {
             <Col md={4}>
               <Image loading="lazy" className={styles.footerlogosize} src={footerlogo} alt='Texas Book Publishing'></Image>
               <ul className={styles.footermenu1}>
-                <li className={`${styles.footermenulinks} mt-4`}><MdEmail size={16} />  <Link className={styles.styleset} href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link></li>
-                <li className={`${styles.footermenulinks} pt-3`}><BsFillTelephoneFill size={12} /> <Link className={styles.styleset} href="tel:213-289-3888"> (346) 502-3898 </Link></li>
-                <li className={`${styles.footermenulinks} pt-3`}> <ImLocation2 size={16} />801 Travis Street, 2101, Houston, TX 77002, United States </li>
+                <li className={`${styles.footermenulinks} ${styles.footlik} mt-4`}>
+                  <MdEmail size={16} />
+                  <Link className={styles.styleset} href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link>
+                </li>
+
+                <li className={`${styles.footermenulinks} ${styles.footlik} pt-3`}>
+                  <BsFillTelephoneFill size={12} />
+                  <Link className={styles.styleset} href="tel:213-289-3888"> (346) 502-3898 </Link>
+                </li>
+                <li className={`${styles.footermenulinks} ${styles.footlik} pt-3`}>
+                  <ImLocation2 size={16} />
+                  <Link className={styles.styleset} href="tel:213-289-3888">801 Travis Street, 2101, Houston, TX 77002, United States</Link>
+                  
+                </li>
 
 
 
@@ -184,7 +195,7 @@ const Footer = () => {
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/contact">Contact</Link></li>
 
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/faqs">Faq's</Link></li>
-                
+
 
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Let's Get Started</Link></li>
 

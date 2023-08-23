@@ -61,7 +61,7 @@
 }
 
 .styleset:hover {
-  color: #0099ff;
+  color: #222;
 }
 
 .footerborder {
@@ -94,6 +94,16 @@
 .footer h2 {
   border-bottom: 1px solid #fff;
   padding-bottom: 15px;
+}
+
+.footlik{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footlik svg{
+  margin-top: 3px;
 }
 
 @media (max-width: 991px) {

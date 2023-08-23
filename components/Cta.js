@@ -12,7 +12,7 @@ const Cta = () => {
                     <Row className={` ${styles.middle} gy-4`}>
                         <Col md={12}>
                             <div className={styles.dowemargin}>
-                                <h3 className="fw300 font50 text-white font-f mb-4">
+                                <h3 className="fw300 font40 text-white font-f mb-4">
                                     <span>Get A Customized Solution By <Link className='d-block color-blue fw700 hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
                                 </h3>
                                 <p className='font15 fw400 font-f text-white pe-lg-5 pe-0'>

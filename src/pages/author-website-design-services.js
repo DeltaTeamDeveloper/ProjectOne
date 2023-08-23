@@ -232,7 +232,7 @@ const authorWebsiteDesignServices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="9 minutes" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.png" />
 
         <script
           type="application/ld+json"

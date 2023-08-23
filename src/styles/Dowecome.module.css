@@ -3,8 +3,8 @@
 }
 
 .Dowecome {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #f1f1f1;
 }
 .Dowecome .middle {
@@ -95,7 +95,7 @@
 }
 
 .cta {
-  padding: 100px 0;
+  padding: 50px 0;
   background-image: url(/images/stopworrying/worrying.webp);
 }
 

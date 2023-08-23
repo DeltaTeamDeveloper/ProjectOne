@@ -34,11 +34,11 @@ const Bookpublishingservices = () => {
     {
       title: (
         <>
-          <h1 className='font50 fw300 text-white font-f hero-span'>It’s Time to Convert Your Literary Dreams To Reality With Our Diverse Range of <Link className='textdocationnone fw700 color-blue hover' href="/book-publishing-services/">Book Publishing Services</Link>.</h1>
+          <h1 className='font50 fw600 text-black font-f hero-span'>It’s Time to Convert Your Literary Dreams To Reality With Our Diverse Range of <Link className='textdocationnone fw700 color-blue hover' href="/book-publishing-services/">Book Publishing Services</Link>.</h1>
         </>
       ),
       pra: (
-        <> Are you facing complications regarding <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link> with the help of Texas Book Publishing! </>
+        <> Are you facing complications regarding <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">book publishing</Link> with the help of Texas Book Publishing! </>
       ),
       discuss: (<> Hire The Best Book Publishers Today! </>),
       homebannernum: 'Call Us at (346) 502-3898',
@@ -190,7 +190,7 @@ const Bookpublishingservices = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="9 minutes" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.png" />
 
         <script
           type="application/ld+json"
@@ -300,7 +300,7 @@ const Bookpublishingservices = () => {
         <Container>
           <Row>
             <Col>
-              <h2 className='color-blue fw700 font50 font-f t-center'>
+              <h2 className='color-blue fw700 font40 font-f t-center'>
                 Why Choose Our <Link className='textdocationnone color-blue hover' href='/book-publishing-services/'>Amazon Publishing Services</Link>?
               </h2>
             </Col>

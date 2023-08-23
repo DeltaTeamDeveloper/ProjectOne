@@ -122,7 +122,7 @@ const Homebanner = (props) => {
                                     : ''}
 
 
-                                {props.homebanlogos ?
+                                {/* {props.homebanlogos ?
 
                                     <div className="row">
                                         <div className="col-12 col-lg-12">
@@ -137,7 +137,7 @@ const Homebanner = (props) => {
                                     </div>
                                     :
                                     ''
-                                }
+                                } */}
 
 
                                 {/* <div className="row">

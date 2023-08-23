@@ -15,7 +15,7 @@ const Aspiring = (props) => {
                     <Row className={`${styles.middle} gy-4`}>
                         <Col md={7}>
 
-                            <h2 className="fw700 font50 colortextgrey font-f mb-4">{props.title}</h2>
+                            <h2 className="fw700 font40 colortextgrey font-f mb-4">{props.title}</h2>
                             <p className='color-lightgray font14 fw400 font-f mt-3'>{props.text}</p>
                             <p className='color-lightgray font14 fw400 font-f mt-3'>{props.subtext}</p>
 

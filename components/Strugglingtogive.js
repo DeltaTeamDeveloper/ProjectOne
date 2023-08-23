@@ -11,7 +11,7 @@ const Strugglingtogive = (props) => {
             <Container>
                 <Row className={` ${styles.forent} gy-4`}>
                     <Col md={7}>
-                        <h2 className='color-blue font50 fw700 font-f mb-4'>Are You Struggling to give <br className='d-none d-md-block' /> Words to your Ideas?</h2>
+                        <h2 className='color-blue font40 fw700 font-f mb-4'>Are You Struggling to give <br className='d-none d-md-block' /> Words to your Ideas?</h2>
                         <p className='textcolor font-f mb-4 font15'>You may be a victim of the following nuisances</p>
                         <div className={styles.slow}>
                             <ul className='p-0'>
