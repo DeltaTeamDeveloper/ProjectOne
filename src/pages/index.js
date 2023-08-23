@@ -244,9 +244,6 @@ export default function Home() {
         {/* Talk To Our Whatourclients! */}
         <Whatourclients />
 
-        {/* Got a Story */}
-        <Gotastory />
-
         {/* Talk To Our Requestafreequote! */}
         <Requestafreequote />
 
