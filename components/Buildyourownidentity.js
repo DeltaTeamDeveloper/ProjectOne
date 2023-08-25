@@ -13,8 +13,8 @@ const Buildyourownidentity = () => {
                 <Container>
                     <Row className='mb-3'>
                         <Col>
-                            <h2 className="fw700 font50 color-blue font-f mb-2 t-center">Craft Your Distinct Identity</h2>
-                            <p className='font15 textcolor font-f t-center'><Link className='textdocationnone hover textcolor' href='/digital-marketing-services/'>Digital book marketing</Link> is a delicate art that demands strategy and finesse. It requires a touch of creativity and persuasive pitching. From conceptualizing captivating social media campaigns to generating excitement through influencer collaborations, marketing is a multidimensional endeavor. Leveraging the power of influencers and public figures is a pivotal aspect of pre-launch marketing, expanding your reach to new audiences and potential clients.</p>
+                            <h2 className="fw700 font40 color-blue font-f mb-2 t-center">Craft Your Distinct Identity</h2>
+                            <p className='font15 textcolor font-f t-center mb-5'><Link className='textdocationnone hover textcolor' href='/digital-marketing-services/'>Digital book marketing</Link> is a delicate art that demands strategy and finesse. It requires a touch of creativity and persuasive pitching. From conceptualizing captivating social media campaigns to generating excitement through influencer collaborations, marketing is a multidimensional endeavor. Leveraging the power of influencers and public figures is a pivotal aspect of pre-launch marketing, expanding your reach to new audiences and potential clients.</p>
                         </Col>
                     </Row>
 

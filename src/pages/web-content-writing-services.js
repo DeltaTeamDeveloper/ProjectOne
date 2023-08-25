@@ -3,11 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/ebookwritingservices/fssf.png'
 import mission2 from '/public/images/ebookwritingservices/bgdf.png'
 import mission3 from '/public/images/ebookwritingservices/dfdgf.png'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
 import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
 // components
 import Banner from '../../components/Banner'
@@ -15,22 +13,16 @@ import Dowecome from '../../components/Dowecome'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
-import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 import Major from '../../components/Major'
-// css
-import styles from '@/styles/Whybookpublishing.module.css'
-
 
 
 
 const EbookWritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'><Link className='text-black textdocationnone hover' href='/web-content-writing-services'>Web Content Writing Service</Link> That Gives Your Business Persona A Professional Look! </h1>;
+  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'><Link className='color-blue textdocationnone hover' href='/web-content-writing-services'>Web Content Writing Service</Link> That Gives Your Business Persona A Professional Look! </h1>;
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -40,8 +32,7 @@ const EbookWritingservices = () => {
       title: newSpan,
       pra: 'Is your website content outdated? Let us help you with it! At Texas Book Publishing, we create Search Engine Optimized and high-quality website content that guarantees increased traffic and conversions. We have a team of writers with the experience and skill set required to provide the best and cost-effective writing solutions.',
       discuss: discuss,
-      homebannernum: '(346) 502-3898',
-      banlogo: homebannerlogos,
+      homebannernum: 'Call Us Now',
       banners: 'webcontentwritingservices',
 
 
@@ -55,7 +46,7 @@ const EbookWritingservices = () => {
 
   const titleDb = <span className=' color-blue'>Want To Boost Traffic? </span>
   const posdata = <span className='fw700'>
-    Discuss Your Requirements With Our Qualified Team Of <Link className='text-black textdocationnone hover' href='/web-content-writing-services'>Content Writers</Link>  And Get Best Solutions!</span>
+    Discuss Your Requirements With Our Qualified Team Of <Link className='color-blue textdocationnone hover' href='/web-content-writing-services'>Content Writers</Link>  And Get Best Solutions!</span>
 
 
   const WaitingForSomeone = <span>Tired Of The Same Outdated Content On Your Website?</span>
@@ -147,91 +138,91 @@ const EbookWritingservices = () => {
   </span>;
 
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/web-content-writing-service/"
-    },
-    "headline": "Web Content Writing Service That Gives Your Business Persona A Professional Look!",
-    "description": "Web Content Writing Service",
-    "image": "",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-21"
-  }
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/web-content-writing-service/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "bookwritingexperts",
-    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "@id": "",
-    "url": "https://texasbookpublishing.com/web-content-writing-service/",
-    "telephone": "2132893888",
-    "priceRange": "$99",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "445 S Figueroa St",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0536155,
-      "longitude": -118.2568651
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
+  // const schema = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/web-content-writing-service/"
+  //   },
+  //   "headline": "Web Content Writing Service That Gives Your Business Persona A Professional Look!",
+  //   "description": "Web Content Writing Service",
+  //   "image": "",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-21"
+  // }
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/web-content-writing-service/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "ProfessionalService",
+  //   "name": "bookwritingexperts",
+  //   "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "@id": "",
+  //   "url": "https://texasbookpublishing.com/web-content-writing-service/",
+  //   "telephone": "2132893888",
+  //   "priceRange": "$99",
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "445 S Figueroa St",
+  //     "addressLocality": "Los Angeles",
+  //     "addressRegion": "CA",
+  //     "postalCode": "90071",
+  //     "addressCountry": "US"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 34.0536155,
+  //     "longitude": -118.2568651
+  //   },
+  //   "openingHoursSpecification": {
+  //     "@type": "OpeningHoursSpecification",
+  //     "dayOfWeek": [
+  //       "Monday",
+  //       "Tuesday",
+  //       "Wednesday",
+  //       "Thursday",
+  //       "Friday",
+  //       "Saturday",
+  //       "Sunday"
+  //     ],
+  //     "opens": "00:00",
+  //     "closes": "23:59"
+  //   },
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
 
 
   return (
@@ -260,7 +251,7 @@ const EbookWritingservices = () => {
 
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
@@ -272,7 +263,7 @@ const EbookWritingservices = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
-        />
+        /> */}
 
 
       </Head>
@@ -291,16 +282,10 @@ const EbookWritingservices = () => {
           subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
-          homebanlogos={item.banlogo}
           bannershome={item.banners}
           processs={item.process}
         />
       )}
-
-
-
-
-
 
 
 
@@ -330,19 +315,20 @@ const EbookWritingservices = () => {
         <Selfpublishing
           title={WaitingForSomeone}
           text={text}
-          number="(346) 502-3898"
+          number="Call Us Now"
           discuss="LET'S DISCUSS"
           image={newimagetwoo}
           whychooseclass="marketyourbook"
         />
       </div>
 
+
       <div className='pt-5 pb-5'>
         <Container>
           <Row className='pt-5 pb-5'>
             <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-            <p className='font30 font-f fw500 colortextgrey t-center pb-2'>We Aim To Enhance Your ROI By Fueling Your Website With Impressive Content!
+            <p className='font30 font-f fw700 colortextgrey t-center pb-2'>We Aim To Enhance Your ROI By Fueling Your Website With Impressive Content!
             </p>
 
           </Row>
@@ -397,7 +383,7 @@ const EbookWritingservices = () => {
         <Selfpublishing
           title={WaitingForSomeone}
           text={text}
-          number="(346) 502-3898"
+          number="Call Us Now"
           discuss="LET'S DISCUSS"
           image={newimagetwoo}
           whychooseclass="marketyourbook"
@@ -424,7 +410,7 @@ const EbookWritingservices = () => {
         <Aspiring
           title='Professional Web Content Writing Services We Give New Life To Your Words'
           text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
-          number="(346) 502-3898"
+          number="Call Us Now"
           discuss="LET'S DISCUSS"
         />
       </div>

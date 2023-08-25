@@ -44,7 +44,7 @@ body {
 
 .hero-span span {
   color: #222;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .hover:hover {
@@ -188,7 +188,7 @@ body {
   counter-reset: section;
   position: relative;
   padding: 50px 0;
-  background-color: #02adb54d;
+  background-color: #2c2c2c;
 }
 .still h2 {
   padding-bottom: 40px;
@@ -397,17 +397,17 @@ body {
 .start {
   margin-bottom: 20px;
 }
-.datacloudco {
+/* .datacloudco {
   padding-bottom: 50px;
-}
+} */
 /* .dataset {
   padding-top: 50px;
 } */
-.datacloud {
+/* .datacloud {
   padding-bottom: 50px;
   padding-top: 50px;
-}
-.waitdate {
+} */
+/* .waitdate {
   padding-top: 50px;
   padding-bottom: 60px;
 }
@@ -420,7 +420,7 @@ body {
 .newdatecloud {
   padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
 .bannergllobal {
   text-align: center;

@@ -22,16 +22,13 @@ const Companypull = (props) => {
          
 
 
- 
-
-         
 
 
                     </Col>
 
                     <Col md={7}>
 
-                        <h2 className="fw600 font50 text-black font-f mb-4">{props.title}</h2>
+                        <h2 className="fw600 font30 text-black font-f mb-4">{props.title}</h2>
                         <p className={`${styles.colortext} color-lightgray font14 fw400 font-f mt-3`}>{props.text}</p>
                             { props.subtext ?
 

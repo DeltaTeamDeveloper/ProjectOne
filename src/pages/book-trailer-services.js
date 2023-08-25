@@ -4,14 +4,10 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-import bookmarketingservices1 from '/public/images/bookmarketingservices/1.png'
-import bookmarketingservices2 from '/public/images/bookmarketingservices/2.png'
 import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
-import bookmarketingservices4 from '/public/images/bookmarketingservices/4.png'
 
 
 // components
@@ -20,11 +16,9 @@ import Dowecome from '../../components/Dowecome'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
-import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
-import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Major from '../../components/Major'
 
 
@@ -45,13 +39,8 @@ const BookTrailerServcies = () => {
       title: newSpan,
       pra: 'Looking for a new and captivating way to promote your upcoming book? Look no further, Texas Book Publishing have you covered! Our unmatched book video trailer services help you create the online hype your book deserves. Our experts bring creativity and passion into the mix.',
       discuss: discuss,
-      homebannernum: '(346) 502-3898',
-      banlogo: homebannerlogos,
+      homebannernum: 'Call Us Now',
       banners: 'bookvideotrailer',
-
-
-
-
     }
   ]
 
@@ -62,7 +51,7 @@ const BookTrailerServcies = () => {
 
   </span>
 
-  const leveup = <span className='font50 fw700 font-f  color-black textdocationnone  hero-span'>Level Up Your <Link href='/book-trailer-services' className='textdocationnone color-black hover fw700'>Book Promotion</Link> Game With Our #1 <Link className='textdocationnone color-black hover fw700' href='/book-trailer-services'>Book Video Trailer Services</Link> </span>
+  const leveup = <span className='font40 fw700 font-f  color-black textdocationnone  hero-span'>Level Up Your <Link href='/book-trailer-services' className='textdocationnone color-black hover fw700'>Book Promotion</Link> Game With Our #1 <Link className='textdocationnone color-black hover fw700' href='/book-trailer-services'>Book Video Trailer Services</Link> </span>
 
   const posdata = <span>Creative <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>Book Video Trailers</Link> Are Now Accessible At One-Click; Reach Us Now!</span>
 
@@ -100,91 +89,91 @@ const BookTrailerServcies = () => {
 
   const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'> Book Promotions? </Link>  </span>
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-trailer-services/"
-    },
-    "headline": "Book Trailer Services That Create Hype For Your Digital Asset!",
-    "description": "Book Trailer Services",
-    "image": "",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-21"
-  }
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-trailer-services/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "bookwritingexperts",
-    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "@id": "",
-    "url": "https://texasbookpublishing.com/book-trailer-services/",
-    "telephone": "2132893888",
-    "priceRange": "$99",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "445 S Figueroa St",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0536155,
-      "longitude": -118.2568651
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
+  // const schema = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/book-trailer-services/"
+  //   },
+  //   "headline": "Book Trailer Services That Create Hype For Your Digital Asset!",
+  //   "description": "Book Trailer Services",
+  //   "image": "",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-21"
+  // }
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/book-trailer-services/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "ProfessionalService",
+  //   "name": "bookwritingexperts",
+  //   "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "@id": "",
+  //   "url": "https://texasbookpublishing.com/book-trailer-services/",
+  //   "telephone": "2132893888",
+  //   "priceRange": "$99",
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "445 S Figueroa St",
+  //     "addressLocality": "Los Angeles",
+  //     "addressRegion": "CA",
+  //     "postalCode": "90071",
+  //     "addressCountry": "US"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 34.0536155,
+  //     "longitude": -118.2568651
+  //   },
+  //   "openingHoursSpecification": {
+  //     "@type": "OpeningHoursSpecification",
+  //     "dayOfWeek": [
+  //       "Monday",
+  //       "Tuesday",
+  //       "Wednesday",
+  //       "Thursday",
+  //       "Friday",
+  //       "Saturday",
+  //       "Sunday"
+  //     ],
+  //     "opens": "00:00",
+  //     "closes": "23:59"
+  //   },
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
 
 
 
@@ -216,7 +205,7 @@ const BookTrailerServcies = () => {
 
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
@@ -228,7 +217,7 @@ const BookTrailerServcies = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
-        />
+        /> */}
       </Head>
 
 
@@ -245,7 +234,6 @@ const BookTrailerServcies = () => {
           subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
-          homebanlogos={item.banlogo}
           bannershome={item.banners}
           processs={item.process}
         />
@@ -282,10 +270,10 @@ const BookTrailerServcies = () => {
 
       <div className='pt-5 pb-5'>
         <Container>
-          <Row className="pt-5 pb-5">
+          <Row>
             <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
 
-            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Beat Your Competitors with Concise, Informative, and Engaging <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>  Book Video Trailers</Link></p>
+            <p className='font40 font-f fw500 colortextgrey t-center mb-5'>Beat Your Competitors with Concise, Informative, and Engaging <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>  Book Video Trailers</Link></p>
 
           </Row>
 
@@ -308,21 +296,11 @@ const BookTrailerServcies = () => {
         title={leveup}
         text='First impression is indeed the last impression, which is why Texas Book Publishing offer the best book video trailer services for our valued clients. Make the right impression on your readers with compelling book video trailers! '
 
-        number="(346) 502-3898"
+        number="Call Us Now"
         discuss="LET'S DISCUSS"
         image={newimagetwoo}
         whychooseclass="marketyourbook"
       />
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -339,7 +317,7 @@ const BookTrailerServcies = () => {
         <Aspiring
           title='Let’s Commence On The Journey To Book Excellence!'
           text="Give us a call at (346) 502-3898, or hit us up with your queries by filling out the form below."
-          number="(346) 502-3898"
+          number="Call Us Now"
           discuss="LET'S DISCUSS"
         />
 

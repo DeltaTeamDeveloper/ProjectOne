@@ -3,11 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/ebookwritingservices/fssf.png'
 import mission2 from '/public/images/ebookwritingservices/bgdf.png'
 import mission3 from '/public/images/ebookwritingservices/dfdgf.png'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
 import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
 // components
 import Banner from '../../components/Banner'
@@ -15,15 +13,10 @@ import Dowecome from '../../components/Dowecome'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
-import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 import Major from '../../components/Major'
-// css
-import styles from '@/styles/Whybookpublishing.module.css'
 
 
 
@@ -34,15 +27,14 @@ const EbookWritingservices = () => {
     {
       title: (
         <>
-          <h1 className='font50 fw300 text-white font-f hero-span'>Strengthening Ideas and Enriching The Concepts With Our Proficient <Link className='textdocationnone fw700 color-blue hover' href="/ebook-writing-services/">Ebook Writing Services</Link>!</h1>
+          <h1 className='font50 fw500 text-black font-f hero-span'>Strengthening Ideas and Enriching The Concepts With Our Proficient <Link className='textdocationnone fw700 color-blue hover' href="/ebook-writing-services/">Ebook Writing Services</Link>!</h1>
         </>
       ),
       pra: (
-        <> Let us be the voice of your creativity and bring your novels to life with our expert <Link className='textdocationnone text-white hover' href="/ebook-writing-services/">ebook writers</Link>. We breathe life into your ideas, crafting exceptional narratives. </>
+        <> Let us be the voice of your creativity and bring your novels to life with our expert <Link className='textdocationnone text-black hover' href="/ebook-writing-services/">ebook writers</Link>. We breathe life into your ideas, crafting exceptional narratives. </>
       ),
-      discuss: "Hire Professional Ebook Writing Services!",
-      homebannernum: 'Call Us at (346) 502-3898',
-      banlogo: homebannerlogos,
+      discuss: "LET'S DISCUSS",
+      homebannernum: 'Call Us Now',
       banners: 'ebook',
 
     }

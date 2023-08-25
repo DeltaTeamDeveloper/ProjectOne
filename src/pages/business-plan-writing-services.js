@@ -3,11 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/businessplanwriting/ss.png'
 import mission2 from '/public/images/businessplanwriting/fdf.png'
 import mission3 from '/public/images/businessplanwriting/hg.png'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
 import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
 // components
 import Banner from '../../components/Banner'
@@ -17,8 +15,6 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 import Major from '../../components/Major'
@@ -30,8 +26,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const businessplanWringservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'>  Business Plan Writing Services
-    To Help You Follow A Roadmap To Business Success! </h1>;
+  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'><Link className='textdocationnone fw700 color-blue hover' href="/business-plan-writing-services">Business Plan Writing Services</Link> To Help You Follow A Roadmap To Business Success! </h1>;
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -39,15 +34,10 @@ const businessplanWringservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business. If you need help getting your business off the ground, our team at Texas Book Publishing can assist you. We specialize in creating customized business plans that will help you secure funding and launch your company successfully. Our services are affordable, and we offer a free consultation to get started. Contact us today to learn more about how we can help you achieve your business goals!',
+      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business. If you need help getting your business off the ground, our team at Texas Book Publishing can assist you. We specialize in creating customized business plans that will help you secure funding and launch your company successfully.',
       discuss: discuss,
-      homebannernum: '(346) 502-3898',
-      banlogo: homebannerlogos,
-      banners: 'ghostwriting',
-
-
-
-
+      homebannernum: 'Call Us Now',
+      banners: 'business',
     }
   ]
 
@@ -145,93 +135,93 @@ const businessplanWringservices = () => {
   </span>;
 
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/business-plan-writing-services"
-    },
-    "headline": "Business Plan Writing Services - Texas Book Publishing",
-    "description": "Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now.",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-18"
-  }
+  // const schema = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/business-plan-writing-services"
+  //   },
+  //   "headline": "Business Plan Writing Services - Texas Book Publishing",
+  //   "description": "Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now.",
+  //   "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-18"
+  // }
 
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/business-plan-writing-services/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/business-plan-writing-services/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
 
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "bookwritingexperts",
-    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "@id": "",
-    "url": "https://texasbookpublishing.com/business-plan-writing-services/",
-    "telephone": "2132893888",
-    "priceRange": "$99",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "445 S Figueroa St",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0536155,
-      "longitude": -118.2568651
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "ProfessionalService",
+  //   "name": "bookwritingexperts",
+  //   "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "@id": "",
+  //   "url": "https://texasbookpublishing.com/business-plan-writing-services/",
+  //   "telephone": "2132893888",
+  //   "priceRange": "$99",
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "445 S Figueroa St",
+  //     "addressLocality": "Los Angeles",
+  //     "addressRegion": "CA",
+  //     "postalCode": "90071",
+  //     "addressCountry": "US"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 34.0536155,
+  //     "longitude": -118.2568651
+  //   },
+  //   "openingHoursSpecification": {
+  //     "@type": "OpeningHoursSpecification",
+  //     "dayOfWeek": [
+  //       "Monday",
+  //       "Tuesday",
+  //       "Wednesday",
+  //       "Thursday",
+  //       "Friday",
+  //       "Saturday",
+  //       "Sunday"
+  //     ],
+  //     "opens": "00:00",
+  //     "closes": "23:59"
+  //   },
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
 
 
   return (
@@ -260,7 +250,7 @@ const businessplanWringservices = () => {
 
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
@@ -272,7 +262,7 @@ const businessplanWringservices = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
-        />
+        /> */}
 
       </Head>
 
@@ -288,7 +278,6 @@ const businessplanWringservices = () => {
           subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
-          homebanlogos={item.banlogo}
           bannershome={item.banners}
           processs={item.process}
         />
@@ -330,9 +319,9 @@ const businessplanWringservices = () => {
       <div className={`${styles.finetoothedbook} customizedbook`}>
         <Container>
           <Row >
-            <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
+            <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
 
-            <p className='font30 font-f fw500 colortextgrey t-center pb-2'>Three-Step Game Plan to Writing an Effective Business Plan!
+            <p className='font30 font-f fw700 colortextgrey t-center mb-5'>Three-Step Game Plan to Writing an Effective Business Plan!
             </p>
 
           </Row>
@@ -426,7 +415,7 @@ const businessplanWringservices = () => {
         <Selfpublishing
           title='Helping Entrepreneurs And Small Businesses Achieve Their Goals'
           text={text}
-          number="(346) 502-3898"
+          number="Call Us Now"
           discuss="LET'S DISCUSS"
           image={newimagetwoo}
           whychooseclass="marketyourbook"
@@ -453,7 +442,7 @@ const businessplanWringservices = () => {
         <Aspiring
           title='Professional Business Plan Writing Services We Give New Life To Your Words'
           text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
-          number="(346) 502-3898"
+          number="Call Us Now"
           discuss="LET'S DISCUSS"
         />
       </div>

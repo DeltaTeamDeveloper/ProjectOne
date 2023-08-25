@@ -1,13 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import homebanlogos2 from '/public/images/bannerimages/homebannerlogos2.webp'
-import whychoose from '/public/images/whychoosebooks/bg-img.png'
+  import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'
 import Whychoosebook from '../../components/Whychoosebook'
-import Gotastory from '../../components/Gotastory'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
@@ -26,7 +23,7 @@ export default function Home() {
   const exprtSpan = <span className='fw500 font40 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
   const newSpan = <>
-    <h1 className='font50 fw700 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone color-blue hover' href="/">Professional Book Writers</Link> Where Your Voice Finds Page</h1>
+    <h1 className='font50 fw500 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone fw700 color-blue hover' href="/">Professional Book Writers</Link> Where Your Voice Finds Page</h1>
     <h5 className='font16 fw600 text-blacks font-f hero-span mt-3'>Your story = our expertise – we put the pages together.</h5>
   </>;
 
@@ -35,61 +32,58 @@ export default function Home() {
   const discuss = <span>LET'S DISCUSS</span>
 
 
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/"
-    },
-    "headline": "Book Writing Company",
-    "description": "Book Writing Company",
-    "image": "",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-21"
-  }
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/"
+  //   },
+  //   "headline": "Book Writing Company",
+  //   "description": "Book Writing Company",
+  //   "image": "",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-21"
+  // }
 
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
 
-  const schema3 = {
-    "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
-    "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
-  }
+  // const schema3 = {
+  //   "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
+  //   "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
+  // }
 
 
 
   return (
     <>
-
-
       <Head>
-
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
@@ -112,9 +106,7 @@ export default function Home() {
         <meta name="twitter:data1" content="13 minutes" />
         <link rel="icon" href="/favicon.png" />
 
-
-
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
         />
@@ -126,7 +118,7 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+        /> */}
 
         {/* <Schema /> */}
 
@@ -135,7 +127,7 @@ export default function Home() {
 
       {/* googletagmanager */}
 
-      <Script
+      {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"
         strategy="afterInteractive"
       />
@@ -147,7 +139,7 @@ export default function Home() {
 
         gtag('config', 'UA-210274244-13');
         `}
-      </Script>
+      </Script> */}
 
       <main>
         {/* banner components */}
@@ -156,9 +148,7 @@ export default function Home() {
           title={newSpan}
           text='Welcome to Texas Book Publishing: where professional book writers bind your dreams, self-publishing on Amazon becomes a breeze, and the best in the USA await your story’s adventure.'
           discuss={discuss}
-          homebannernum='(346) 502-3898'
-          homebanlogos={homebannerlogos}
-          homebanlogos2={homebanlogos2}
+          homebannernum='Call Us Now'
           bannershome='banner'
         />
 

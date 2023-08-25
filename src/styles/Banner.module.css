@@ -22,7 +22,7 @@
 }
 
 .ghostwriting {
-  background-image: url(/images/bannerimages/ghost.jpeg);
+  background-image: url(/images/bannerimages/ghost.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 140px;
@@ -34,7 +34,20 @@
   font-family: "Montserrat";
 }
 
-.pricing {
+.business {
+  background-image: url(/images/bannerimages/business.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: "Montserrat";
+}
+
+/* .pricing {
   background-color: #02adb54d;
   display: flex;
   align-items: center;
@@ -43,22 +56,22 @@
   padding-top: 140px;
   padding-bottom: 70px;
   font-family: "Montserrat";
-}
+} */
 
 .bookpublishingservices {
   background-image: url(/images/bannerimages/bookpublishingservices.jpg);
   background-size: cover;
+  background-position: top center;
   background-repeat: no-repeat;
   padding-top: 140px;
   height: 100vh;
   display: flex;
   align-items: center;
   padding-bottom: 70px;
-  background-position: center;
   font-family: "Montserrat";
 }
 
-.bookwritingservices {
+/* .bookwritingservices {
   background-image: url(/images/bannerimages/bookwritingservices.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +82,7 @@
   padding-bottom: 70px;
   background-position: center;
   font-family: "Montserrat";
-}
+} */
 
 .articlewritingservices {
   background-image: url(/images/bannerimages/articleswriting.jpg);
@@ -98,7 +111,7 @@
 }
 
 .bookeditingservices {
-  background-image: url(/images/bannerimages/editing.jpg);
+  background-image: url(/images/bannerimages/bookeditingservices.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -123,7 +136,7 @@
   font-family: "Montserrat";
 }
 
-.ghost {
+/* .ghost {
   background-image: url(/images/bannerimages/ghostbann.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,7 +146,7 @@
   align-items: flex-end;
   padding-bottom: 70px;
   font-family: "Montserrat";
-}
+} */
 
 .audiobookproduction {
   background-image: url(/images/bannerimages/audiobook.jpg);
@@ -143,13 +156,12 @@
   height: 100vh;
   display: flex;
   background-position: center;
-
   padding-bottom: 70px;
   font-family: "Montserrat";
 }
 
 .illustrationbook {
-  background-image: url(/images/bannerimages/banner.jpg);
+  background-image: url(/images/bannerimages/illustration.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 135px;
@@ -158,6 +170,19 @@
   align-items: flex-start;
   padding-bottom: 70px;
   background-position: 0% 75%;
+  font-family: "Montserrat";
+}
+
+.bookwritingservices {
+  background-image: url(/images/bannerimages/bookwritingservices.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: center;
   font-family: "Montserrat";
 }
 
@@ -170,12 +195,12 @@
   display: flex;
   align-items: center;
   padding-bottom: 70px;
-  background-position: center;
+  background-position: top;
   font-family: "Montserrat";
 }
 
 .offeringyoubook {
-  background-image: url(/images/bannerimages/offeringyoubook.jpg);
+  background-image: url(/images/bannerimages/proofreading.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 140px;
@@ -187,7 +212,7 @@
   font-family: "Montserrat";
 }
 
-.blogwritingservices {
+/* .blogwritingservices {
   background-image: url(/images/bannerimages/blogwritingservices.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,9 +236,9 @@
   padding-bottom: 70px;
   background-position: center;
   font-family: "Montserrat";
-}
+} */
 
-.buildexcitement {
+/* .buildexcitement {
   background-image: url(/images/bannerimages/buildexcitement.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -231,9 +256,9 @@
   padding-bottom: 70px;
   background-position: center;
   font-family: "Montserrat";
-}
+} */
 
-.childrenbookpublication {
+/* .childrenbookpublication {
   background-image: url(/images/bannerimages/childrenbookpublication.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -261,7 +286,7 @@
   padding-bottom: 70px;
   background-position: right;
   font-family: "Montserrat";
-}
+} */
 
 .digitalmarketingservices {
   background-image: url(/images/bannerimages/bookmarketingservices.jpg);
@@ -277,7 +302,7 @@
 }
 
 .bookformattingservices {
-  background-image: url(/images/bannerimages/formatting.jpg);
+  background-image: url(/images/bannerimages/bookformatting.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 140px;
@@ -289,7 +314,7 @@
   font-family: "Montserrat";
 }
 
-.audiobookrecordingservices {
+/* .audiobookrecordingservices {
   background-image: url(/images/bannerimages/audiobookrecordingservices.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -300,7 +325,7 @@
   padding-bottom: 70px;
   background-position: center;
   font-family: "Montserrat";
-}
+} */
 
 .webcontentwritingservices {
   background-image: url(/images/bannerimages/webcontentwritingservices.jpeg);
@@ -315,7 +340,7 @@
   font-family: "Montserrat";
 }
 
-.empoweringauthorswith {
+/* .empoweringauthorswith {
   background-image: url(/images/bannerimages/authorwebsite.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -326,7 +351,7 @@
   padding-bottom: 70px;
   background-position: center;
   font-family: "Montserrat";
-}
+} */
 
 .bookvideotrailer {
   background-image: url(/images/bannerimages/bookvideotrailer.jpg);
@@ -416,7 +441,7 @@
 .discuss {
   font-size: 15px;
   font-weight: 500;
-  padding: 12px 18px;
+  padding: 10px 35px;
   color: #fff;
   text-decoration: unset;
   font-family: "Montserrat";
@@ -435,12 +460,11 @@
 
 .homenumer {
   border: 0;
-  padding: 12px 20px;
+  padding: 10px 35px;
   border-radius: 50px;
   background-color: #049ea5;
   color: #fff;
   text-decoration: unset;
-  margin-left: 10px;
   border: 1px solid #049ea5;
   font-family: "Montserrat";
 }
@@ -498,7 +522,7 @@
   border: transparent;
   cursor: pointer;
   font-size: 14px;
-  background: #FD9802;
+  background: #fd9802;
   width: 100%;
   font-family: "Montserrat";
   text-decoration: none;
@@ -507,6 +531,14 @@
 .free:hover {
   color: #fff;
 }
+
+.bannerBtns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* ============================== */
 
 @media (min-width: 1440px) {
   .otherBanner {
@@ -522,19 +554,15 @@
 }
 
 @media (max-width: 991px) {
-
   .ghost {
-
     align-items: center;
   }
 
   .audiobookproduction {
-
     align-items: center;
   }
 
   .illustrationbook {
-
     align-items: center;
   }
 
@@ -651,18 +679,14 @@
 }
 
 @media (max-width: 767px) {
-
-
   .ghost {
     background-image: unset;
     background-color: #02adb54d;
-
   }
 
   .illustrationbook {
     background-image: unset;
     background-color: #02adb54d;
-
   }
 
   .discuss {
@@ -787,7 +811,6 @@
 }
 
 @media (max-width: 480px) {
-
   .new1 {
     font-size: 12px;
     display: block;
@@ -806,7 +829,6 @@
     padding: 9px 10px;
     display: block;
 } */
-
 
   .bookpublishingservices h1 {
     max-width: 100%;

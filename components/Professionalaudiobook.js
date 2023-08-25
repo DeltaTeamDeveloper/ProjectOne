@@ -14,9 +14,9 @@ const Professionalaudiobook = () => {
         const audio = new Audio(
             "https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
         );
-   
 
-      
+
+
 
         audio.addEventListener(
             "loadeddata",
@@ -29,7 +29,7 @@ const Professionalaudiobook = () => {
             false
         );
 
-    
+
         const timeline = audioPlayer.querySelector(".timeline");
         timeline.addEventListener("click", e => {
             const timelineWidth = window.getComputedStyle(timeline).width;
@@ -37,7 +37,7 @@ const Professionalaudiobook = () => {
             audio.currentTime = timeToSeek;
         }, false);
 
-     
+
         const volumeSlider = audioPlayer.querySelector(".controls .volume-slider");
         volumeSlider.addEventListener('click', e => {
             const sliderWidth = window.getComputedStyle(volumeSlider).width;
@@ -46,7 +46,7 @@ const Professionalaudiobook = () => {
             audioPlayer.querySelector(".controls .volume-percentage").style.width = newVolume * 100 + '%';
         }, false)
 
-     
+
         setInterval(() => {
             const progressBar = audioPlayer.querySelector(".progress");
             progressBar.style.width = audio.currentTime / audio.duration * 100 + "%";
@@ -55,7 +55,7 @@ const Professionalaudiobook = () => {
             );
         }, 500);
 
-     
+
         const playBtn = audioPlayer.querySelector(".controls .toggle-play");
         playBtn.addEventListener(
             "click",
@@ -85,7 +85,7 @@ const Professionalaudiobook = () => {
             }
         });
 
-     
+
         function getTimeCodeFromNum(num) {
             let seconds = parseInt(num);
             let minutes = parseInt(seconds / 60);
@@ -114,12 +114,12 @@ const Professionalaudiobook = () => {
                         </Col>
                         <Col lg={9}>
 
-                            <h3 className='text-black font-f font14 fw400'>Continue Reading</h3>
-                            <h2 className='text-black font-f linh mt-3'> <Link href="#" className='color-black font-f fw700 textdocationnone hover1'>Texas Book Publishing</Link> Is waiting for you to Ask <br className="d-none d-xl-block" /> for a <Link href="#" className='color-black font-f fw700 textdocationnone hover1'> Professional Audio Book Production</Link></h2>
+                            <h3 className='text-white font-f font14 fw400'>Continue Reading</h3>
+                            <h2 className='text-white font-f linh mt-3'> <Link href="#" className='color-black font-f fw700 textdocationnone hover1'>Texas Book Publishing</Link> Is waiting for you to Ask <br className="d-none d-xl-block" /> for a <Link href="#" className='color-black font-f fw700 textdocationnone hover1'> Professional Audio Book Production</Link></h2>
 
 
 
-                          
+
 
 
                             <div></div>

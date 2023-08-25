@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
@@ -35,22 +34,17 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50  text-black font-f hero-span'> Leave Your Mark Forever: Our <Link className='textdocationnone fw700 color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className='font50   text-black font-f hero-span'>Will Ensure Your Book To Leave a Lasting Impression!</span>   </h1>;
+  const newSpan = <h1 className='font50  text-black font-f hero-span'> Leave Your Mark Forever: Our <Link className='textdocationnone fw700 color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className='font50 text-black font-f hero-span'>Will Ensure Your Book To Leave a Lasting Impression!</span>   </h1>;
 
-  const discuss = <span>Market Your Book Now!</span>
+  const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
       title: newSpan,
       pra: 'Is Your Book Ready to Be Read, But Struggling to Reach Its Target Audience?',
       discuss: discuss,
-      homebannernum: 'Call Our Team At (346) 502-3898',
-      banlogo: homebannerlogos,
+      homebannernum: 'Call Us Now',
       banners: 'bookmarketingservices',
-
-
-
-
     }
   ]
 
@@ -101,135 +95,135 @@ const Bookpublishingservices = () => {
   const potential = <span> Path to Book Marketing: Discover the Potential Of Our <Link className='textdocationnone colorexpertgrey hover1' href='/book-marketing-services'>Book Marketing Agency</Link> </span>
 
 
-const marketing = <span>At <b>Texas Book Publishing</b> , we prioritize effective communication and transparency in the <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> process. Through our meticulous procedure, we keep our clients informed at every stage, providing clarity on our perspective and delivering regular updates. Here is our process where transparency is ensured at every stage.</span>
+  const marketing = <span>At <b>Texas Book Publishing</b> , we prioritize effective communication and transparency in the <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> process. Through our meticulous procedure, we keep our clients informed at every stage, providing clarity on our perspective and delivering regular updates. Here is our process where transparency is ensured at every stage.</span>
 
-const experts = <span>As experts in <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> , we understand that successful promotion requires a step-by-step plan. Our comprehensive marketing strategy will target the right readers, at the right time and place, with the correct budget. This includes a marketing campaign that will help you sell more copies of your book. </span>
+  const experts = <span>As experts in <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> , we understand that successful promotion requires a step-by-step plan. Our comprehensive marketing strategy will target the right readers, at the right time and place, with the correct budget. This includes a marketing campaign that will help you sell more copies of your book. </span>
 
-const plan = <span>A marketing plan is crucial to keep your content focused. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> ensure that your book reaches people who are searching for exactly what you offer. This will increase the visibility of your book and attract prospective readers.</span>
+  const plan = <span>A marketing plan is crucial to keep your content focused. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> ensure that your book reaches people who are searching for exactly what you offer. This will increase the visibility of your book and attract prospective readers.</span>
 
-const create = <span>We have a multitude of <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategies in place, ensuring that your book becomes a huge success. The experts of our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing agency</Link> agency focus on the dynamic landscape of marketing and work closely to create a tailored strategy that aligns with your goals and objectives.</span>
+  const create = <span>We have a multitude of <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategies in place, ensuring that your book becomes a huge success. The experts of our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing agency</Link> agency focus on the dynamic landscape of marketing and work closely to create a tailored strategy that aligns with your goals and objectives.</span>
 
-const wise = <span>It's time to let our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> guide you and promote your book effectively. Your story deserves to be heard by a wide audience, but be sure to avoid shady agencies that could damage your book's reputation. Trust in the expertise of marketing professionals to ensure success. Don't risk it – choose wisely.</span>
-
-
-const support = <span>We understand that getting your book noticed in today's crowded marketplace can be a challenge. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing services</Link> are designed to increase your visibility across all major platforms, including social media, email marketing, and book review sites.</span>
-
-const second = <span>Your Book in Good Hands: Our Team of Experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> Professionals: </span>
+  const wise = <span>It's time to let our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> guide you and promote your book effectively. Your story deserves to be heard by a wide audience, but be sure to avoid shady agencies that could damage your book's reputation. Trust in the expertise of marketing professionals to ensure success. Don't risk it – choose wisely.</span>
 
 
-const demands = <span>Our team is made up of experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> professionals, and creatives who have a deep understanding of the book industry. From crafting compelling email campaigns to designing eye-catching book covers, we have the skills you need to succeed.</span>
+  const support = <span>We understand that getting your book noticed in today's crowded marketplace can be a challenge. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing services</Link> are designed to increase your visibility across all major platforms, including social media, email marketing, and book review sites.</span>
 
-const impressive = <span>Making Your Dream a Reality: Our Results-Driven Approach to <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> </span>
-
-const tailored = <span> Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing company</Link> delivers best results. We set clear goals and measure our success against them. Whether you're looking to increase your book's sales, build your author platform, or generate buzz around a new release, we have the tools and expertise you need to achieve your goals.</span>
-
-const industry = <span>Turn the Tables on the Book Industry with Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing Service</Link>!</span>
-
-const challenging = <span>Ready to take your book from 'just another story' to a literary sensation? Join forces with us and let's create a <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategy that will make your book stand out in a sea of competitors. Don't go at it alone - let's make your story the talk of the town!</span>
+  const second = <span>Your Book in Good Hands: Our Team of Experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> Professionals: </span>
 
 
+  const demands = <span>Our team is made up of experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> professionals, and creatives who have a deep understanding of the book industry. From crafting compelling email campaigns to designing eye-catching book covers, we have the skills you need to succeed.</span>
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-marketing-services/"
-    },
-    "headline": "Connect To The Best Book Marketing Service Providers In Town!",
-    "description": "Book Marketing Services",
-    "image": "",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-18"
-  }
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-marketing-services/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "bookwritingexperts",
-    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "@id": "",
-    "url": "https://texasbookpublishing.com/book-marketing-services/",
-    "telephone": "2132893888",
-    "priceRange": "$99",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "445 S Figueroa St",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0536155,
-      "longitude": -118.2568651
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
-  const schema3 = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-    "description": "book marketing services book marketing company book marketing agency best book marketing services book advertising services book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-    "provider": {
-      "@type": "Organization",
-      "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-      "url": "https://texasbookpublishing.com/book-marketing-services/"
-    },
-    "serviceType": ["book marketing services book marketing company book marketing agency best book marketing services book advertising services"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
-    }
-  }
+  const impressive = <span>Making Your Dream a Reality: Our Results-Driven Approach to <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> </span>
+
+  const tailored = <span> Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing company</Link> delivers best results. We set clear goals and measure our success against them. Whether you're looking to increase your book's sales, build your author platform, or generate buzz around a new release, we have the tools and expertise you need to achieve your goals.</span>
+
+  const industry = <span>Turn the Tables on the Book Industry with Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing Service</Link>!</span>
+
+  const challenging = <span>Ready to take your book from 'just another story' to a literary sensation? Join forces with us and let's create a <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategy that will make your book stand out in a sea of competitors. Don't go at it alone - let's make your story the talk of the town!</span>
+
+
+
+  // const schema = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/book-marketing-services/"
+  //   },
+  //   "headline": "Connect To The Best Book Marketing Service Providers In Town!",
+  //   "description": "Book Marketing Services",
+  //   "image": "",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-18"
+  // }
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/book-marketing-services/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "ProfessionalService",
+  //   "name": "bookwritingexperts",
+  //   "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "@id": "",
+  //   "url": "https://texasbookpublishing.com/book-marketing-services/",
+  //   "telephone": "2132893888",
+  //   "priceRange": "$99",
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "445 S Figueroa St",
+  //     "addressLocality": "Los Angeles",
+  //     "addressRegion": "CA",
+  //     "postalCode": "90071",
+  //     "addressCountry": "US"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 34.0536155,
+  //     "longitude": -118.2568651
+  //   },
+  //   "openingHoursSpecification": {
+  //     "@type": "OpeningHoursSpecification",
+  //     "dayOfWeek": [
+  //       "Monday",
+  //       "Tuesday",
+  //       "Wednesday",
+  //       "Thursday",
+  //       "Friday",
+  //       "Saturday",
+  //       "Sunday"
+  //     ],
+  //     "opens": "00:00",
+  //     "closes": "23:59"
+  //   },
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
+  // const schema3 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Service",
+  //   "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
+  //   "description": "book marketing services book marketing company book marketing agency best book marketing services book advertising services book marketing services book marketing company book marketing agency best book marketing services book advertising services",
+  //   "provider": {
+  //     "@type": "Organization",
+  //     "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
+  //     "url": "https://texasbookpublishing.com/book-marketing-services/"
+  //   },
+  //   "serviceType": ["book marketing services book marketing company book marketing agency best book marketing services book advertising services"],
+  //   "areaServed": {
+  //     "@type": "country",
+  //     "name": "us"
+  //   }
+  // }
 
 
   return (
@@ -260,7 +254,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
 
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
@@ -276,7 +270,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+        /> */}
 
       </Head>
 
@@ -294,7 +288,6 @@ const challenging = <span>Ready to take your book from 'just another story' to a
           subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
-          homebanlogos={item.banlogo}
           bannershome={item.banners}
           processs={item.process}
         />
@@ -333,7 +326,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
           <Row >
             <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Commence on Literary Triumph with Our Online <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>  Book Marketing Services</Link> Attracting New Readers!</p>
+            <p className='font40 font-f fw500 colortextgrey t-center mb-5'>Commence on Literary Triumph with Our Online <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>  Book Marketing Services</Link> Attracting New Readers!</p>
 
           </Row>
 
@@ -354,11 +347,11 @@ const challenging = <span>Ready to take your book from 'just another story' to a
 
 
       <Ourprocess
-        title= {potential}
-        text= {marketing}
+        title={potential}
+        text={marketing}
 
         heading1='The Comprehensive Marketing Plan:'
-        para1= {experts}
+        para1={experts}
         num1='01'
 
         heading2='Social Media and Additional Media Channels:'
@@ -366,7 +359,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         num2='02'
 
         heading3='Marketing Plan Implementation:'
-        para3= {plan}
+        para3={plan}
         num3='03'
 
         heading4='Target Audience:'
@@ -374,7 +367,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         num4='04'
 
         heading5='Effective Marketing Strategy is What is Needed:'
-        para5= {create}
+        para5={create}
         num5='05'
       />
 
@@ -397,8 +390,8 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <Container>
           <Row>
             <Col>
-        
-              <h2 className='color-blue fw700 font50 font-f t-center'>Why Settle for Ordinary When You Can Have Extraordinary? Discover Our <Link href='/book-editing-services' className='textdocationnone colortextgrey hover'>Book Marketing Services</Link> Today!  </h2>
+
+              <h2 className='color-blue fw700 font40 font-f t-center'>Why Settle for Ordinary When You Can Have Extraordinary? Discover Our <Link href='/book-editing-services' className='textdocationnone colortextgrey hover'>Book Marketing Services</Link> Today!  </h2>
             </Col>
           </Row>
         </Container>
@@ -429,7 +422,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title= {second}
+        title={second}
         text={demands}
         number="(346) 502-3898"
         discuss="LET'S DISCUSS"

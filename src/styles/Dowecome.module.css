@@ -5,7 +5,7 @@
 .Dowecome {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f1f1f1;
+  background-color: #e4e4e4;
 }
 .Dowecome .middle {
   align-items: center;
@@ -16,7 +16,7 @@
 .publishmybook {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #f8f8f8;
+  background-color: #e4e4e4;
 }
 .asnumber:hover {
   background-color: #223235;
@@ -70,12 +70,11 @@
 
 .btn1:hover {
   animation: stripes-move 1s infinite linear;
-
   border: 2px solid #049ea5;
-  color: #223235;
+  color: #fff;
 }
 .btn2:hover {
-  color: #223235;
+  color: #fff;
 }
 .btn2 {
   background-color: #fff0;

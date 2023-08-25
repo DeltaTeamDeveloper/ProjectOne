@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
@@ -35,7 +34,7 @@ const Bookpublishingservices = () => {
   const ideas = <span> <Link className='textdocationnone color-blue hover' href="/book-editing-services">Hire book editors</Link> and transform your manuscript into a page-turning sensation that leaves readers craving for more.</span>
 
 
-  const discuss = <span>Book Your Free Consultation Now!</span>
+  const discuss = <span>LET'S DISCUSS</span>
 
 
 
@@ -44,13 +43,8 @@ const Bookpublishingservices = () => {
       title: newSpan,
       pra: ideas,
       discuss: discuss,
-      homebannernum: 'Call Us Now At (346) 502-3898 ',
-      banlogo: homebannerlogos,
+      homebannernum: 'Call Us Now ',
       banners: 'bookeditingservices',
-
-
-
-
     }
   ]
 
@@ -60,22 +54,22 @@ const Bookpublishingservices = () => {
 
 
 
- const finetitle = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing Service</Link> 
+  const finetitle = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing Service</Link>
 
- const finepare = <span> While grammar checkers and self-editing can catch some errors, a professional book editor brings a superior level of proficiency into your work. Hiring a <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>book editing company</Link> is an investment in the success of your book. </span>
-
-
-
- const finetitle1 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel Editing Service</Link> 
-
- const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Texas Book Publishing, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Don't settle for less and watch your story become the best seller!</span>
-
- const finetitle2 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-Fiction Editing Service</Link> 
-
- const finepare2 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-fiction editing</Link>, the art of transforming raw facts into a captivating narrative – Imagine your words infused with clarity, precision, and a touch of literary magic. Don't let your ideas languish in mediocrity and hire <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>non-fiction editors</Link> to help you make your manuscript a success.</span>
+  const finepare = <span> While grammar checkers and self-editing can catch some errors, a professional book editor brings a superior level of proficiency into your work. Hiring a <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>book editing company</Link> is an investment in the success of your book. </span>
 
 
-const title2 = <span>A Glimpse into Our <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing</Link> Process</span>
+
+  const finetitle1 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel Editing Service</Link>
+
+  const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Texas Book Publishing, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Don't settle for less and watch your story become the best seller!</span>
+
+  const finetitle2 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-Fiction Editing Service</Link>
+
+  const finepare2 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-fiction editing</Link>, the art of transforming raw facts into a captivating narrative – Imagine your words infused with clarity, precision, and a touch of literary magic. Don't let your ideas languish in mediocrity and hire <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>non-fiction editors</Link> to help you make your manuscript a success.</span>
+
+
+  const title2 = <span>A Glimpse into Our <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing</Link> Process</span>
 
   const fine = [
 
@@ -109,7 +103,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
   ]
 
-  const dateset = <span>  Are You Ready to Bid Farewell to <br></br> the Nightmares of  <Link  className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>? </span>
+  const dateset = <span>  Are You Ready to Bid Farewell to <br></br> the Nightmares of  <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>? </span>
 
 
   const maketitle = <span>Our Portfolio of <Link href='/book-editing-services' className='textdocationnone colortextgrey hover'> Book Editing</Link> Projects</span>
@@ -141,114 +135,114 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
   const perplexing = <span>Let us help you navigate the maze of <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editing</Link>, proofreading, and self-publishing. your manuscript will become a best seller with our expert team of <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link>. Call, text, or email us today to make your dream of becoming an author a reality!</span>
 
 
-  const schema = {
+  // const schema = {
 
 
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-editing-services/"
-    },
-    "headline": "Professional Book Editing Services For All The Idealists Within Their Reach",
-    "description": "Book Editing Services",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/editing-jpg.jpg?id=8355",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-18"
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/book-editing-services/"
+  //   },
+  //   "headline": "Professional Book Editing Services For All The Idealists Within Their Reach",
+  //   "description": "Book Editing Services",
+  //   "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/editing-jpg.jpg?id=8355",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-18"
 
 
-  }
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-editing-services/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
+  // }
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/book-editing-services/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
 
-  }
-  const schema2 = {
+  // }
+  // const schema2 = {
 
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "bookwritingexperts",
-    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "@id": "",
-    "url": "https://texasbookpublishing.com/book-editing-services/",
-    "telephone": "2132893888",
-    "priceRange": "$99",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "445 S Figueroa St",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0536155,
-      "longitude": -118.2568651
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
+  //   "@context": "https://schema.org",
+  //   "@type": "ProfessionalService",
+  //   "name": "bookwritingexperts",
+  //   "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "@id": "",
+  //   "url": "https://texasbookpublishing.com/book-editing-services/",
+  //   "telephone": "2132893888",
+  //   "priceRange": "$99",
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "445 S Figueroa St",
+  //     "addressLocality": "Los Angeles",
+  //     "addressRegion": "CA",
+  //     "postalCode": "90071",
+  //     "addressCountry": "US"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 34.0536155,
+  //     "longitude": -118.2568651
+  //   },
+  //   "openingHoursSpecification": {
+  //     "@type": "OpeningHoursSpecification",
+  //     "dayOfWeek": [
+  //       "Monday",
+  //       "Tuesday",
+  //       "Wednesday",
+  //       "Thursday",
+  //       "Friday",
+  //       "Saturday",
+  //       "Sunday"
+  //     ],
+  //     "opens": "00:00",
+  //     "closes": "23:59"
+  //   },
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
 
-  }
-  const schema3 = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "book editing services book editing company book editors",
-    "description": "book editing services book editing company book editors book editing services book editing company book editors book editing services book editing company book editors",
-    "provider": {
-      "@type": "Organization",
-      "name": "book editing services book editing company book editors",
-      "url": "https://texasbookpublishing.com/book-editing-services/"
-    },
-    "serviceType": ["book editing services book editing company book editors"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
-    }
-  }
+  // }
+  // const schema3 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Service",
+  //   "name": "book editing services book editing company book editors",
+  //   "description": "book editing services book editing company book editors book editing services book editing company book editors book editing services book editing company book editors",
+  //   "provider": {
+  //     "@type": "Organization",
+  //     "name": "book editing services book editing company book editors",
+  //     "url": "https://texasbookpublishing.com/book-editing-services/"
+  //   },
+  //   "serviceType": ["book editing services book editing company book editors"],
+  //   "areaServed": {
+  //     "@type": "country",
+  //     "name": "us"
+  //   }
+  // }
 
 
   return (
@@ -277,7 +271,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         <link rel="icon" href="/favicon.png" />
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
@@ -292,7 +286,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+        /> */}
 
       </Head>
 
@@ -337,8 +331,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Makestories */}
       <div className='dataSetCo sliderImg'>
         <Makestoriesnew
-          title = {maketitle}
-          para= {book}
+          title={maketitle}
+          para={book}
         />
       </div>
 
@@ -356,9 +350,9 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       <div className={`${styles.finetoothedbook} customizedbook`}>
         <Container>
           <Row >
-            <h2 className="colortextgrey font25 t-center font-f mb-2"> <Link  className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Services</Link> That We’re Offering</h2>
+            <h2 className="colortextgrey font25 t-center font-f mb-2"> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Services</Link> That We’re Offering</h2>
 
-            <p className='font50 font-f fw500  colortextgrey t-center pb-2'> Find The Best Editing Style For Your Manuscript </p>
+            <p className='font40 font-f fw500  colortextgrey t-center mb-5'> Find The Best Editing Style For Your Manuscript </p>
 
           </Row>
 
@@ -378,13 +372,13 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
 
       <Ourprocess
-        title2= {title2}
+        title2={title2}
         heading1='In-Depth Manuscript Analysis'
         para1='We meticulously review every aspect of your book, analyzing its structure, pacing, character development, and plot coherence to identify areas for improvement and enhancement.'
         num1='01'
 
         heading2='Line-by-Line Editing'
-        para2= {then}
+        para2={then}
         num2='02'
 
         heading3='Comprehensive Feedback'
@@ -407,31 +401,28 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       <div className='dataSetCo'>
         <Stopworrying
           title2={dateset}
-          text= {collect}
+          text={collect}
           btn1='Get a free Proposal'
           btn2='Chat With Us To Get Your Book Edited Today!'
         />
       </div>
 
 
-
-
-
-
       <section className={styles.servicetitle}>
         <Container>
           <Row>
             <Col>
-              <h2 className='color-blue fw700 font50 font-f t-center'>Choose the Best: Hire <br></br> <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Top Book Editing Company</Link> in The US  </h2>
+              <h2 className='color-blue fw700 font40 font-f t-center'>Choose the Best: Hire <br></br> <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Top Book Editing Company</Link> in The US  </h2>
             </Col>
           </Row>
         </Container>
       </section>
 
+
       {/* Selfpublishing */}
       <Selfpublishing
-        title= {Editing}
-        text= {matters}
+        title={Editing}
+        text={matters}
         number="(346) 502-3898"
         discuss="Hire The Best Book Editing Company Now!"
         image={whychooseourbookeditingservices1}
@@ -454,7 +445,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Selfpublishing */}
       <Selfpublishing
         title={structural}
-        text= {turn}
+        text={turn}
         number="(346) 502-3898"
         discuss="Chat With Us Now! "
         image={whychooseourbookeditingservices3}
@@ -464,8 +455,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title= {approach}
-        text= {purview}
+        title={approach}
+        text={purview}
         number="(346) 502-3898"
         discuss="Discuss Your Project and Get Started With Us!"
         image={whychooseourbookeditingservices4}
@@ -476,8 +467,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Stopworrying */}
       <div className='dataSetCo'>
         <Stopworrying
-          title2= {mishaps}
-          text= {errorless}
+          title2={mishaps}
+          text={errorless}
           btn2='Chat With Our Experts Today!'
         />
       </div>
@@ -498,8 +489,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title= {glance}
-          text= {perplexing}
+          title={glance}
+          text={perplexing}
           number="Call Us At (346) 502-3898 "
         />
       </div>

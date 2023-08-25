@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
@@ -25,9 +24,9 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 text-black font-f hero-span'> Refine Your Book with Impeccable Mastery through our Professional  <Link className='textdocationnone fw700 color-blue hover' href="/book-proofreading-services"> Book Proofreading Services </Link> <span className=''></span>   </h1>;
+  const newSpan = <h1 className='font50 text-black font-f hero-span'> Refine Your Book with Impeccable Mastery <Link className='textdocationnone fw700 color-blue hover' href="/book-proofreading-services"> Book Proofreading Services </Link> <span className=''></span>   </h1>;
 
-  const discuss = <span>Hire The Best Book Proofreading Services!</span>
+  const discuss = <span>LET'S DISCUSS</span>
 
 
 
@@ -42,8 +41,7 @@ const Bookpublishingservices = () => {
         </>
       ),
       discuss: discuss,
-      homebannernum: 'Call Us At (346) 502-3898',
-      banlogo: homebannerlogos,
+      homebannernum: 'Call Us Now',
       banners: 'offeringyoubook',
 
 
@@ -498,7 +496,7 @@ const Bookpublishingservices = () => {
 
 
         <Row >
-          <h2 className='font50 fw700 color-blue t-center font-f mb-5'>Why Should You Spend Time On Our Expert Proofreading Services?</h2>
+          <h2 className='font40 fw700 color-blue t-center font-f px-5 mb-5'>Why Should You Spend Time On Our Expert Proofreading Services?</h2>
         </Row>
 
         <Row className='gy-5'>
@@ -524,7 +522,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title={`Navigating Rough Waters? We've Got Your Back!`}
           text={qualified}
-          number="Call Now At (346) 502-3898"
+          number="Call Us Now"
         />
 
       </div>

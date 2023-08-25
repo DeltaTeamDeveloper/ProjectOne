@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import typeofbooks from '/public/images/selfpublishingservices/1.jpg'
 import copy from '/public/images/selfpublishingservices/2.jpg'
 import marketyourbook from '/public/images/selfpublishingservices/3.jpg'
@@ -34,15 +33,14 @@ const Bookpublishingservices = () => {
     {
       title: (
         <>
-          <h1 className='font50 fw600 text-black font-f hero-span'>It’s Time to Convert Your Literary Dreams To Reality With Our Diverse Range of <Link className='textdocationnone fw700 color-blue hover' href="/book-publishing-services/">Book Publishing Services</Link>.</h1>
+          <h1 className='font50 fw500 text-black font-f hero-span'>It’s Time to Convert Your Literary Dreams To Reality With Our Diverse Range of <Link className='textdocationnone fw700 color-blue hover' href="/book-publishing-services/">Book Publishing Services</Link>.</h1>
         </>
       ),
       pra: (
         <> Are you facing complications regarding <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">book publishing</Link> with the help of Texas Book Publishing! </>
       ),
-      discuss: (<> Hire The Best Book Publishers Today! </>),
-      homebannernum: 'Call Us at (346) 502-3898',
-      banlogo: homebannerlogos,
+      discuss: (<>LET'S DISCUSS</>),
+      homebannernum: 'Call Us Now',
       banners: 'bookpublishingservices',
       process: 'OUR PROCESS, IN A MINUTE',
 
@@ -54,118 +52,118 @@ const Bookpublishingservices = () => {
   const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
-  const schema = {
+  // const schema = {
 
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-publishing-services/"
-    },
-    "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
-    "description": "Top-Rated Book Publishing Services by Book Writing",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-18"
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/book-publishing-services/"
+  //   },
+  //   "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
+  //   "description": "Top-Rated Book Publishing Services by Book Writing",
+  //   "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-18"
 
-  }
+  // }
 
-  const schema1 = {
+  // const schema1 = {
 
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/book-publishing-services/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
 
-  }
+  // }
 
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "bookwritingexperts",
-    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "@id": "",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
-    "telephone": "2132893888",
-    "priceRange": "$99",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "445 S Figueroa St",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "postalCode": "90071",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0536155,
-      "longitude": -118.2568651
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "ProfessionalService",
+  //   "name": "bookwritingexperts",
+  //   "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "@id": "",
+  //   "url": "https://texasbookpublishing.com/book-publishing-services/",
+  //   "telephone": "2132893888",
+  //   "priceRange": "$99",
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "445 S Figueroa St",
+  //     "addressLocality": "Los Angeles",
+  //     "addressRegion": "CA",
+  //     "postalCode": "90071",
+  //     "addressCountry": "US"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 34.0536155,
+  //     "longitude": -118.2568651
+  //   },
+  //   "openingHoursSpecification": {
+  //     "@type": "OpeningHoursSpecification",
+  //     "dayOfWeek": [
+  //       "Monday",
+  //       "Tuesday",
+  //       "Wednesday",
+  //       "Thursday",
+  //       "Friday",
+  //       "Saturday",
+  //       "Sunday"
+  //     ],
+  //     "opens": "00:00",
+  //     "closes": "23:59"
+  //   },
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
 
-  }
+  // }
 
 
-  const schema3 = {
+  // const schema3 = {
 
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-    "description": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-    "provider": {
-      "@type": "Organization",
-      "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-      "url": "https://texasbookpublishing.com/book-publishing-services/"
-    },
-    "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
-    }
+  //   "@context": "https://schema.org",
+  //   "@type": "Service",
+  //   "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
+  //   "description": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
+  //   "provider": {
+  //     "@type": "Organization",
+  //     "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
+  //     "url": "https://texasbookpublishing.com/book-publishing-services/"
+  //   },
+  //   "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
+  //   "areaServed": {
+  //     "@type": "country",
+  //     "name": "us"
+  //   }
 
-  }
+  // }
 
   return (
     <>
@@ -175,7 +173,6 @@ const Bookpublishingservices = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
         <meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
@@ -192,7 +189,7 @@ const Bookpublishingservices = () => {
         <meta name="twitter:data1" content="9 minutes" />
         <link rel="icon" href="/favicon.png" />
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
@@ -208,7 +205,7 @@ const Bookpublishingservices = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+        /> */}
 
 
       </Head>
@@ -227,14 +224,10 @@ const Bookpublishingservices = () => {
           subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
-          homebanlogos={item.banlogo}
           bannershome={item.banners}
           processs={item.process}
         />
       )}
-
-
-
 
       {/* Dowecome */}
       <Dowecome
@@ -294,8 +287,6 @@ const Bookpublishingservices = () => {
         />
       </div>
 
-
-
       <section className={styles.publicservices}>
         <Container>
           <Row>
@@ -307,6 +298,7 @@ const Bookpublishingservices = () => {
           </Row>
         </Container>
       </section>
+
       {/* Selfpublishing */}
       <Selfpublishing
         title='Prime-Quality and Expertise'

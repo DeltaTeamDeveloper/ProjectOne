@@ -1,14 +1,15 @@
 .stopworrying {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url(/images/getproposel/proposal.svg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/getproposel/proposal.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .stopworrying1 {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url(/images/getproposel/proposal1.svg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/getproposel/proposal1.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }

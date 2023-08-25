@@ -4,10 +4,10 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 
 // images
-import makestories1 from '../public/images/buildingyour/1.jpg'
-import makestories2 from '../public/images/buildingyour/2.jpg'
-import makestories3 from '../public/images/buildingyour/3.jpg'
-import makestories4 from '../public/images/buildingyour/4.jpg'
+import makestories1 from '../public/images/makestories/Book-Mockup1.png'
+import makestories2 from '../public/images/makestories/Book-Mockup2.png'
+import makestories3 from '../public/images/makestories/Book-Mockup3.png'
+import makestories4 from '../public/images/makestories/Book-Mockup4.png'
 
 // slick css
 import "slick-carousel/slick/slick.css";
@@ -38,8 +38,8 @@ const Buildingyour = (props) => {
       <div className={styles.makestories}>
 
         <Container>
-          <h2 className="fw700 font50 color-blue font-f t-center mb-4">We Are Building Your Identity </h2>
-          <h2 className="font15 textcolor font-f t-center mb-4"> Done With Book Publishing? It’s High Time You Market Your Asset to Control the Narrative. Need Helping Hands? Our Digital Marketing Agency Is Here To Help You Climb The Ladder Of Success!</h2>
+          <h2 className="fw700 font40 color-blue font-f t-center mb-4">We Are Building Your Identity </h2>
+          <h2 className="font15 textcolor font-f t-center mb-5"> Done With Book Publishing? It’s High Time You Market Your Asset to Control the Narrative. Need Helping Hands? Our Digital Marketing Agency Is Here To Help You Climb The Ladder Of Success!</h2>
 
 
           <Row>
@@ -47,7 +47,7 @@ const Buildingyour = (props) => {
               return (
                 <Col md={3} key={i}>
                   <div>
-                    <Image loading="lazy" className='pt-3 img-fluid' src={item.storiesimg} alt='Texas Book Publishing'></Image>
+                    <Image loading="lazy" className='p-4 img-fluid' src={item.storiesimg} alt='Texas Book Publishing'></Image>
                   </div>
                 </Col>
               )

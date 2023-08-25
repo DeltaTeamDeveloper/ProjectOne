@@ -13,10 +13,8 @@ const Bestinclass = () => {
                 <Container>
                     <Row className='mb-3'>
                         <Col>
-                            <h2 className="fw700 font50 color-blue font-f mb-2 t-center">Best <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Digital Marketing Company</Link></h2>
-                            <p className='font15 textcolor font-f t-center'>As a leading <Link className='textdocationnone textcolor hover' href="/digital-marketing-services/">digital marketing service</Link> provider, we excel in the art of promotions, going the extra mile to ensure you shine brightly as an aspiring author.</p>
-
-                            <p className='font15 textcolor font-f t-center'>With us by your side, you'll enjoy personalized branding for your books, creating a distinct and memorable author identity.</p>
+                            <h2 className="fw700 font40 color-blue font-f mb-2 t-center">Best <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Digital Marketing Company</Link></h2>
+                            <p className='font15 textcolor font-f t-center mb-5'>As a leading <Link className='textdocationnone textcolor hover' href="/digital-marketing-services/">digital marketing service</Link> provider, we excel in the art of promotions, going the extra mile to ensure you shine brightly as an aspiring author. With us by your side, you'll enjoy personalized branding for your books, creating a distinct and memorable author identity.</p>
                         </Col>
                     </Row>
 

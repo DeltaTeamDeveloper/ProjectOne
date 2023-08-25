@@ -1,13 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Banner from '../../components/Banner'
 import Partners from '../../components/Partners'
 import Whychoosebook from '../../components/Whychoosebook'
-import Gotastory from '../../components/Gotastory'
-import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
 import Stoppublish from '../../components/Stoppublish'
@@ -29,72 +26,66 @@ function Illustrationbook() {
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
-  const dataspan = <h1 className='font50 text-black font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Texas Book Publishing </Link>  Is  <br className="d-none d-xl-block" /> waiting for you to Ask for a   <br className="d-none d-xl-block" />  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
+  const dataspan = <h1 className='font40 text-black font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Texas Book Publishing </Link>  Is  <br className="d-none d-xl-block" /> waiting for you to Ask for a   <br className="d-none d-xl-block" />  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
 
-
+  const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
       title: newSpan,
-      free: 'FREE AUTHOR CONSULTATION CALL',
-      homebannernum: '(346) 502-3898',
-      banlogo: homebannerlogos,
+      discuss: discuss,
+      homebannernum: 'Call Us Now',
       banners: 'illustrationbook',
     }
   ]
 
 
+  // const schema1 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Article",
+  //   "mainEntityOfPage": {
+  //     "@type": "WebPage",
+  //     "@id": "https://texasbookpublishing.com/"
+  //   },
+  //   "headline": "Book Writing Company",
+  //   "description": "Book Writing Company",
+  //   "image": "",
+  //   "author": {
+  //     "@type": "Organization",
+  //     "name": "Mini Investments"
+  //   },
+  //   "publisher": {
+  //     "@type": "Organization",
+  //     "name": "",
+  //     "logo": {
+  //       "@type": "ImageObject",
+  //       "url": ""
+  //     }
+  //   },
+  //   "datePublished": "2022-03-21"
+  // }
 
+  // const schema2 = {
+  //   "@context": "https://schema.org",
+  //   "@type": "Corporation",
+  //   "name": "bookwritingexperts",
+  //   "alternateName": "Texas Book Publishing",
+  //   "url": "https://texasbookpublishing.com/",
+  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+  //   "sameAs": [
+  //     "https://texasbookpublishing.com/",
+  //     "https://www.facebook.com/bookwritingexperts",
+  //     "https://twitter.com/bookwritingexp",
+  //     "https://www.instagram.com/bookwritingexpert/",
+  //     "https://www.linkedin.com/company/book-writing-exp/",
+  //     "https://www.pinterest.com/bookwritingexperts/"
+  //   ]
+  // }
 
-
-
-
-  const schema1 = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/"
-    },
-    "headline": "Book Writing Company",
-    "description": "Book Writing Company",
-    "image": "",
-    "author": {
-      "@type": "Organization",
-      "name": "Mini Investments"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "",
-      "logo": {
-        "@type": "ImageObject",
-        "url": ""
-      }
-    },
-    "datePublished": "2022-03-21"
-  }
-
-  const schema2 = {
-    "@context": "https://schema.org",
-    "@type": "Corporation",
-    "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/",
-    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-    "sameAs": [
-      "https://texasbookpublishing.com/",
-      "https://www.facebook.com/bookwritingexperts",
-      "https://twitter.com/bookwritingexp",
-      "https://www.instagram.com/bookwritingexpert/",
-      "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
-    ]
-  }
-
-  const schema3 = {
-    "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
-    "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
-  }
+  // const schema3 = {
+  //   "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
+  //   "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
+  // }
 
   return (
     <>
@@ -126,7 +117,7 @@ function Illustrationbook() {
 
 
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
         />
@@ -138,7 +129,7 @@ function Illustrationbook() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+        /> */}
 
         {/* <Schema /> */}
 
@@ -147,7 +138,7 @@ function Illustrationbook() {
 
       {/* googletagmanager */}
 
-      <Script
+      {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"
         strategy="afterInteractive"
       />
@@ -159,7 +150,7 @@ function Illustrationbook() {
 
         gtag('config', 'UA-210274244-13');
         `}
-      </Script>
+      </Script> */}
 
       <main>
         {/* banner components */}
@@ -172,7 +163,7 @@ function Illustrationbook() {
             subtext1={item.subtext1}
             subtext2={item.subtext2}
             subtext3={item.subtext3}
-            free={item.free}
+            discuss={item.discuss}
             homebannernum={item.homebannernum}
             bannershome={item.banners}
             processs={item.process}
@@ -202,14 +193,11 @@ function Illustrationbook() {
         <Illustrativebook
           title={dataspan}
           para='Hit us a message, or give us a call, and make the most of our Professional Illustrative Book'
-          cartoonimg = {banslider12}
-          cartoon = 'cartoon'
+          cartoonimg={banslider12}
+          cartoon='cartoon'
         />
 
         <Stunningillustrations />
-
-
-
 
 
 
@@ -218,8 +206,9 @@ function Illustrationbook() {
           subtitle={posdata}
           btn1='Get a free Proposal'
           btn2='Talk to an expert'
-          stopworrying = 'stopworrying'
+          stopworrying='stopworrying'
         />
+
 
         {/* Why Choose Texas Book Publishing? */}
         <Whychoosebook
@@ -235,15 +224,12 @@ function Illustrationbook() {
 
 
 
-
-
         <div className='datacloud'>
           <Onestepsolutions />
         </div>
+        
 
-        <Serviceproviders
-     
-        />
+        <Serviceproviders/>
 
 
 

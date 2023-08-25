@@ -6,14 +6,14 @@ import Slider from 'react-slick'
 import Link from 'next/link'
 
 // images
-import cover1 from '../public/images/audiobook/4.png'
-import cover2 from '../public/images/audiobook/1.png'
-import cover3 from '../public/images/audiobook/2.png'
-import cover4 from '../public/images/audiobook/3.png'
-import cover5 from '../public/images/audiobook/5.png'
-import cover14 from '../public/images/audiobook/6.png'
-import cover15 from '../public/images/audiobook/7.png'
-import cover16 from '../public/images/audiobook/8.png'
+import cover1 from '../public/images/makestories/Book-Mockup1.png'
+import cover2 from '../public/images/makestories/Book-Mockup1.png'
+import cover3 from '../public/images/makestories/Book-Mockup2.png'
+import cover4 from '../public/images/makestories/Book-Mockup3.png'
+import cover5 from '../public/images/makestories/Book-Mockup5.png'
+import cover14 from '../public/images/makestories/Book-Mockup6.png'
+import cover15 from '../public/images/makestories/Book-Mockup7.png'
+import cover16 from '../public/images/makestories/Book-Mockup8.png'
 
 
 const Providestunning = (props) => {
@@ -118,7 +118,7 @@ const Providestunning = (props) => {
                        
                          
                         </Slider>
-                        <Slider {...mockupslider2} className='mt-3 mockupslider'>
+                        <Slider {...mockupslider2} className='mt-5 mockupslider'>
                         <div>
                                 <Image loading="lazy" alt="Texas Book Publishing" src={cover5} className='img-fluid' />
                             </div>
@@ -137,7 +137,7 @@ const Providestunning = (props) => {
 
                     <Col lg={12}>
 
-                        <Link className={styles.portfolio} href="#">OUR PORTFOLIO</Link>
+                        <Link className={`${styles.portfolio} mt-5`} href="#">OUR PORTFOLIO</Link>
 
                     </Col>
                 </Row>

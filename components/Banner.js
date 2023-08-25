@@ -1,69 +1,13 @@
 import React from 'react'
-import styles from '@/styles/Banner.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
-import Image from 'next/image'
-import Slider from 'react-slick'
-import Modal from 'react-bootstrap/Modal'
 import { useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap'
+import Modal from 'react-bootstrap/Modal'
 import { BsFillPlayFill } from 'react-icons/bs'
-// images
-import banslider1 from '../public/images/bannerimages/banslider1.png'
-import banslider3 from '../public/images/bannerimages/banslider3.png'
-import banslider4 from '../public/images/bannerimages/banslider4.png'
+import styles from '@/styles/Banner.module.css'
+
 
 const Banner = (props) => {
-
-  const bannerlogo =
-    [
-
-      { banlogo: banslider1 },
-      { banlogo: banslider3 },
-      { banlogo: banslider4 },
-      { banlogo: banslider1 },
-      { banlogo: banslider3 },
-      { banlogo: banslider4 },
-
-
-    ];
-
-
-  var bannerslider = {
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -77,7 +21,7 @@ const Banner = (props) => {
 
         <Container>
           <Row>
-            <Col md={7} className={styles[props.alignclass]}>
+            <Col md={6} className={styles[props.alignclass]}>
 
               <div className={`${styles.homebannertext} ${styles.otherBanner}`}>
 
@@ -130,7 +74,7 @@ const Banner = (props) => {
                 }
 
                 {props.discuss ?
-                  <div className='mt-5'>
+                  <div className={`${styles.bannerBtns} mt-5`}>
                     <Link className={styles.discuss} href="#">{props.discuss}</Link>
                     <Link className={styles.homenumer} href="tel:(346) 502-3898"> {props.homebannernum}</Link>
 
@@ -160,43 +104,7 @@ const Banner = (props) => {
                     <Link className={styles.free} href="#"> {props.free} </Link>
                   </div>
                   : ''}
-
-
-                {/* {props.homebanlogos ?
-
-                  <div className="row">
-                    <div className="col-12 col-lg-12">
-
-                      <div className={styles.homebannerlogo}>
-                        <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-4`} src={props.homebanlogos} alt='Texas Book Publishing' ></Image>
-                      </div>
-                    </div>
-
-                    <div className="row">
-                      <div className="col-12 col-lg-12">
-                        <Slider {...bannerslider} className='mt-5'>
-                          {bannerlogo.map((item, i) => {
-                            return (
-                              <div key={i}>
-                                <Image loading="lazy" className='pt-3 img-fluid brandnewlogo' src={item.banlogo} alt='Texas Book Publishing'></Image>
-                              </div>
-                            )
-                          })}
-                        </Slider>
-                      </div>
-                    </div>
-
-
-
-                  </div>
-                  :
-                  ''
-                } */}
               </div>
-
-
-
-
             </Col>
           </Row>
         </Container>

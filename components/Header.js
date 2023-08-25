@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <>
 
-      <header className={router.pathname == '/illustration' || router.pathname == '/ghostwriting-services2' || router.pathname == '/audiobookproduction' || router.pathname == '/ourportfolio' || router.pathname == '/portfoliobookediting' || router.pathname == '/portfoliobookmarketing' || router.pathname == '/portfoliobookwriting' || router.pathname == '/portfoliobookpublishing' ? styles.headerblue : styles.headerhome}>
+      <header className={styles.headerhome}>
         <Navbar expand="lg" className={styles.navBar}>
           <Container className={styles.headerContainer}>
 
