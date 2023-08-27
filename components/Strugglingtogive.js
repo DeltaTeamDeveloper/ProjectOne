@@ -9,8 +9,8 @@ const Strugglingtogive = (props) => {
         <div className={styles.strugglingtogive}>
 
             <Container>
-                <Row className={` ${styles.forent} gy-4`}>
-                    <Col md={7}>
+                <Row className={` ${styles.forent} gy-5`}>
+                    <Col lg={7}>
                         <h2 className='color-blue font40 fw700 font-f mb-4'>Are You Struggling to give <br className='d-none d-md-block' /> Words to your Ideas?</h2>
                         <p className='textcolor font-f mb-4 font15'>You may be a victim of the following nuisances</p>
                         <div className={styles.slow}>
@@ -37,7 +37,7 @@ const Strugglingtogive = (props) => {
                         </div>
                     </Col>
 
-                    <Col md={5}>
+                    <Col lg={5}>
 
                         <Signup
                             bannershome='signup'

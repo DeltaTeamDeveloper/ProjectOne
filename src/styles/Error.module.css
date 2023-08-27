@@ -2,17 +2,18 @@
     padding-top: 230px;
     padding-bottom: 90px;
     background-color: #02adb54d;
+    height: 100vh;
 }
 
 .btn404{
     border: 0;
     padding: 12px 30px;
     border-radius: 0;
-    background-color: #fa9600;
+    background-color: #223235;
     color: #fff;
     text-decoration: unset;
     margin-left: 4px;
-    border: 1px solid #fa9600;
+    border: 1px solid #223235;
     border-radius: 50px;
     font-family: 'Montserrat';
   

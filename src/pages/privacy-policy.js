@@ -23,12 +23,10 @@ const Privacypolicy = () => {
     return (
         <>
 
-
-
             <Head>
-
                 <link rel="icon" href="/favicon.png" />
-
+                <title>Our Privacy Policy and your Data Protection Guide</title>
+                <meta name="description" content="Our intention with this privacy policy is to help you understand what information we collect and why we collect it, so that it is insightful on data security." />
             </Head>
 
             {/* banner components */}

@@ -5,6 +5,12 @@
   font-family: "Montserrat";
 }
 
+.orBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
 
 .discuss1 {
   padding: 12px 30px;
@@ -49,4 +55,10 @@
   .experts p {
     font-size: 14px;
   }
+
+  .orBtns{
+    flex-direction: column;
+    gap: 40px;
+  }
+  
 }

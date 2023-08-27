@@ -246,13 +246,13 @@ const Bookpublishingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Writing Services - Texas Book Publishing</title>
-        <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <title>Professional Book writing services in USA | tesxabookpublishing</title>
+        <meta name="description" content="As being the top writing companies, we offer the best book writing services. Our professional book writers will help you in book writing according to your expectation." />
         <link rel="canonical" href="/book-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Writing Services - Texas Book Publishing" />
-        <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:title" content="Professional Book writing services in USA | tesxabookpublishing" />
+        <meta property="og:description" content="As being the top writing companies, we offer the best book writing services. Our professional book writers will help you in book writing according to your expectation." />
         <meta property="og:url" content="/book-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />

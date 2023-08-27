@@ -1,10 +1,23 @@
 .ourclients {
-  padding: 50px 0;
   font-family: "Montserrat";
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
 }
 
 .whatclientlogo {
   text-align: center;
+}
+
+.testiCard {
+  width: 90% !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 auto;
+  padding: 20px 10px;
 }
 
 .mark {
@@ -21,18 +34,19 @@
 .clientData {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: flex-start;
   gap: 10px;
   margin-top: 2%;
 }
 
 .clientData img {
-  width: 125px;
+  width: 75px;
 }
 
 .clientDataTxt {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -44,8 +58,9 @@
 
 .canva {
   max-width: 100%;
-  line-height: 1.7;
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: center;
 }
 
 .looking {
@@ -69,16 +84,15 @@
 }
 
 .value {
-  font-size: 30px;
+  font-size: 16px;
   font-family: "Montserrat";
   font-weight: 700;
-  line-height: 40px;
+  line-height: 26px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-
-@media (max-width:767px) {
-
+@media (max-width: 767px) {
   .value {
     font-size: 35px;
     font-family: "Montserrat";
@@ -86,15 +100,11 @@
     line-height: 1;
     margin-bottom: 5%;
   }
-
 }
 
-
-@media (max-width:480px) {
-
+@media (max-width: 480px) {
   .canva {
     font-size: 14px;
     text-align: justify;
   }
-
 }

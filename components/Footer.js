@@ -165,12 +165,8 @@ const Footer = () => {
                 </li>
                 <li className={`${styles.footermenulinks} ${styles.footlik} pt-3`}>
                   <ImLocation2 size={16} />
-                  <Link className={styles.styleset} href="tel:213-289-3888">801 Travis Street, 2101, Houston, TX 77002, United States</Link>
-                  
+                  <Link className={styles.styleset} href="https://goo.gl/maps/hHfEyPpeAYXyuNxt6">801 Travis Street, 2101, Houston, TX 77002, United States</Link>
                 </li>
-
-
-
               </ul>
 
               <ul className={styles.socialiconfooter}>
@@ -193,23 +189,15 @@ const Footer = () => {
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/pricing">Pricing</Link></li>
 
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/contact">Contact</Link></li>
-
+                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/blogs">Blogs</Link></li>
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/faqs">Faq's</Link></li>
-
-
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="#">Let's Get Started</Link></li>
-
               </ul>
-
-
             </Col>
             <Col md={3}>
 
               <h2 className='font-f font22 fw500'>Services</h2>
 
               <ul className={`${styles.footermenu1}  mt-4`}>
-
-
                 <li className={`${styles.footermenulinks} pt-1`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
 
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-publishing-services">Book Publishing</Link></li>
@@ -218,34 +206,18 @@ const Footer = () => {
 
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-marketing-services">Book Marketing</Link></li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/digital-marketing-services">Digital Marketing</Link></li>
-
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-proofreading-services">Proofreading Services</Link></li>
 
                 <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/ghostwriting-services">Ghostwriting</Link></li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/children-book-publication-services">Children Book Publication</Link></li>
-
-
+                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-promotion-services">Book Promotion Services</Link></li>
               </ul>
-
-
-
-
-
             </Col>
             <Col md={2}>
               <h2 className='font-f font22 fw500'>Awards</h2>
-
-
-
-
               <div className={styles.imgvisa}>
 
-
                 <Slider {...visalogo}>
-
-
 
                   {footerlogosnew.map((item, i) => {
                     return (
@@ -255,16 +227,7 @@ const Footer = () => {
                     )
                   })}
 
-
-
-
                 </Slider>
-
-
-
-
-
-
               </div>
               <div className={styles.imgvisa}>
 
@@ -279,14 +242,9 @@ const Footer = () => {
                   })}
 
                 </Slider>
-
-
               </div>
-
             </Col>
-
           </Row>
-
 
           <div className={styles.footerborder}>
             <Row className='pt-2'>
@@ -300,10 +258,8 @@ const Footer = () => {
                 <div className={styles.aligntextrignt}>
                   <p className='font14 font-f'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
                 </div>
-
               </Col>
             </Row>
-
           </div>
         </Container>
       </div>

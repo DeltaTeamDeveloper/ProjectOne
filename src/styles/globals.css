@@ -25,7 +25,7 @@ body {
   color: #212529;
 }
 
-.text-new{
+.text-new {
   color: #fff;
 }
 
@@ -434,7 +434,8 @@ input::-webkit-inner-spin-button {
 
 .clintTesti .slick-prev,
 .slick-next {
-  top: 90% !important;
+  top: 50% !important;
+  right: -60px !important;
 }
 
 .getmodal .modal-content {
@@ -778,7 +779,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   margin: 0 auto;
 }
 
-.newStory .slick-slide{
+.newStory .slick-slide {
   width: 50%;
 }
 
@@ -831,6 +832,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
   .font50 {
     font-size: 29px;
+    line-height: 39px;
   }
 
   .navbar-toggler-icon {
@@ -842,31 +844,39 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   }
   .font16 {
     font-size: 13px;
+    line-height: 23px;
   }
 
   .font40 {
     font-size: 23px;
+    line-height: 33px;
   }
   .font15 {
     font-size: 14px;
+    line-height: 24px;
   }
 
   .font17 {
     font-size: 15px;
+    line-height: 25px;
   }
 
   .font48 {
     font-size: 25px;
+    line-height: 35px;
   }
   .font18 {
     font-size: 15px;
+    line-height: 25px;
   }
 
   .bookemail {
     font-size: 13px;
+    line-height: 23px;
   }
   .font30 {
     font-size: 21px;
+    line-height: 31px;
   }
 }
 
@@ -906,9 +916,11 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
   .font60 {
     font-size: 40px;
+    line-height: 50px;
   }
   .font50 {
     font-size: 23px;
+    line-height: 33px;
   }
 
   .quality .col-md-3 {
@@ -931,6 +943,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 @media (max-width: 480px) {
   .font70 {
     font-size: 40px;
+    line-height: 50px;
   }
   .bannergllobal .homeSlider {
     display: none;
@@ -954,30 +967,38 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
   .bannergllobal h1 {
     font-size: 35px;
+    line-height: 45px;
   }
 
   .font50 {
     font-size: 24px;
+    line-height: 34px;
   }
   .font40 {
     font-size: 20px;
+    line-height: 30px;
   }
   .font14 {
     font-size: 18px;
+    line-height: 28px;
   }
   .font16 {
     font-size: 14px;
+    line-height: 24px;
   }
 
   .font17 {
     font-size: 18px;
+    line-height: 28px;
   }
 
   .font18 {
     font-size: 18px;
+    line-height: 28px;
   }
   .font15 {
     font-size: 14px;
+    line-height: 24px;
   }
 
   .testtimonials svg.slick-arrow.slick-prev {
@@ -1000,8 +1021,10 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
   .faqheading.accordion-header .accordion-button {
     font-size: 20px;
+    line-height: 30px;
   }
   .textbody.accordion-body {
     font-size: 18px;
+    line-height: 28px;
   }
 }

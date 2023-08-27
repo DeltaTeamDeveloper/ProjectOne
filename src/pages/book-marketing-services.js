@@ -236,13 +236,13 @@ const Bookpublishingservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Marketing Services - Texas Book Publishing</title>
-        <meta name="description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
+        <title>Professional Book marketing services for self-published Authors</title>
+        <meta name="description" content="Market and promote your book today with our book marketing service in US. Being the top book marketing agency, texas book publishing always ready to fulfill your need." />
         <link rel="canonical" href="/book-marketing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Marketing Services - Texas Book Publishing" />
-        <meta property="og:description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
+        <meta property="og:title" content="Professional Book marketing services for self-published Authors" />
+        <meta property="og:description" content="Market and promote your book today with our book marketing service in US. Being the top book marketing agency, texas book publishing always ready to fulfill your need." />
         <meta property="og:url" content="/book-marketing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T11:37:31+00:00" />

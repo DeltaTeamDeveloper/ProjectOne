@@ -13,9 +13,6 @@ const Thankyou = () => {
       pra: 'For filling out the contact form. Our representative will contact you shortly.',
       banners: 'bookpublishingservices',
       thankyou: 'thankyou',
-
-
-
     }
   ]
 

@@ -255,13 +255,13 @@ const Bookpublishingservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Editing Services - Texas Book Publishing</title>
-        <meta name="description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
+        <title>Professional Book Editing Services at Affordable Price</title>
+        <meta name="description" content="Are you looking for an affordable book editing services? Hire our professional book editors to review and proofread your book manuscript before publication." />
         <link rel="canonical" href="/book-editing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Editing Services - Texas Book Publishing" />
-        <meta property="og:description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
+        <meta property="og:title" content="Professional Book Editing Services at Affordable Price" />
+        <meta property="og:description" content="Are you looking for an affordable book editing services? Hire our professional book editors to review and proofread your book manuscript before publication." />
         <meta property="og:url" content="/book-editing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:01:27+00:00" />

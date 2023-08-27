@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-  import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'
@@ -15,7 +14,8 @@ import Strugglingtogive from '../../components/Strugglingtogive'
 import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
 import Script from 'next/script'
-
+//
+import whychoose from '/public/images/whychoosebooks/bg-img.png'
 
 
 export default function Home() {
@@ -89,15 +89,14 @@ export default function Home() {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Texas Book Writing Services Company</title>
-        <meta name="description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
+        <title>Texasbookpublishing - Top Professional Book Writers Hub in USA</title>
+        <meta name="description" content="Texas Book Publishing is a professional book writers hub with an expert team. They are passionate about bringing stories to life from fiction to non-fiction, and much more." />
         <link rel="canonical" href="https://texasbookpublishing.com/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Professional Book Writing Services Company" />
-        <meta property="og:description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
+        <meta property="og:title" content="Texasbookpublishing - Top Professional Book Writers Hub in USA" />
+        <meta property="og:description" content="Texas Book Publishing is a professional book writers hub with an expert team. They are passionate about bringing stories to life from fiction to non-fiction, and much more." />
         <meta property="og:url" content="https://texasbookpublishing.com/" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-01-12T00:00:46+00:00" />
@@ -201,11 +200,11 @@ export default function Home() {
         <Customersatisfaction />
 
         {/* Why Choose Texas Book Publishing? */}
-        <Whychoosebook
+        {/* <Whychoosebook
           title="Why Choose Texas Book Publishing?"
           text="We are well aware of unique content creation requirements for each client. With a team equipped with a wide array of expertise, experiences and knowledge, we are always an author’s top preference. Texas Book Publishing will simplify the Writing, Editing, Publication and Marketing needs for you. Our collaboration would be transparent and hassle-free, reducing all the intricacies from your end. We only deliver content that is remarkable, genuine and original."
           whychoose={whychoose}
-        />
+        /> */}
 
         {/* Talk To Our Experts! */}
         {/* <Experts

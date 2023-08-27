@@ -102,7 +102,7 @@ const Comprehensive = () => {
                     <Row className='gy-5'>
                         {card.map((item, i) => {
                             return(
-                                <Col lg={3} className={`${styles.post}`}  key={i}>
+                                <Col lg={3} md={6} className={`${styles.post}`}  key={i}>
 
                                     <div className={styles.flipcard}>
                                         <div className={styles.flipcardinner}>

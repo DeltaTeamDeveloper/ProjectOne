@@ -42,79 +42,76 @@ const Contact = () => {
             Router.push('/thank-you')
         }
 
-
-
-
-
     }
 
 
-    const schema = {
+    // const schema = {
 
-        "@context": "https://schema.org",
-        "@type": "Corporation",
-        "name": "bookwritingexperts",
-        "alternateName": "Texas Book Publishing",
-        "url": "https://texasbookpublishing.com/contact-us/",
-        "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-        "sameAs": [
-            "https://texasbookpublishing.com/",
-            "https://www.facebook.com/bookwritingexperts",
-            "https://twitter.com/bookwritingexp",
-            "https://www.instagram.com/bookwritingexpert/",
-            "https://www.linkedin.com/company/book-writing-exp/",
-            "https://www.pinterest.com/bookwritingexperts/"
-        ]
+    //     "@context": "https://schema.org",
+    //     "@type": "Corporation",
+    //     "name": "bookwritingexperts",
+    //     "alternateName": "Texas Book Publishing",
+    //     "url": "https://texasbookpublishing.com/contact-us/",
+    //     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    //     "sameAs": [
+    //         "https://texasbookpublishing.com/",
+    //         "https://www.facebook.com/bookwritingexperts",
+    //         "https://twitter.com/bookwritingexp",
+    //         "https://www.instagram.com/bookwritingexpert/",
+    //         "https://www.linkedin.com/company/book-writing-exp/",
+    //         "https://www.pinterest.com/bookwritingexperts/"
+    //     ]
 
 
-    }
-    const schema1 = {
+    // }
+    // const schema1 = {
 
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "bookwritingexperts",
-        "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-        "@id": "",
-        "url": "https://texasbookpublishing.com/contact-us/",
-        "telephone": "2132893888",
-        "priceRange": "$99",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "445 S Figueroa St",
-            "addressLocality": "Los Angeles",
-            "addressRegion": "CA",
-            "postalCode": "90071",
-            "addressCountry": "US"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 34.0536155,
-            "longitude": -118.2568651
-        },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
-        },
-        "sameAs": [
-            "https://texasbookpublishing.com/",
-            "https://www.facebook.com/bookwritingexperts",
-            "https://twitter.com/bookwritingexp",
-            "https://www.instagram.com/bookwritingexpert/",
-            "https://www.linkedin.com/company/book-writing-exp/",
-            "https://www.pinterest.com/bookwritingexperts/"
-        ]
+    //     "@context": "https://schema.org",
+    //     "@type": "ProfessionalService",
+    //     "name": "bookwritingexperts",
+    //     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    //     "@id": "",
+    //     "url": "https://texasbookpublishing.com/contact-us/",
+    //     "telephone": "2132893888",
+    //     "priceRange": "$99",
+    //     "address": {
+    //         "@type": "PostalAddress",
+    //         "streetAddress": "445 S Figueroa St",
+    //         "addressLocality": "Los Angeles",
+    //         "addressRegion": "CA",
+    //         "postalCode": "90071",
+    //         "addressCountry": "US"
+    //     },
+    //     "geo": {
+    //         "@type": "GeoCoordinates",
+    //         "latitude": 34.0536155,
+    //         "longitude": -118.2568651
+    //     },
+    //     "openingHoursSpecification": {
+    //         "@type": "OpeningHoursSpecification",
+    //         "dayOfWeek": [
+    //             "Monday",
+    //             "Tuesday",
+    //             "Wednesday",
+    //             "Thursday",
+    //             "Friday",
+    //             "Saturday",
+    //             "Sunday"
+    //         ],
+    //         "opens": "00:00",
+    //         "closes": "23:59"
+    //     },
+    //     "sameAs": [
+    //         "https://texasbookpublishing.com/",
+    //         "https://www.facebook.com/bookwritingexperts",
+    //         "https://twitter.com/bookwritingexp",
+    //         "https://www.instagram.com/bookwritingexpert/",
+    //         "https://www.linkedin.com/company/book-writing-exp/",
+    //         "https://www.pinterest.com/bookwritingexperts/"
+    //     ]
 
-    }
+    // }
+
 
     return (
         <>
@@ -125,14 +122,14 @@ const Contact = () => {
                 <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
                 <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
                 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-                <title>Contact Us - Book Writing</title>
+                <title>Get in Touch, Contact Us Today and Drop Your Query</title>
                 <meta name="description"
-                    content="Contact us and let us define the success of your book with our various book related solutions. We are 24/7 all ears to your needs." />
+                    content="If you want to avail our services, or have any query,  our team is always ready to respond. Contact now, get a free session and know details about what you want." />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Contact Us - Book Writing" />
+                <meta property="og:title" content="Get in Touch, Contact Us Today and Drop Your Query" />
                 <meta property="og:description"
-                    content="Contact us and let us define the success of your book with our various book related solutions. We are 24/7 all ears to your needs." />
+                    content="If you want to avail our services, or have any query,  our team is always ready to respond. Contact now, get a free session and know details about what you want." />
                 <meta property="og:url" content="/contact" />
                 <meta property="og:site_name" content="Book Writing" />
                 <meta property="article:modified_time" content="2022-08-31T23:04:58+00:00" />
@@ -143,14 +140,14 @@ const Contact = () => {
 
 
 
-                <script
+                {/* <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
                 />
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
-                />
+                /> */}
 
             </Head>
 
@@ -159,12 +156,9 @@ const Contact = () => {
                 <Container>
                     <Row className='gy-4'>
                         <Col md={5}>
-
-
                             <h2 className='color-blue font50 fw700 font-f'>
                                 Have your story read.
                                 Get published.
-
                             </h2>
                             <div className={`${styles.published} pt-5`}>
 
@@ -178,9 +172,7 @@ const Contact = () => {
                                     <span className=''>Email:</span> <Link href='mailto:info(@)bookwritingcube(.)com' className={` ${styles.numpost} fw700 text-black textdocationnone`}>
                                         support@texasbookpublishing.com </Link>
                                 </p>
-
                             </div>
-
 
                             <p className='fw500 font20 text-black font-f mt-5'>
                                 Unable to reach us? Fill out the  <Link href='#contpost' className='textdocationnone text-black'>form below</Link>
@@ -190,33 +182,23 @@ const Contact = () => {
 
                         <Col md={1}></Col>
                         <Col md={6}>
-
-
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6200791070223!2d-118.25944002448333!3d34.053615473156526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b26b2805e7%3A0x631167a0f496a896!2sUnion%20Bank%20Plaza%2C%20445%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090071%2C%20USA!5e0!3m2!1sen!2s!4v1681986458438!5m2!1sen!2s" width='100%' height='252' ></iframe>
-
-
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.6609799252105!2d-95.3671296255554!3d29.758523332062968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3b02b00001%3A0x1b31520087aa9bd8!2s801%20Travis%20St%20Ste%202101%2C%20Houston%2C%20TX%2077002%2C%20USA!5e0!3m2!1sen!2s!4v1693162675788!5m2!1sen!2s" width='100%' height='252' ></iframe>
 
                             <h4 className='font-f fw400 font20 text-black t-center mt-3' >(Operations)</h4>
                             <p className='font-f fw300 mt-3 text-black t-center' >
-                               801 Travis Street, 2101, Houston, TX 77002, United States
+                                801 Travis Street, 2101, Houston, TX 77002, United States
                             </p>
-
-
                         </Col>
                     </Row>
                 </Container>
-
             </div>
-
 
             <div className={styles.contfom}>
 
                 <Container className='contpost' id='contpost'>
                     <Row className={styles.conrow}>
                         <Col md={9}>
-                            <h2 className='t-center fw700 font50 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
-
-
+                            <h2 className='t-center fw700 font40 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
 
                             <form className={styles.label2} onSubmit={handleSubmit}>
 
@@ -228,157 +210,6 @@ const Contact = () => {
                                 <Row className='mt-3 mb-3 gy-3'>
                                     <Col md={6}> <input className={styles.inputfilet} required id='phone' type='number' name='phone' placeholder='Phone' /> </Col>
                                     <Col md={6}> <input className={styles.inputfilet} required id='tel' type='number' name='zip' placeholder='Location/Zip Code' /></Col>
-                                </Row>
-
-
-                                <Row>
-                                    <Col> <p className='font15 fw500 font-f colortextgrey mt-4'>Desired Service(s)* see our <b> <em> rates and services </em></b> </p> </Col>
-                                </Row>
-
-
-                                <Row className='gy-3'>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Ghostwriting--I want to hire a professional to write or rewrite my book' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Ghostwriting--I want to hire a professional to write or rewrite my book
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Editing--I have written a manuscript and would like a professional to review and/or edit it' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Editing--I have written a manuscript and would like a professional to review and/or edit it
-                                            </label>
-                                        </div>
-                                    </Col>
-
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Book Coaching--I want to write my book on my own, but with the help of a professional to guide me' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Book Coaching--I want to write my book on my own, but with the help of a professional to guide me
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes
-                                            </label>
-                                        </div>
-                                    </Col>
-                                </Row>
-
-
-                                <Row className='gy-3'>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Book Proposal' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Book Proposal
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Beta Reader Services' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Beta Reader Services
-                                            </label>
-                                        </div>
-                                    </Col>
-
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Other' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Other
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-
-                                    </Col>
-                                </Row>
-
-                                <Row className='mt-4'>
-                                    <Col><p className={styles.general}> General Genre Category*</p></Col>
-                                </Row>
-
-                                <Row className='gy-3'>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Business' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Business
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Memoir/Biography' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Memoir/Biography
-                                            </label>
-                                        </div>
-                                    </Col>
-
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Health' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Health
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Self-Help/Personal Development' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Self-Help/Personal Development
-                                            </label>
-                                        </div>
-                                    </Col>
-                                </Row>
-
-
-                                <Row className='gy-3'>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Fiction' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Fiction
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='General Nonfiction' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                General Nonfiction
-                                            </label>
-                                        </div>
-                                    </Col>
-
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Children’s' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Children’s
-                                            </label>
-                                        </div>
-                                    </Col>
-                                    <Col md={3}>
-                                        <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Others' />
-                                            <label className='form-check-label' htmlFor='flexCheckDefault'>
-                                                Others
-                                            </label>
-                                        </div>
-                                    </Col>
                                 </Row>
 
                                 <Row>
@@ -401,20 +232,17 @@ const Contact = () => {
 
                             </form>
 
-
-
                         </Col>
                     </Row>
                 </Container>
             </div>
-
 
             <div className={styles.contactdata}>
                 <Container>
                     <Row className={styles.conrow}>
                         <Col md={9}>
 
-                            <h2 className='color-blue font50 fw700 font-f'> Your Publishing Goals Will All Be Realized Here!</h2>
+                            <h2 className='color-blue font40 fw700 font-f'> Your Publishing Goals Will All Be Realized Here!</h2>
                             <p className='font15  font-f colortextgrey' >Contact us and have yourself a best seller book written now. </p>
 
                         </Col>

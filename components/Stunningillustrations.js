@@ -20,7 +20,7 @@ import homebannerlogos9 from '/public/images/stunningillustrations/9.svg'
 
 const Stunningillustrations = () => {
 
-    
+
     var makestories = {
         dots: true,
         arrows: false,
@@ -55,7 +55,7 @@ const Stunningillustrations = () => {
     return (
         <>
 
-{/* desktop */}
+            {/* desktop */}
 
             <section className={styles.stun}>
                 <Container>
@@ -120,75 +120,75 @@ const Stunningillustrations = () => {
 
             </section>
 
-{/* mobile */}
+            {/* mobile */}
             <section className={styles.stun1}>
 
-            <Container>
+                <Container>
 
-                <h2 className="font-f fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="#">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
-
-
-                <Slider {...makestories}>
-
-                 
-
-           
-
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos1} className="img-fluid" ></Image>
-                </div>
+                    <h2 className="font-f fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="#">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos2} className="img-fluid" ></Image>
-                </div>
+                    <Slider {...makestories}>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos3} className="img-fluid" ></Image>
-                </div>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos6} className="img-fluid" ></Image>
-                </div>
+
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos1} className="img-fluid" ></Image>
+                        </div>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos4} className="img-fluid" ></Image>
-                </div>
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos2} className="img-fluid" ></Image>
+                        </div>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos5} className="img-fluid" ></Image>
-                </div>
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos3} className="img-fluid" ></Image>
+                        </div>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos9} className="img-fluid" ></Image>
-                </div>
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos6} className="img-fluid" ></Image>
+                        </div>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos7} className="img-fluid" ></Image>
-                </div>
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos4} className="img-fluid" ></Image>
+                        </div>
 
 
-                <div className={styles.stunimage}>
-                    <Image alt="Texas Book Publishing" src={homebannerlogos8} className="img-fluid" ></Image>
-                </div>
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos5} className="img-fluid" ></Image>
+                        </div>
 
-                </Slider>
 
-                <Row className='mt-5'>
-                    <Col>
-                        <Link className={styles.btn1} href="#">OUR PORTFOLIO</Link>
-                    </Col>
-                </Row>
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos9} className="img-fluid" ></Image>
+                        </div>
 
-            </Container>
 
-        </section >
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos7} className="img-fluid" ></Image>
+                        </div>
+
+
+                        <div className={styles.stunimage}>
+                            <Image alt="Texas Book Publishing" src={homebannerlogos8} className="img-fluid" ></Image>
+                        </div>
+
+                    </Slider>
+
+                    <Row className='mt-5'>
+                        <Col>
+                            <Link className={styles.btn1} href="#">OUR PORTFOLIO</Link>
+                        </Col>
+                    </Row>
+
+                </Container>
+
+            </section >
 
         </>
     )

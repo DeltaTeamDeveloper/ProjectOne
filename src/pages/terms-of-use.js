@@ -25,9 +25,9 @@ const Termsofuse = () => {
 
 
       <Head>
-
         <link rel="icon" href="/favicon.png" />
-
+        <title>Our Comprehensive Terms and Conditions | texasbookpublishing</title>
+        <meta name="description" content="Explore our terms & conditions, where we've outlined clear guidelines for service usage, privacy, and more. Trust and transparency are core values at Texas Book Publishing." />
       </Head>
 
       {/* banner components */}

@@ -47,8 +47,11 @@
   font-family: "Montserrat";
 }
 
-/* .pricing {
-  background-color: #02adb54d;
+.pricing {
+  background-image: url(/images/bannerimages/pricing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -56,7 +59,8 @@
   padding-top: 140px;
   padding-bottom: 70px;
   font-family: "Montserrat";
-} */
+  border-bottom: 2px solid #02adb54d;
+}
 
 .bookpublishingservices {
   background-image: url(/images/bannerimages/bookpublishingservices.jpg);
@@ -70,19 +74,6 @@
   padding-bottom: 70px;
   font-family: "Montserrat";
 }
-
-/* .bookwritingservices {
-  background-image: url(/images/bannerimages/bookwritingservices.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 140px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  padding-bottom: 70px;
-  background-position: center;
-  font-family: "Montserrat";
-} */
 
 .articlewritingservices {
   background-image: url(/images/bannerimages/articleswriting.jpg);
@@ -135,18 +126,6 @@
   background-position: center;
   font-family: "Montserrat";
 }
-
-/* .ghost {
-  background-image: url(/images/bannerimages/ghostbann.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 140px;
-  height: 100vh;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 70px;
-  font-family: "Montserrat";
-} */
 
 .audiobookproduction {
   background-image: url(/images/bannerimages/audiobook.jpg);
@@ -211,6 +190,108 @@
   background-position: center;
   font-family: "Montserrat";
 }
+
+.digitalmarketingservices {
+  background-image: url(/images/bannerimages/bookmarketingservices.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: right;
+  font-family: "Montserrat";
+}
+
+.bookformattingservices {
+  background-image: url(/images/bannerimages/bookformatting.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: "Montserrat";
+}
+
+.webcontentwritingservices {
+  background-image: url(/images/bannerimages/webcontentwritingservices.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: "Montserrat";
+}
+
+.bookvideotrailer {
+  background-image: url(/images/bannerimages/bookvideotrailer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: "Montserrat";
+}
+
+.condition {
+  background-color: #02adb54d;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  font-family: "Montserrat";
+}
+
+.press {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.blogsbanner {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-color: #02adb54d;
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+}
+
+/* .ghost {
+  background-image: url(/images/bannerimages/ghostbann.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 70px;
+  font-family: "Montserrat";
+} */
+
+/* .bookwritingservices {
+  background-image: url(/images/bannerimages/bookwritingservices.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-position: center;
+  font-family: "Montserrat";
+} */
 
 /* .blogwritingservices {
   background-image: url(/images/bannerimages/blogwritingservices.jpg);
@@ -288,32 +369,6 @@
   font-family: "Montserrat";
 } */
 
-.digitalmarketingservices {
-  background-image: url(/images/bannerimages/bookmarketingservices.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 140px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  padding-bottom: 70px;
-  background-position: right;
-  font-family: "Montserrat";
-}
-
-.bookformattingservices {
-  background-image: url(/images/bannerimages/bookformatting.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 140px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  padding-bottom: 70px;
-  background-position: center;
-  font-family: "Montserrat";
-}
-
 /* .audiobookrecordingservices {
   background-image: url(/images/bannerimages/audiobookrecordingservices.jpg);
   background-size: cover;
@@ -326,19 +381,6 @@
   background-position: center;
   font-family: "Montserrat";
 } */
-
-.webcontentwritingservices {
-  background-image: url(/images/bannerimages/webcontentwritingservices.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 140px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  padding-bottom: 70px;
-  background-position: center;
-  font-family: "Montserrat";
-}
 
 /* .empoweringauthorswith {
   background-image: url(/images/bannerimages/authorwebsite.jpg);
@@ -353,44 +395,7 @@
   font-family: "Montserrat";
 } */
 
-.bookvideotrailer {
-  background-image: url(/images/bannerimages/bookvideotrailer.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 140px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  padding-bottom: 70px;
-  background-position: center;
-  font-family: "Montserrat";
-}
-
-.condition {
-  background-color: #02adb54d;
-  padding-top: 130px;
-  padding-bottom: 30px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-position: center;
-  font-family: "Montserrat";
-}
-
-.press {
-  padding-top: 140px;
-  padding-bottom: 70px;
-}
-
-.blogsbanner {
-  padding-top: 200px;
-  padding-bottom: 150px;
-  background-color: #02adb54d;
-  font-family: "Montserrat";
-  /* height: 100vh; */
-  display: flex;
-  align-items: center;
-}
+/* ================================= */
 
 .homenumer:hover {
   background-color: #223235;
@@ -845,12 +850,12 @@
 
   .discuss {
     font-size: 11px;
-    padding: 12px 14px;
+    padding: 10px 30px;
   }
 
   .homenumer {
     font-size: 11px;
-    padding: 12px 14px;
+    padding: 10px 30px;
   }
 
   .homelogoimgnone {

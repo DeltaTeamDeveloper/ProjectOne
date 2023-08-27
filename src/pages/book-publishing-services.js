@@ -174,13 +174,13 @@ const Bookpublishingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-        <meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+        <title>Publish your Book by Best Book Publishing Services | texasbookpublishing</title>
+        <meta name="description" content="Do you want to get published a book? Get all the services and support you need, we offer. With our expert publishing services, that impress audiences with a perfect book!" />
         <link rel="canonical" href="/book-publishing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-        <meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+        <meta property="og:title" content="Publish your Book by Best Book Publishing Services | texasbookpublishing" />
+        <meta property="og:description" content="Do you want to get published a book? Get all the services and support you need, we offer. With our expert publishing services, that impress audiences with a perfect book!" />
         <meta property="og:url" content="/book-publishing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />

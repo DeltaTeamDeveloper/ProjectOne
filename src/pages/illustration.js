@@ -211,11 +211,11 @@ function Illustrationbook() {
 
 
         {/* Why Choose Texas Book Publishing? */}
-        <Whychoosebook
+        {/* <Whychoosebook
           title="Why Choose Texas Book Publishing?"
           text="We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute. To ensure the greatest efficacy, we firmly believe in and work towards a transparent collaboration between you and us. For the greatest candor, we develop intricate production processes that accommodate each of our clients uniquely. The typical content around here is remarkable, genuine, and original!"
           whychoose={whychoose}
-        />
+        /> */}
 
 
         {/* Customersatisfaction */}
