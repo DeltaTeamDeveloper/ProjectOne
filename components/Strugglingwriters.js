@@ -88,8 +88,8 @@ const Strugglingwriters = () => {
             <Container>
                 <Row>
                     <Col md={12}>
-                        <h2 className='font-f font40 fw700 t-center color-blue'>Our Experts Have Helped Thousands Of Struggling Writers Come And Join The League!</h2>
-                        <p className='font15 font-f t-center textcolor mt-3'>Our experienced publishing service providers remove the hurdles of publishing books. From printing and publishing to distribution and marketing books on a global level, we take the writers through all.</p>
+                        <h2 className='font-f font40 fw700 t-center text-black'>Your Tales, Our Words: <span className='color-blue'>Hire Professional Book Writers</span></h2>
+                        <p className='font15 font-f t-center textcolor mt-3'>We are not just any <strong>ghostwriting agency</strong>. At Texas Book Publishing, we get that your story is your heart’s timeless tune. Our team of devotee <strong>professional book writers</strong> works on your orchestration, embracing your distinct style, and bringing your vision to life. </p>
                     </Col>
                 </Row>
 

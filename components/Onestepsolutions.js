@@ -16,27 +16,19 @@ import book106 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
 
 const Onestepsolutions = () => {
 
-
-  const numdata5 = <span>Stories That Empower Young Minds: Let your imagination run wild and join us in unleashing creativity for the next generation through our exceptional children's book writing and <Link className='textdocationnone colorta hover' href="/book-publishing-services">publishing services</Link></span>
-
-  const numdata6 = <span>Bringing Thrills and Suspense to Life - From heart-pumping action scenes to gripping suspense, our professional adventure <strong >story writing services</strong> will bring your ideas to life!
-  </span>
-
-  const numdat7 = <span>
-
-    <span>From Concept to Bestseller: </span>
-    <span className={styles.join}>Join us on a journey from concept to bestseller with our exceptional <Link className='textdocationnone colorta' href="/book-editing-services/">novel editing</Link>, writing, and publishing services</span>
-
-  </span>
-
   const numdat1 =
+    <span className={styles.join}>Our team of talented writers specializes in crafting engaging and immersive stories in various genres. We'll breathe life into your characters, construct a gripping plotline, and create an unforgettable reading experience. Let our <strong>fiction book writing services</strong> help you bring your imagination to life!</span>
 
+  const numdat2 =
+    <span className={styles.join}>Are you a non-fiction author in need of expert guidance to transform your ideas into a captivating book? Our non-writing service specializes in crafting exceptional non-fiction books that resonate with readers. With our in-depth research, engaging writing style, and professional <strong>eBook editing</strong>, we’ve got everything you’re looking for! Get ready to captivate readers and make an impact with our remarkable non-fiction book writing services.</span>
 
-    <span className={styles.join}>Taking you into the fictional world, our
-      <Link className='textdocationnone colorta hover' href="/ghostwriting-services/"> ghostwriters </Link> pen down some of the great tales effortlessly, making the best use of the words </span>
+  const numdat3 =
+    <span className={styles.join}>Are you eager to share your life's adventures and experiences with the world? Our <strong>autobiography writing services</strong> are here to bring your story to life! Our team of professional writers will carefully craft your unique journey into a captivating narrative that will inspire and engage readers. Let us help you leave a lasting legacy with our top-notch autobiography writing services.</span>
 
+  const numdat4 =
+    <span className={styles.join}>Are you an aspiring Christian author longing to share your message with the world? Look no further! Our Christian <strong>Ebook writing services</strong> are tailored to help you craft an impactful and inspiring manuscript that will captivate readers. Let our team of experienced writers guide you through the process, turning your vision into a compelling story that will leave a lasting impact on hearts and minds. Start your journey today and fulfill your calling as a Christian author!</span>
 
-
+  const numdata5 = <span>Are you looking for captivating children's books that will delight and inspire young minds? Look no further! Our expert <strong>eBook writers</strong> will bring stories to life with enchanting characters, vibrant illustrations, and captivating plots that will spark every child's creativity. From picture books to chapter books, we offer tailored and engaging content that will foster a love for reading.</span>
 
 
 
@@ -45,26 +37,26 @@ const Onestepsolutions = () => {
 
       {
         num: '01',
-        title: 'Fiction ',
+        title: 'Fiction Books',
         text: numdat1,
         storiesimg: book100
       },
       {
         num: '02',
         title: 'Non-Fiction',
-        text: 'We trigger emotions and engage the target readers with our impeccable writing styles. We make non-fiction exciting and interesting.',
+        text: numdat2,
         storiesimg: book101
       },
       {
         num: '03',
         title: 'Autobiography',
-        text: 'Our expert ghostwriters surely know all the tricks to captivate and engage the readers by showcasing your hassles and extraordinary life story.',
+        text: numdat3,
         storiesimg: book102
       },
       {
         num: '04',
         title: 'Christian Book',
-        text: 'We significantly cover every life event by indexing the realness and keeping the emotional essence alive to take you back in time.',
+        text: numdat4,
         storiesimg: book106
       },
       {
@@ -131,9 +123,15 @@ const Onestepsolutions = () => {
                 {makestoriesimg.map((item, i) => {
                   return (
                     <div key={i}>
-                      <h3 className='color-blue font-f font30 fw600 maxwidth mb-4'>{item.title}</h3>
-                      <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
-                      <Image loading="lazy" className='img-fluid' src={item.storiesimg} alt='Texas Book Publishing'></Image>
+                      <div className={styles.boxSlide}>
+                        <div>
+                          <h3 className='color-blue font-f font30 fw600 maxwidth mb-4'>{item.title}</h3>
+                          <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
+                        </div>
+                        <div>
+                          <Image loading="lazy" className='img-fluid' src={item.storiesimg} alt='Texas Book Publishing' />
+                        </div>
+                      </div>
                     </div>
                   )
                 })}

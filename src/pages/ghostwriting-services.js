@@ -74,15 +74,15 @@ const Bookpublishingservices = () => {
 
   ]
 
-  const newSpan = <span className='font50 fw700 text-black font-f hero-span'>Bring Your Ideas to Life With Our Expert <Link className='textdocationnone text-black hover' href="/ghostwriting-services"> Ghostwriting Services! </Link> </span>;
-
-
+  const newSpan = <span className='font50 fw700 color-blue font-f hero-span'>Ghostwriting Services</span>
 
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Texas Book Publishing make sure your story keep the readers hooked onto it until the end.',
+      pra: 'If you’ve got a compelling story to tell but don’t have the time to pen it, we’ve got the solutions you’re looking for. Our exceptional ghostwriting services will turn your ideas into meaningful words that will captivate readers across the globe!',
+      subtext1: "Our team consists of professional writers, editors, formatters, and publishing experts who will make sure your journey with us is as smooth as possible.",
+      subtext2: "To get started, feel free to get in touch with us. ",
       discuss: 'LET S DISCUSS',
       homebannernum: 'Call Us Now',
       banners: 'ghostwriting',
@@ -274,7 +274,6 @@ const Bookpublishingservices = () => {
           text={item.pra}
           subtext1={item.subtext1}
           subtext2={item.subtext2}
-          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannershome={item.banners}

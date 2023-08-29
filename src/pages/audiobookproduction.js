@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Banner from '../../components/Banner'
 import Partners from '../../components/Partners'
@@ -21,7 +20,7 @@ function Audiobookproduction() {
 
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your</span>  <Link className='dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services">  Audio Book <br></br> Services </Link>  <span className=''> from Our Team of Top Ghost <br></br> Writing for Hire.</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Audiobooks</h1>
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='#'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
@@ -33,7 +32,9 @@ function Audiobookproduction() {
   const bannertext = [
     {
       title: newSpan,
-      pra: "We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute.",
+      pra: "At Texas Book Publishing, we understand that some of your readers might actually be listeners. And that’s why we make sure we listen to their needs and requirements. Reach out to your target audience with our unmatched narration services.",
+      pra1: "Don’t settle for anything less when you have access to a team of professional narrators! We offer a wide range of voices and accents. There’s no more guesswork now that we’re in the picture.",
+      pra2: "Let us take care of everything! Get in touch with us today to get started with our professional audiobook services.",
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'audiobookproduction',
@@ -163,6 +164,8 @@ function Audiobookproduction() {
           <Banner key={i}
             title={item.title}
             text={item.pra}
+            subtext={item.pra1}
+            subtext1={item.pra2}
             discuss={item.discuss}
             homebannernum={item.homebannernum}
             bannershome={item.banners}
@@ -213,11 +216,10 @@ function Audiobookproduction() {
 
 
         {/* Why Choose Texas Book Publishing? */}
-        {/* <Whychoosebook
-          title="Why Choose Texas Book Publishing?"
-          text="We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute. To ensure the greatest efficacy, we firmly believe in and work towards a transparent collaboration between you and us. For the greatest candor, we develop intricate production processes that accommodate each of our clients uniquely. The typical content around here is remarkable, genuine, and original!"
-          whychoose={whychoose}
-        /> */}
+        <Whychoosebook
+          title={<>Scripting Thoughts into Stories: <span className='color-blue'>Book and eBook Ghostwriters for Hire</span></>}
+          text={<>When you sign up with Texas Book Publishing, you’re making an investment in your dreams and goals. Our proficient squad of book and <strong>eBook ghostwriters</strong> will take the lead on your ideas, transforming them into literary treasures. Think of us as the sherpas of book writing! We will be the guiding light you need to polish, publish, and organize your manuscript.</>}
+        />
 
 
         {/* Customersatisfaction */}

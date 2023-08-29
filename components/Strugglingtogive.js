@@ -11,25 +11,14 @@ const Strugglingtogive = (props) => {
             <Container>
                 <Row className={` ${styles.forent} gy-5`}>
                     <Col lg={7}>
-                        <h2 className='color-blue font40 fw700 font-f mb-4'>Are You Struggling to give <br className='d-none d-md-block' /> Words to your Ideas?</h2>
-                        <p className='textcolor font-f mb-4 font15'>You may be a victim of the following nuisances</p>
-                        <div className={styles.slow}>
-                            <ul className='p-0'>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} /> {props.list1}</li>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} /> {props.list2}</li>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} />{props.list3}</li>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} />{props.list4}</li>
-                            </ul>
-
-                            <ul>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} /> {props.list5}</li>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} /> {props.list6} </li>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} /> {props.list7}</li>
-                                <li className='textcolor font-f mb-4 font15'><TiTick size={25} className={styles.rightcolor} /> {props.list8}</li>
-                            </ul>
-
+                        <h2 className='color-blue font40 fw700 font-f mb-4'>Turning Manuscripts into Milestones: Self-Publishing Services Designed For Success</h2>
+                        <p className='textcolor fw600 font-f font15'>We handle the details; you enjoy the success.</p>
+                        <div className='mb-4 mt-3'>
+                            <p className='textcolor font-f font15'>Just leave it to us! Whether your manuscript needs a new layout or cover, we have the best book publishers to strategically walk you through the process so you don’t have to stress about anything.</p>
+                            <p className='color-blue fw600 font-f font15'>Your Story, Your Success: <strong>Publish Your Book</strong> with Confidence</p>
+                            <p className='textcolor font-f font15'>Imagine holding your published book in your hands, knowing it’s the result of your determination and our dedication.</p>
+                            <p className='textcolor font-f font15'>With our assistance, you can confidently navigate the world of <strong>self-publishing on Amazon</strong> like a pro.</p>
                         </div>
-
                         <div>
                             <a href="#footercontact"> <button className={styles.btnget1}> {props.btn1} </button></a>
                             <a href="#"><button className={styles.btnget2}> {props.btn2} </button></a>

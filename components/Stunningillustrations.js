@@ -8,13 +8,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 // images
-import homebannerlogos1 from '/public/images/stunningillustrations/1.svg'
-import homebannerlogos2 from '/public/images/stunningillustrations/2.svg'
-import homebannerlogos3 from '/public/images/stunningillustrations/3.svg'
-import homebannerlogos4 from '/public/images/stunningillustrations/4.svg'
-import homebannerlogos5 from '/public/images/stunningillustrations/5.svg'
-import homebannerlogos6 from '/public/images/stunningillustrations/6.svg'
-import homebannerlogos7 from '/public/images/stunningillustrations/7.svg'
+import homebannerlogos1 from '/public/images/stunningillustrations/1.jpeg'
+import homebannerlogos2 from '/public/images/stunningillustrations/2.jpeg'
+import homebannerlogos3 from '/public/images/stunningillustrations/3.jpeg'
+import homebannerlogos4 from '/public/images/stunningillustrations/4.jpeg'
+import homebannerlogos5 from '/public/images/stunningillustrations/5.jpeg'
+import homebannerlogos6 from '/public/images/stunningillustrations/6.jpeg'
+import homebannerlogos7 from '/public/images/stunningillustrations/7.jpeg'
 import homebannerlogos8 from '/public/images/stunningillustrations/8.svg'
 import homebannerlogos9 from '/public/images/stunningillustrations/9.svg'
 

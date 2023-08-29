@@ -13,6 +13,8 @@ const Experts = (props) => {
             <Col md={12}>
               <h2 className='fw700 font40 text-white font-f t-center font-f mb-4'>{props.title}</h2>
               <p className='fw500 text-white t-center font-f mb-3'> {props.text}</p>
+              <p className='fw500 text-white t-center font-f mb-3'> {props.text2}</p>
+              <p className='fw500 text-white t-center font-f mb-3'> {props.text3}</p>
               <div className={`${styles.orBtns} mt-5`}>
                 <div className={`${styles.expertnum} t-center font-f font-f`}>
                   <Link className={`${styles.discuss}`} href="tel:(346) 502-3898">{props.number}</Link>

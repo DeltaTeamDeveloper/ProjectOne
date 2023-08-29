@@ -22,7 +22,7 @@ import Major from '../../components/Major'
 
 const EbookWritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'> <Link className=' textdocationnone color-blue hover' href='/ebook-writing-services'>Book Formatting Services</Link> That Help You Proudly Put Your Name On Your Book! </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Book Formatting Services</h1>
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -30,7 +30,9 @@ const EbookWritingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'We offer book formatting services that help make your book look professional and appealing to readers. We understand the importance of a well-formatted book, and our team of experts will work closely with you to ensure that your book meets all the necessary requirements.',
+      pra: 'A well-formatted book is crucial for your success as an author. A good story needs a good layout so readers can get a reading experience that is second-to-none. A clear and readable typeface will give your book a professional look.',
+      subtext1:"Not only that, every section you include in your book will be handled by our team of experts, who will ensure once we’re done, you’re able to proudly show off your book!",
+      subtext2:"Get in touch with us today to get started.",
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'bookformattingservices',
@@ -289,7 +291,6 @@ const EbookWritingservices = () => {
           text={item.pra}
           subtext1={item.subtext1}
           subtext2={item.subtext2}
-          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannershome={item.banners}

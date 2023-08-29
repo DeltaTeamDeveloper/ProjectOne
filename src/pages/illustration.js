@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Banner from '../../components/Banner'
 import Partners from '../../components/Partners'
@@ -22,7 +21,7 @@ function Illustrationbook() {
 
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your Book Illustrations</span>  <br className="d-none d-xl-block" /> <Link className='dblockmobile textdocationnone color-blue hover' href="/illustration"> Illustration Services </Link>  <span className=''>from Our Team  <br className="d-none d-xl-block" />  of Top Illustrators for Hire.</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Illustrations</h1>
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
@@ -33,6 +32,10 @@ function Illustrationbook() {
   const bannertext = [
     {
       title: newSpan,
+      pra: (<>When it comes to book covers, we want you to see the <strong>bigger picture</strong>. See what we did there?</>),
+      subtext1: "What makes our book designing and illustration services stand out is that we don’t believe in generic templates. Our team of experts is always ready to go above and beyond for our clients.",
+      subtext2: "Our experts will work with text, images, formatting, and colors to create the book cover of your dreams. From customized logos or symbols for each chapter, to captivating graphics for children’s books; we’ve got everything you’re looking for. ",
+      subtext3: "Give us a call to get started today!",
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'illustrationbook',
@@ -211,12 +214,10 @@ function Illustrationbook() {
 
 
         {/* Why Choose Texas Book Publishing? */}
-        {/* <Whychoosebook
-          title="Why Choose Texas Book Publishing?"
-          text="We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute. To ensure the greatest efficacy, we firmly believe in and work towards a transparent collaboration between you and us. For the greatest candor, we develop intricate production processes that accommodate each of our clients uniquely. The typical content around here is remarkable, genuine, and original!"
-          whychoose={whychoose}
-        /> */}
-
+        <Whychoosebook
+          title={<>Scripting Thoughts into Stories: <span className='color-blue'>Book and eBook Ghostwriters for Hire</span></>}
+          text={<>When you sign up with Texas Book Publishing, you’re making an investment in your dreams and goals. Our proficient squad of book and <strong>eBook ghostwriters</strong> will take the lead on your ideas, transforming them into literary treasures. Think of us as the sherpas of book writing! We will be the guiding light you need to polish, publish, and organize your manuscript.</>}
+        />
 
         {/* Customersatisfaction */}
         <Customersatisfaction />
@@ -227,9 +228,9 @@ function Illustrationbook() {
         <div className='datacloud'>
           <Onestepsolutions />
         </div>
-        
 
-        <Serviceproviders/>
+
+        <Serviceproviders />
 
 
 

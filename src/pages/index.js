@@ -15,15 +15,15 @@ import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
 import Script from 'next/script'
 //
-import whychoose from '/public/images/whychoosebooks/bg-img.png'
-
 
 export default function Home() {
 
-  const exprtSpan = <span className='fw500 font40 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
+  const exprtSpan = <span className='fw700 font40 text-black font-f t-center font-f mb-4'>
+    From Imagination to Reality: Let’s Begin Your Journey</span>
 
   const newSpan = <>
-    <h1 className='font50 fw500 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone fw700 color-blue hover' href="/">Professional Book Writers</Link> Where Your Voice Finds Page</h1>
+    <h1 className='font50 fw500 text-blacks font-f hero-span'>
+    <span className='fw700 color-blue'>Professional Book Writers</span>: Where Your Voice Finds Page</h1>
     <h5 className='font16 fw600 text-blacks font-f hero-span mt-3'>Your story = our expertise – we put the pages together.</h5>
   </>;
 
@@ -145,7 +145,8 @@ export default function Home() {
 
         <Homebanner
           title={newSpan}
-          text='Welcome to Texas Book Publishing: where professional book writers bind your dreams, self-publishing on Amazon becomes a breeze, and the best in the USA await your story’s adventure.'
+          text='Dreaming of becoming an author but don’t know where to start? You’ve come to the right place!'
+          text2='Welcome to Texas Book Publishing: where professional book writers build your dreams, self-publishing on Amazon becomes a breeze, and the best in the USA await your story’s arrival.'
           discuss={discuss}
           homebannernum='Call Us Now'
           bannershome='banner'
@@ -156,16 +157,6 @@ export default function Home() {
         <Partners />
 
         <Strugglingtogive
-          title=""
-          text="You may be a victim of the following nuisances"
-          list1="Slow Productivity"
-          list2="Lack of Resources"
-          list3="Mismanaged Time Schedules"
-          list4="Financial Constraints"
-          list5="Demotivation"
-          list6="Delayed Creativity Process"
-          list7="Delayed Writing Process"
-          list8="Continuous Revisions"
           btn1="Get a free Proposal"
           btn2="Talk to an expert"
           btn3="(346) 502-3898"
@@ -174,7 +165,9 @@ export default function Home() {
         {/* Talk To Our Experts! */}
         <Experts
           title={exprtSpan}
-          text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
+          text="Think ebooks; think Texas Book Publishing’s professional book writers."
+          text2="Whether you’re considering stepping into the portal world of fiction or non-fiction, children’s tales, comic books, or even captivating autobiographies, Texas Book Publishing’s book consultants are the librarians experts you need to guide you."
+          text3="Our commitment to quality, creativity, and vision sets us apart as the best book publishing company in the USA."
           number="(346) 502-3898"
           discuss="LET'S DISCUSS"
         />
@@ -200,11 +193,10 @@ export default function Home() {
         <Customersatisfaction />
 
         {/* Why Choose Texas Book Publishing? */}
-        {/* <Whychoosebook
-          title="Why Choose Texas Book Publishing?"
-          text="We are well aware of unique content creation requirements for each client. With a team equipped with a wide array of expertise, experiences and knowledge, we are always an author’s top preference. Texas Book Publishing will simplify the Writing, Editing, Publication and Marketing needs for you. Our collaboration would be transparent and hassle-free, reducing all the intricacies from your end. We only deliver content that is remarkable, genuine and original."
-          whychoose={whychoose}
-        /> */}
+        <Whychoosebook
+          title={<>Scripting Thoughts into Stories: <span className='color-blue'>Book and eBook Ghostwriters for Hire</span></>}
+          text={<>When you sign up with Texas Book Publishing, you’re making an investment in your dreams and goals. Our proficient squad of book and <strong>eBook ghostwriters</strong> will take the lead on your ideas, transforming them into literary treasures. Think of us as the sherpas of book writing! We will be the guiding light you need to polish, publish, and organize your manuscript.</>}
+        />
 
         {/* Talk To Our Experts! */}
         {/* <Experts

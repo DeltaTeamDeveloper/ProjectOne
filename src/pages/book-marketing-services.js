@@ -34,14 +34,17 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50  text-black font-f hero-span'> Leave Your Mark Forever: Our <Link className='textdocationnone fw700 color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className='font50 text-black font-f hero-span'>Will Ensure Your Book To Leave a Lasting Impression!</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Book Marketing Services</h1>
 
   const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Is Your Book Ready to Be Read, But Struggling to Reach Its Target Audience?',
+      pra: (<>We understand that as a new author, you might have limited resources for <strong>book marketing</strong> your book. Don’t worry; that’s where we come in!</>),
+      subtext1: (<>We make sure you get a bang for your buck by making every dollar count. Our exclusive <strong>book marketing services</strong> will not only help you reach your target audience; we will make sure your book is number one and on the top shelves!</>),
+      subtext2: "That’s because we firmly believe your book deserves to be a bestseller. Whether you’re looking for full-scale marketing services, or a small campaign, you can count on our experts.",
+      subtext3: (<>Get in touch with us today to get started on your <strong>book marketing</strong> campaign!</>),
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'bookmarketingservices',

@@ -30,14 +30,17 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const BookTrailerServcies = () => {
 
-  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'>Our Marvelous  <Link className='textdocationnone color-blue hover' href="/book-trailer-services"> Book Trailer Services</Link> <span className=''></span> Add Creativity To Your Writing Projects!</h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Book Trailer Services</h1>
 
   const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Looking for a new and captivating way to promote your upcoming book? Look no further, Texas Book Publishing have you covered! Our unmatched book video trailer services help you create the online hype your book deserves. Our experts bring creativity and passion into the mix.',
+      pra: (<span className='fw600'>Lights, camera, action!</span>),
+      subtext1: "Imagine this: you just published a book and now it’s time to pitch it to the world. If you’re an author who’s looking for exceptional book trailer services, you’ve come to the right place.",
+      subtext2: "We offer professional book trailers that are not only budget-friendly, but exclusive, concise, and visually-captivating. From animated book trailers, to author interviews, we’ve got it all!",
+      subtext3: "So, what are you waiting for? Give us a call to get started.",
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'bookvideotrailer',

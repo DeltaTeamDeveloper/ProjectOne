@@ -33,12 +33,15 @@ const Bookpublishingservices = () => {
     {
       title: (
         <>
-          <h1 className='font50 fw500 text-black font-f hero-span'>It’s Time to Convert Your Literary Dreams To Reality With Our Diverse Range of <Link className='textdocationnone fw700 color-blue hover' href="/book-publishing-services/">Book Publishing Services</Link>.</h1>
+          <h1 className='font50 fw700 color-blue font-f hero-span'>Book Publishing Services</h1>
         </>
       ),
       pra: (
-        <> Are you facing complications regarding <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">book publishing</Link> with the help of Texas Book Publishing! </>
+        <> Have you been looking for the perfect <strong>book publishing service</strong>? Well, we’ve got good news for you—your search ends right here!</>
       ),
+      subtext1: (<>We offer the perfect <strong>book publishing services</strong> and strategy, which includes eBooks and hardcover versions that can be customized according to your goals. From fiction to autobiographies, we cover a wide range of genres. There’s no format that’s too much for us.</>),
+      subtext2: "Once everything is set, our publishers will publish your book on different platforms.",
+      subtext3: "So, what are you waiting for? Give us a call and submit your book today.",
       discuss: (<>LET'S DISCUSS</>),
       homebannernum: 'Call Us Now',
       banners: 'bookpublishingservices',

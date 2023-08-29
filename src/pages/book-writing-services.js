@@ -29,7 +29,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 text-black font-f hero-span'> Leave Your Mark Forever: Our  <Link className='textdocationnone color-blue hover fw700' href="/book-writing-services">Book Marketing Services</Link>  <span className=''>Will Ensure Your Book To Leave a Lasting Impression!</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Book Writing Services</h1>
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -37,7 +37,9 @@ const Bookpublishingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Is Your Book Ready to Be Read, But Struggling to Reach Its Target Audience?',
+      pra: 'One of the best things you can do for yourself and others is to bring your ideas to life. And this is where we come in. Our team of experienced writers will go above and beyond to make sure we capture the true essence of your story. ',
+      subtext1: "Our writers will work closely with you to create a personalized, engaging, and well-written narrative that will leave your readers anticipating for more!",
+      subtext2: "Whether it’s fiction, non-fiction, autobiographies, or children’s books, you can trust us to take charge and exceed your expectations!",
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'bookwritingservices',
@@ -294,7 +296,6 @@ const Bookpublishingservices = () => {
           text={item.pra}
           subtext1={item.subtext1}
           subtext2={item.subtext2}
-          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           bannershome={item.banners}

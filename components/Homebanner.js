@@ -38,6 +38,13 @@ const Homebanner = (props) => {
                                     ''
                                 }
 
+                                {props.text2 ?
+
+                                    <p className={`${styles.newPara}  font16 text-black font-f mt-4 m-0`}>{props.text2}</p>
+                                    :
+                                    ''
+                                }
+
                                 {props.discuss ?
                                     <div className={`${styles.bannerBtns} mt-5`}>
                                         <Link className={styles.discuss} href="#">{props.discuss}</Link>

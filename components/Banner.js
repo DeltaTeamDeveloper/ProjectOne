@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import Modal from 'react-bootstrap/Modal'
-import { BsFillPlayFill } from 'react-icons/bs'
 import styles from '@/styles/Banner.module.css'
 
 
@@ -33,35 +32,35 @@ const Banner = (props) => {
 
                 {props.text ?
 
-                  <p className={`${styles.newPara}  font18 text-black font-f mt-4 m-0`}>{props.text}</p>
+                  <p className={`${styles.newPara}  font16 text-black font-f mt-3 m-0`}>{props.text}</p>
                   :
                   ''
                 }
 
                 {props.subtext ?
 
-                  <p className={`${styles.newSubPara} font18 text-black font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
+                  <p className={`${styles.newSubPara} font16 text-black font-f mt-3 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
                   :
                   ''
                 }
 
                 {props.subtext1 ?
 
-                  <p className='fw500 font18 text-black font-f m-0'> {props.subtext1}</p>
+                  <p className='font16 text-black font-f mt-3 m-0'> {props.subtext1}</p>
                   :
                   ''
                 }
 
                 {props.subtext2 ?
 
-                  <p className='fw500 font18 text-black font-f m-0'> {props.subtext2}</p>
+                  <p className='font16 text-black font-f mt-3 m-0'> {props.subtext2}</p>
                   :
                   ''
                 }
 
                 {props.subtext3 ?
 
-                  <p className='fw500 font18 text-black font-f m-0'> {props.subtext3}</p>
+                  <p className='font16 text-black font-f mt-3 m-0'> {props.subtext3}</p>
                   :
                   ''
                 }

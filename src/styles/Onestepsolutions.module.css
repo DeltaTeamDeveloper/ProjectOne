@@ -20,8 +20,11 @@
     display: block;
 }
 
-.wrtingtext {
-    height: 160px;
+.boxSlide{
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 600px;
 }
 
 

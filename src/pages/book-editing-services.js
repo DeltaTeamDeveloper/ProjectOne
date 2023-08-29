@@ -29,9 +29,9 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Polish your words and turn them into literary gold with</span> <Link className='textdocationnone color-blue hover' href="/book-editing-services"> Professional Book Editing Services </Link></h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Book Editing Services</h1>
 
-  const ideas = <span> <Link className='textdocationnone color-blue hover' href="/book-editing-services">Hire book editors</Link> and transform your manuscript into a page-turning sensation that leaves readers craving for more.</span>
+  const ideas = <span>Don’t trust your manuscript with just about anyone. When it comes to <strong>affordable book editing services</strong>, we are synonymous with quality. Whether you need to polish your manuscript or need to a quick grammar check, you can count on us to do an amazing job. We are one of the <strong>top book editing companies</strong> in Texas. </span>
 
 
   const discuss = <span>LET'S DISCUSS</span>
@@ -42,6 +42,9 @@ const Bookpublishingservices = () => {
     {
       title: newSpan,
       pra: ideas,
+      subtext1:"But that’s not all we do. We make sure everything is perfect before hitting the ‘publish’ button. We bring your ideas and story to life. We make sure everything flows smoothly.",
+      subtext2:"We have the secret ingredients to making sure your book takes the world by storm. Whether it’s developmental editing, proofreading, basic editing; just leave it all to us.",
+      subtext3:"So, what are you waiting for? Get in touch with us today to get started.",
       discuss: discuss,
       homebannernum: 'Call Us Now ',
       banners: 'bookeditingservices',

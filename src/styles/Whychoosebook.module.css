@@ -1,27 +1,35 @@
-.choosebook{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: 'Montserrat';
+.choosebook {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Montserrat";
+  overflow: hidden;
 }
 
-.whytext{
-
-    max-width: 1053px;
-    margin: 0 auto;
+.whytext {
+  max-width: 1053px;
+  margin: 0 auto;
 }
-.whychooseimge{
-    text-align: center;
+.whychooseimge img {
+  text-align: center;
 }
 
+.whychoose {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
-@media (max-width:480px)  { 
+.whychooseCnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  width: 100%;
+}
 
-    .choosebook{
-        padding-top: 50px;
-       padding-bottom: 50px;
-    }
-    .choosebook p {
-        padding-bottom: 30px;
-    }
-
+@media (max-width: 480px) {
+  .choosebook p {
+    padding-bottom: 30px;
+  }
 }

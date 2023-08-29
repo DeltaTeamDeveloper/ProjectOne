@@ -170,27 +170,54 @@ const Footer = () => {
               </ul>
 
               <ul className={styles.socialiconfooter}>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.facebook.com/bookwritingexperts"><RiFacebookBoxFill size={20} /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://twitter.com/bookwritingexp"><AiOutlineTwitter size={17} /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.instagram.com/bookwritingexp/"><AiOutlineInstagram size={17} /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.youtube.com/channel/UCMwHkNiJzrMd6MlPOBFMmLA"><BsYoutube size={17} /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.linkedin.com/company/bookwritingexp"><FaLinkedinIn size={17} /></Link></li>
+                <li className={styles.socaillinks}>
+                  <Link className={styles.styleset} href="https://www.facebook.com/bookwritingexperts">
+                    <RiFacebookBoxFill size={20} />
+                  </Link>
+                </li>
+                <li className={styles.socaillinks}>
+                  <Link className={styles.styleset} href="https://twitter.com/bookwritingexp">
+                    <AiOutlineTwitter size={17} />
+                  </Link>
+                </li>
+                <li className={styles.socaillinks}>
+                  <Link className={styles.styleset} href="https://www.instagram.com/bookwritingexp/">
+                    <AiOutlineInstagram size={17} />
+                  </Link>
+                </li>
+                <li className={styles.socaillinks}>
+                  <Link className={styles.styleset} href="https://www.youtube.com/channel/UCMwHkNiJzrMd6MlPOBFMmLA">
+                    <BsYoutube size={17} />
+                  </Link>
+                </li>
+                <li className={styles.socaillinks}>
+                  <Link className={styles.styleset} href="https://www.linkedin.com/company/bookwritingexp">
+                    <FaLinkedinIn size={17} />
+                  </Link>
+                </li>
               </ul>
 
-              <Image loading="lazy" className={`${styles.pay} mt-3`} src={protectedlogo} alt='Texas Book Publishing'></Image>
+              <Image loading="lazy" className={`${styles.pay} mt-3`} src={protectedlogo} alt='Texas Book Publishing' />
 
             </Col>
             <Col md={3}>
               <h2 className='font-f font22 fw500'>Useful Links</h2>
               <ul className={`${styles.footermenu1} mt-4`}>
-
-                <li className={`${styles.footermenulinks} `}><Link className={styles.styleset} href="/">Home</Link></li>
-
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/pricing">Pricing</Link></li>
-
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/contact">Contact</Link></li>
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/blogs">Blogs</Link></li>
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/faqs">Faq's</Link></li>
+                <li className={`${styles.footermenulinks}`}>
+                  <Link className={styles.styleset} href="/">Home</Link>
+                </li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/pricing">Pricing</Link>
+                </li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/contact">Contact</Link>
+                </li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/blogs">Blogs</Link>
+                </li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/faqs">Faq's</Link>
+                </li>
               </ul>
             </Col>
             <Col md={3}>
@@ -198,19 +225,31 @@ const Footer = () => {
               <h2 className='font-f font22 fw500'>Services</h2>
 
               <ul className={`${styles.footermenu1}  mt-4`}>
-                <li className={`${styles.footermenulinks} pt-1`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-publishing-services">Book Publishing</Link></li>
+                <li className={`${styles.footermenulinks} pt-1`}>
+                  <Link className={styles.styleset} href="/book-editing-services">Book Editing</Link>
+                </li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-writing-services">Book Writing</Link></li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/book-publishing-services">Book Publishing</Link>
+                </li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-marketing-services">Book Marketing</Link></li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/book-writing-services">Book Writing</Link>
+                </li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-proofreading-services">Proofreading Services</Link></li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/book-marketing-services">Book Marketing</Link>
+                </li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/ghostwriting-services">Ghostwriting</Link></li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/ghostwriting-services">Ghostwriting</Link>
+                </li>
 
-                <li className={`${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-promotion-services">Book Promotion Services</Link></li>
+                <li className={`${styles.footermenulinks} pt-3`}>
+                  <Link className={styles.styleset} href="/book-proofreading-services">Proofreading Services</Link>
+                </li>
+
               </ul>
             </Col>
             <Col md={2}>
@@ -222,7 +261,7 @@ const Footer = () => {
                   {footerlogosnew.map((item, i) => {
                     return (
                       <div key={i} className={styles.rightlogo}>
-                        <Image loading="lazy" className='img-fluid' src={item.footerlogosfuncy} alt='Texas Book Publishing'></Image>
+                        <Image loading="lazy" className='img-fluid' src={item.footerlogosfuncy} alt='Texas Book Publishing' />
                       </div>
                     )
                   })}
