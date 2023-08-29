@@ -1,20 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    remotePatterns: [
-        {
-            protocol: "https",
-            hostname: "**.texasbookpublishing.com",
-            port: '',
-            pathname: '/wp-content/uploads/**',
-        },
-    ],
-    minimumCacheTTL: 15000000,
-},
+    reactStrictMode: true,
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'wp23.cryscampus.com',
+                port: '',
+                pathname: '/**',
+            }
+        ]
+    }
 }
 
-
-
 module.exports = nextConfig
-

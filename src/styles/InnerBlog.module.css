@@ -1,0 +1,106 @@
+.innerBlog {
+  padding-top: 175px;
+  overflow: hidden;
+  padding-bottom: 50px;
+  font-family: "Poppins";
+}
+
+.innerBlog a {
+  text-decoration: none;
+}
+
+.contentHeading {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b8b8b8;
+}
+
+.detailDate {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.detailDate span {
+  color: #222;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contentHeading h1 {
+  color: #000;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.contentBody a {
+  color: #000;
+}
+
+.contentBody a:hover {
+  color: black;
+}
+
+.contentBody p,
+.contentBody li {
+  margin-bottom: 14px;
+}
+
+.contentBody h2,
+.contentBody h3,
+.contentBody h4,
+.contentBody h5 {
+  color: #000;
+  font-weight: 700;
+  margin: 30px 0 15px;
+}
+
+.contentBody h2 {
+  font-size: 26px;
+  line-height: 36px;
+}
+.contentBody h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.contentBody h4,
+.contentBody h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.contentBody ul li,
+.contentBody ol li,
+.contentBody p {
+  color: #000;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contentBody ul li {
+  position: relative;
+  padding-left: 25px;
+}
+
+.contentBody ul li::before {
+  content: "";
+  top: 10px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  color: black;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 1200px) {
+  .newstyleimg {
+    width: 100%;
+    height: auto;
+  }
+}

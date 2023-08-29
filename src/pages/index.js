@@ -20,7 +20,7 @@ import whychoose from '/public/images/whychoosebooks/bg-img.png'
 
 export default function Home() {
 
-  const exprtSpan = <span className='fw500 font40 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-new hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
+  const exprtSpan = <span className='fw500 font40 text-black font-f t-center font-f mb-4'><span className='fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Texas Book Publishing</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile text-white hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
   const newSpan = <>
     <h1 className='font50 fw500 text-blacks font-f hero-span'><Link className='dblockmobile textdocationnone fw700 color-blue hover' href="/">Professional Book Writers</Link> Where Your Voice Finds Page</h1>
