@@ -23,11 +23,11 @@ const Digitalmarketingservices = () => {
     {
       title: (
         <>
-          <h1 className='font50 fw500 text-black font-f hero-span'><Link className='textdocationnone fw700 color-blue hover' href="/digital-marketing-services/">Digital Book Marketing Services</Link> Designed To Enrich The Reader Experience.</h1>
+          <h1 className='font50 fw700 text-black font-f hero-span'>Transform Your Business with Cutting-Edge <span className='color-blue'>Digital Marketing Services</span></h1>
         </>
       ),
       pra: (
-        <> Supercharge Your Book Sales with Our Innovative <Link className='textdocationnone text-black hover' href="/digital-marketing-services/">Digital Book Marketing Services</Link>. Expand Your Reach, Build  Extraordinary Credibility, and Engage an Ever-Growing Audience. </>
+        <> Looking to take your business to new heights in the Lone Star State? Look no further than our top-notch digital marketing services in Texas. From expertly crafted social media campaigns to cutting-edge SEO strategies, we'll help you reach your target audience, boost your online presence, and achieve unparalleled success in the competitive world of digital marketing. Get ready to transform your business and watch it thrive like never before. </>
       ),
       discuss: "LET'S DISCUSS",
       homebannernum: 'Call Us Now',
@@ -246,8 +246,8 @@ const Digitalmarketingservices = () => {
 
       {/* Aspiring */}
       <Aspiring
-        title='Eye-Catching Book Cover Designs: Standing Out From The Crowd'
-        text={<> Our exceptional <Link className='textdocationnone color-lightgray hover' href="/digital-marketing-services/">digital book marketing services</Link> help to design cover designs, page layouts, and book designs, that are the perfect choice for your business. Our highly skilled graphic designers have crafted numerous captivating book covers and page layouts. By hiring our skilled designers, we ensure that your book and cover are specifically customized to meet your business needs and requirements. </>}
+        title='Captivating Book Cover Designs At Your Disposal'
+        text={<> Our top-notch digital book marketing services offer customized cover designs, page layouts, and book designs tailored perfectly for your business. Our team of highly skilled graphic designers has created countless compelling book covers and page layouts. By employing our talented designers, we guarantee that your book and cover will be specifically customized to suit your unique business needs and requirements. </>}
         number="Call Us Now"
         discuss="Chat With Us Today!"
       />
@@ -269,8 +269,8 @@ const Digitalmarketingservices = () => {
       {/* Aspiring */}
       <div className='newdatecloud'>
         <Aspiring
-          title={<> Relieve Your Marketing Burden With Our <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Digital Book Marketing Agency</Link>! </>}
-          text={<> Marketing, especially book marketing, can be a challenging task for many. However, for <strong>Texas Book Publishing</strong>, it's a breeze. We understand the intricacies of advertising, from crafting compelling pitches to devising profitable social media campaigns and beyond. While these tasks may seem overwhelming to you, we have the expertise and experience to handle them with ease. Let us shoulder the marketing strain and pave the way for your success! </>}
+          title={<> Let Us Take Care of Your <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Book Marketing</Link> Needs! </>}
+          text={<> Book marketing can be difficult for many people, but not for Texas Book Publishing. We are experts in advertising, from creating persuasive pitches to developing successful social media campaigns and more. While these tasks may seem overwhelming to you, we have the knowledge and experience to handle them effortlessly. Let us take on the marketing workload and set the stage for your success! </>}
           number="Call Us Now"
           img={youareonestepcloserto}
 

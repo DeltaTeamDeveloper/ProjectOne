@@ -38,8 +38,8 @@ const Buildingyour = (props) => {
       <div className={styles.makestories}>
 
         <Container>
-          <h2 className="fw700 font40 color-blue font-f t-center mb-4">We Are Building Your Identity </h2>
-          <h2 className="font15 textcolor font-f t-center mb-5"> Done With Book Publishing? It’s High Time You Market Your Asset to Control the Narrative. Need Helping Hands? Our Digital Marketing Agency Is Here To Help You Climb The Ladder Of Success!</h2>
+          <h2 className="fw700 font40 color-blue font-f t-center mb-4">Become a Recognized Author</h2>
+          <h2 className="font15 textcolor font-f t-center mb-5">Are you finished with book publishing? It's time to take charge of your story and market your work. If you need assistance, our digital marketing agency is dedicated to helping you succeed!</h2>
 
 
           <Row>
