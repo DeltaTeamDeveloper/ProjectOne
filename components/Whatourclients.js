@@ -26,7 +26,7 @@ const Whatourclients = () => {
     autoplay: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
@@ -69,11 +69,8 @@ const Whatourclients = () => {
                 <div className={styles.revCards}>
                   <div className={styles.reviews}>
                     <div className={styles.review}>
-                      <h4 className={styles.value}>
-                        A Guiding Light for Upcoming Authors!
-                      </h4>
                       <p className={`${styles.canva}`}>
-                        I found Texas Book Publishing after an unsuccessful hunt for a dependable publisher. The genuine collaboration of their group was a welcome change. They went above and beyond to help me and that genuinely left me impressed.
+                        “Really love how professional they are. They walked me through the process and were very cooperative. They were super patient and made the whole experience stress-free!”
                       </p>
                     </div>
                     <div className={styles.clientData}>
@@ -84,7 +81,7 @@ const Whatourclients = () => {
                         />
                       </div>
                       <div className={styles.clientDataTxt}>
-                        <p className='font14 text-white mb-1'><b>Dyuti Hai</b></p>
+                        <p className='font14 text-white mb-1'><b>Michele </b></p>
                         <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
                       </div>
                     </div>
@@ -93,11 +90,8 @@ const Whatourclients = () => {
                 <div className={styles.revCards}>
                   <div className={styles.reviews}>
                     <div className={styles.review}>
-                      <h4 className={styles.value}>
-                        I like the services they provided.
-                      </h4>
                       <p className={`${styles.canva}`}>
-                        Since this was my first book  published, I was really anxious and unsure about the company I should be sending my money on. My expectations for Texas Publishing have  EXCEEDED. I couldn't be happier with their team's sincerity and dedication.
+                        “They made the publishing process a breeze. I’m SO glad I went with their services! I was at my wit’s end, not knowing what to do with my manuscript. But their team helped with the editing, formatting, and publishing. They took care of everything so I didn’t have to do much. What a relief!”
                       </p>
                     </div>
                     <div className={styles.clientData}>
@@ -108,7 +102,7 @@ const Whatourclients = () => {
                         />
                       </div>
                       <div className={styles.clientDataTxt}>
-                        <p className='font14 text-white mb-1'><b>Dyuti Hai</b></p>
+                        <p className='font14 text-white mb-1'><b>Brenda</b></p>
                         <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
                       </div>
                     </div>
@@ -117,11 +111,8 @@ const Whatourclients = () => {
                 <div className={styles.revCards}>
                   <div className={styles.reviews}>
                     <div className={styles.review}>
-                      <h4 className={styles.value}>
-                        I absolutely loved the finished product.
-                      </h4>
                       <p className={`${styles.canva}`}>
-                        The design team at Texas Book Publishing produced an attractive and unique cover for my most recent book. They were very cooperative, understanding, and enthusiastic about my idea. I got a lot of positive feedback on the book cover!
+                        “They listened to me patiently as I asked them to make changes. I have to say, they are extremely cooperative and the person I spoke to was very polite. She understood what I wanted and only made suggestions when I gave feedback. They also took care of the cover design, editing, formatting, publishing. I highly recommend their services.”
                       </p>
                     </div>
                     <div className={styles.clientData}>
@@ -132,7 +123,7 @@ const Whatourclients = () => {
                         />
                       </div>
                       <div className={styles.clientDataTxt}>
-                        <p className='font14 text-white mb-1'><b>Dyuti Hai</b></p>
+                        <p className='font14 text-white mb-1'><b>Kevin</b></p>
                         <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
                       </div>
                     </div>
@@ -141,11 +132,8 @@ const Whatourclients = () => {
                 <div className={styles.revCards}>
                   <div className={styles.reviews}>
                     <div className={styles.review}>
-                      <h4 className={styles.value}>
-                        They transformed my manuscript.
-                      </h4>
                       <p className={`${styles.canva}`}>
-                        I had this book, not the most exciting one, a murder mystery called "Shadows of Doubt." Feeling lost in the publishing world, I discovered Texas Book Publishing. Their team guided me so well throughout the process.
+                        “I had a few personal commitments so I could not work on my draft. I had an idea, concept, and story that I wanted to execute. So, I found their services online and decided to give it a go. Not only did the finished product blow me away, I was highly impressed by their professionalism. Their team took care of everything for more. They did developmental editing and designed the cover as well. It all came out looking super professional! I’m thankful for their services”
                       </p>
                     </div>
                     <div className={styles.clientData}>
@@ -156,7 +144,7 @@ const Whatourclients = () => {
                         />
                       </div>
                       <div className={styles.clientDataTxt}>
-                        <p className='font14 text-white mb-1'><b>Dyuti Hai</b></p>
+                        <p className='font14 text-white mb-1'><b>Richard</b></p>
                         <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
                       </div>
                     </div>
@@ -165,11 +153,8 @@ const Whatourclients = () => {
                 <div className={styles.revCards}>
                   <div className={styles.reviews}>
                     <div className={styles.review}>
-                      <h4 className={styles.value}>
-                        A trustworthy company.
-                      </h4>
                       <p className={`${styles.canva}`}>
-                        I wanted to share my book with the world, and Texas Book Publishing made it happen in the best way. Right from the start, their team felt like friends cheering me on. They listened to me and worked with me – it was like a team effort.
+                        “They completed the project before the deadline, which is pretty impressive, ngl! They provided me with outstanding services, which I am very grateful for. They answered my emails on time, implemented my suggestions and feedback, and were great to work with. KUDOS to you and your team!”
                       </p>
                     </div>
                     <div className={styles.clientData}>
@@ -180,7 +165,70 @@ const Whatourclients = () => {
                         />
                       </div>
                       <div className={styles.clientDataTxt}>
-                        <p className='font14 mb-1'><b>Dyuti Hai</b></p>
+                        <p className='font14 mb-1'><b>Trey</b></p>
+                        <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.revCards}>
+                  <div className={styles.reviews}>
+                    <div className={styles.review}>
+                      <p className={`${styles.canva}`}>
+                      “If you’re looking for exceptional writing services, I highly recommend these guys. Their process is easy and stress-free. I’m super pleased with them.”
+                      </p>
+                    </div>
+                    <div className={styles.clientData}>
+                      <div>
+                        <Image loading="lazy" className='img-fluid'
+                          src={avtar5}
+                          alt='bookwritingexperts'
+                        />
+                      </div>
+                      <div className={styles.clientDataTxt}>
+                        <p className='font14 mb-1'><b>Sarah</b></p>
+                        <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.revCards}>
+                  <div className={styles.reviews}>
+                    <div className={styles.review}>
+                      <p className={`${styles.canva}`}>
+                      “What I really love about them is that they give me honest feedback and suggestions to let me know where I can improve.”
+                      </p>
+                    </div>
+                    <div className={styles.clientData}>
+                      <div>
+                        <Image loading="lazy" className='img-fluid'
+                          src={avtar5}
+                          alt='bookwritingexperts'
+                        />
+                      </div>
+                      <div className={styles.clientDataTxt}>
+                        <p className='font14 mb-1'><b>Mark</b></p>
+                        <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.revCards}>
+                  <div className={styles.reviews}>
+                    <div className={styles.review}>
+                      <p className={`${styles.canva}`}>
+                      “I worked with their team and my experience was amazing. They are very professional and accommodating. I highly recommend their services.” 
+                      </p>
+                    </div>
+                    <div className={styles.clientData}>
+                      <div>
+                        <Image loading="lazy" className='img-fluid'
+                          src={avtar5}
+                          alt='bookwritingexperts'
+                        />
+                      </div>
+                      <div className={styles.clientDataTxt}>
+                        <p className='font14 mb-1'><b>Krystal</b></p>
                         <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
                       </div>
                     </div>

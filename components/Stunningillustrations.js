@@ -110,11 +110,11 @@ const Stunningillustrations = () => {
                         </Col>
                     </Row>
 
-                    <Row>
+                    {/* <Row>
                         <Col>
                             <Link className={styles.btn1} href="#">OUR PORTFOLIO</Link>
                         </Col>
-                    </Row>
+                    </Row> */}
 
                 </Container>
 
