@@ -17,7 +17,7 @@ const Signup = (props) => {
       first: event.target.first.value,
       email: event.target.email.value,
       phone: event.target.phone.value,
-      message: event.target.message.value,
+      // message: event.target.message.value,
     }
 
 
@@ -26,11 +26,26 @@ const Signup = (props) => {
 
     setScore('Wating For Send Data');
 
-    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-      .then((response) => {
-        setScore('Thank You');
-        console.log(response.data);
-      });
+    // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+    //   .then((response) => {
+    //     setScore('Thank You');
+    //     console.log(response.data);
+    //   });
+
+    fetch('/api/email', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSONdata
+    }).then((res) => {
+      console.log('Response received')
+      if (res.status === 200) {
+        console.log('Response succeeded!')
+      }
+    })
+
 
     const { pathname } = Router
     if (pathname == pathname) {
@@ -48,7 +63,7 @@ const Signup = (props) => {
         <input type="text" className={styles.nametext} required name="first" placeholder="Full Name:" />
         <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
         <input type="number" className={styles.nametext} required name="phone" placeholder="Phone Number:" />
-        <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea>
+        {/* <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea> */}
         <button className={styles.freebtn} type="submit">{score} </button>
       </form>
     </div>
