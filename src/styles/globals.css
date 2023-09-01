@@ -785,14 +785,17 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
 /* ============================= */
 
+.makestories .slick-dots,
 .revcard .slick-dots {
   bottom: -50px;
 }
 
+.makestories .slick-dots li button::before,
 .revcard .slick-dots li button::before {
   display: none;
 }
 
+.makestories .slick-dots li,
 .revcard .slick-dots li {
   display: inline-block;
   position: relative;
@@ -803,6 +806,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   cursor: pointer;
 }
 
+.makestories .slick-dots li button,
 .revcard .slick-dots li button {
   width: 15px !important;
   height: 15px !important;
@@ -819,6 +823,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   color: transparent !important;
 }
 
+.makestories .slick-dots li.slick-active button,
 .revcard .slick-dots li.slick-active button {
   margin: 0;
   width: 40px !important;

@@ -5,7 +5,7 @@
   font-family: "Montserrat";
 }
 
-.orBtns{
+.orBtns {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,10 +26,9 @@
   font-family: "Montserrat";
 }
 
-
-.discuss1:hover{
+.discuss1:hover {
   background-color: transparent;
-  color: #223235;
+  color: #fff;
 }
 
 .discuss {
@@ -56,9 +55,8 @@
     font-size: 14px;
   }
 
-  .orBtns{
+  .orBtns {
     flex-direction: column;
     gap: 40px;
   }
-  
 }

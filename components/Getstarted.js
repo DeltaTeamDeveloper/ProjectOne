@@ -8,7 +8,7 @@ import Router from 'next/router'
 const Getstarted = (props) => {
 
 
-  const [score, setScore] = useState('SUBMIT');
+  const [score, setScore] = useState('GET A QUOTE');
 
   const handleSubmit = async (event) => {
 
@@ -29,25 +29,18 @@ const Getstarted = (props) => {
 
     setScore('Wating For Send Data');
 
-   
-      const response = await axios({
-        method: "post",
-        url: "https://jsonplaceholder.typicode.com/posts",
-        data: JSONdata,
-      });
-      console.log(response.data);
-      setScore('Thank You');
-      const { pathname } = Router
-      if (pathname == pathname) {
-        Router.push('/thank-you')
-      }
 
-    
- 
-
-
-
-
+    const response = await axios({
+      method: "post",
+      url: "https://jsonplaceholder.typicode.com/posts",
+      data: JSONdata,
+    });
+    console.log(response.data);
+    setScore('Thank You');
+    const { pathname } = Router
+    if (pathname == pathname) {
+      Router.push('/thank-you')
+    }
 
   }
 
@@ -81,15 +74,20 @@ const Getstarted = (props) => {
               {/* <input type="number" className={styles.formfree} required name="phone" placeholder="Phone Number" /> */}
               <select name="services" className={`${styles.formfree} ${styles.formdrop}`}>
                 <option value="">Please select Service(s)</option>
-                <option value="Ghost Writing">Ghost Writing</option>
-                <option value="Editing">Editing</option>
-                <option value="Publishing">Publishing</option>
-                <option value="Proofreading">Proofreading</option>
-                <option value="Blog Writing">Blog Writing</option>
-                <option value="Website Content Writing">Website Content Writing</option>
-                <option value="Book Promotion">Book Promotion</option>
-                <option value="Book Writing">Book Writing</option>
-
+                <option value="Book Publishing Services">Book Publishing Services</option>
+                <option value="Book Writing Services">Book Writing Services</option>
+                <option value="Book Editing Services">Book Editing Services</option>
+                <option value="Book Marketing Services">Book Marketing Services</option>
+                <option value="Book Formatting Services">Book Formatting Services</option>
+                <option value="Illustration">Illustration</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Book Trailer Services">Book Trailer Services</option>
+                <option value="Proofreading Services">Proofreading Services</option>
+                <option value="Ebook Writing Services">Ebook Writing Services</option>
+                <option value="Ghostwriting Services">Ghostwriting Services</option>
+                <option value="Audio Book Production">Audio Book Production</option>
+                <option value="Web Content Writing Services">Ebook Writing Services</option>
+                <option value="Business Plan Writing Services">Business Plan Writing Services</option>
               </select>
             </Col>
 
@@ -99,23 +97,9 @@ const Getstarted = (props) => {
 
           </Row>
 
-
-
-
-
-
-
-
-
-
-
           <button className={styles.freebtn} type="submit"> {score} </button>
+
         </form>
-
-
-
-
-
 
       </div>
 
@@ -125,3 +109,4 @@ const Getstarted = (props) => {
 }
 
 export default Getstarted
+

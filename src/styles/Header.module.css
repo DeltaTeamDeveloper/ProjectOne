@@ -300,20 +300,14 @@
 }
 
 .megaLinks img {
+  width: 15%;
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
+  border: 2px solid #ccc;
 }
 
 /* ========================= */
-
-.mblMega{
-  display: none !important;
-}
-
-.DeskMega{
-  display: flex !important;
-}
 
 .firstCol {
   display: flex;

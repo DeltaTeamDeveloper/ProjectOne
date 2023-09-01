@@ -27,6 +27,13 @@ const BookPublishing = (props) => {
             bookbadges1: bookbadges1,
         },
 
+        {
+            title: 'PREMIUM',
+            para: 'We offer a wide range of services for Authors & Researchers such as publishing their work on Amazon, Kindle, Barnes & Nobles, Createspace, and Google Books etc.',
+            btnname: 'Get A Quote',
+            bookbadges2: bookbadges1,
+        },
+
     ];
 
 
@@ -62,6 +69,7 @@ const BookPublishing = (props) => {
                                 </Row>
                             </Col>
                         ))}
+
                     </Row>
                 </Container>
 

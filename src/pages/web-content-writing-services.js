@@ -311,18 +311,6 @@ const EbookWritingservices = () => {
       />
 
 
-      <div>
-        <Selfpublishing
-          title={WaitingForSomeone}
-          text={text}
-          number="Call Us Now"
-          discuss="LET'S DISCUSS"
-          image={newimagetwoo}
-          whychooseclass="marketyourbook"
-        />
-      </div>
-
-
       <div className='pt-5 pb-5'>
         <Container>
           <Row className='pt-5 pb-5'>

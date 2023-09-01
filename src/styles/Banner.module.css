@@ -429,30 +429,38 @@
   font-weight: 500;
   padding: 10px 35px;
   color: #fff;
+  min-width: 180px;
   text-decoration: unset;
   font-family: "Montserrat";
   border-radius: 50px;
+  border: 0;
   background-color: #223235;
+  text-align: center;
 }
 
 .discuss:hover {
   color: #fff;
   background-color: #049ea5;
+  border: 0;
 }
 
 .homenumer:hover {
   color: white;
+  border: 0;
 }
 
 .homenumer {
-  border: 0;
+  font-size: 15px;
+  font-weight: 500;
   padding: 10px 35px;
-  border-radius: 50px;
-  background-color: #049ea5;
   color: #fff;
+  min-width: 180px;
   text-decoration: unset;
-  border: 1px solid #049ea5;
   font-family: "Montserrat";
+  border-radius: 50px;
+  border: 0;
+  text-align: center;
+  background-color: #049ea5;
 }
 
 .homebannerlogo {

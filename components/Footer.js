@@ -213,7 +213,7 @@ const Footer = () => {
                   <Link className={styles.styleset} href="/contact">Contact</Link>
                 </li>
                 <li className={`${styles.footermenulinks} pt-3`}>
-                  <Link className={styles.styleset} href="/blogs">Blogs</Link>
+                  <Link className={styles.styleset} href="/blog">Blogs</Link>
                 </li>
                 <li className={`${styles.footermenulinks} pt-3`}>
                   <Link className={styles.styleset} href="/faqs">Faq's</Link>

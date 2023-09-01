@@ -12,11 +12,11 @@ const Ourprocess = (props) => {
         <Row>
           <Col md={11} className='mx-auto'>
             {props.title2 ?
-              <h2 className='font40 fw700 t-center mb-3 color-blue'> {props.title2}  </h2>
+              <h2 className='font40 fw700 t-center mb-3 text-black'> {props.title2}  </h2>
               : ''}
 
             {props.title ?
-              <h2 className='font40 fw700 t-center mb-3 color-blue'> {props.title} </h2>
+              <h2 className='font40 fw700 t-center mb-3 text-black'> {props.title} </h2>
 
               : ''}
 

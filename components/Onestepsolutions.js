@@ -71,7 +71,7 @@ const Onestepsolutions = () => {
 
 
   var makestories = {
-    dots: false,
+    dots: true,
     arrows: false,
     autoplay: true,
     infinite: true,

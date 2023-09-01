@@ -20,7 +20,7 @@ const Requestafreequote = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     let bodyContent = JSON.stringify({
       name: e.target.name.value,
       email: e.target.email.value,
@@ -50,7 +50,7 @@ const Requestafreequote = () => {
 
 
 
-  
+
 
   return (
     <>
@@ -59,16 +59,22 @@ const Requestafreequote = () => {
           <h2 className="fw700 font40 color-blue font-f t-center mb-3 pt-5 mt-5">Request A Free Quote</h2>
           <form className={styles.formalign} onSubmit={handleSubmit}>
             <Row>
-              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name'  /></Col>
+              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name' /></Col>
 
               <Col md={4}>  <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></Col>
 
-              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  /> </Col>
+              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </Col>
             </Row>
             <button className={styles.freebtn} type="submit"> {score} </button>
           </form>
           <Row className={styles.leftemail}>
-            <Col md={4}>    <h3 className="fw700 font30 colorexpertgrey font-f t-left">Email Us</h3></Col>
+            <Col md={4}>
+              <div>
+                <h4 className='fw700 font17 colorexpertgrey font-f'>Email Us</h4>
+                <p className={styles.bookemail}><MdEmail size={16} />
+                  <Link className={`${styles.emailhref} hover`} href="mailto:info@texasbookpublishing.com"> info@texasbookpublishing.com </Link> </p>
+              </div>
+            </Col>
             <Col md={4}>
               <div>
                 <h4 className='fw700 font17 colorexpertgrey font-f'> For project inquiries only: </h4>

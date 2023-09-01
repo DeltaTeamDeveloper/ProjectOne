@@ -22,7 +22,7 @@
   background-color: #049ea5;
   font: inherit;
   letter-spacing: inherit;
-  padding: 1em 3em;
+  padding: 12px 25px;
   border: none;
   border-radius: 50px;
   text-transform: capitalize;
@@ -47,14 +47,13 @@
   background-color: #fff0;
   font: inherit;
   letter-spacing: inherit;
-  padding: 1em 3em;
+  padding: 12px 50px;
   border: none;
   border-radius: 50px;
   text-transform: capitalize;
   transition: color 1s;
   color: #fff;
   border: 2px solid #fff;
-  width: 100%;
   font-family: "Montserrat";
   text-decoration: none;
   margin-left: 3%;
