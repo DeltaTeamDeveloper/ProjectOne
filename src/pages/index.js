@@ -90,6 +90,7 @@ export default function Home() {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <meta name="ahrefs-site-verification" content="477dd6bba6df5cbe29b3e72784e78d88841329f22877beb016f1dde2e4967124"></meta>
         <title>Texasbookpublishing - Top Professional Book Writers Hub in USA</title>
         <meta name="description" content="Texas Book Publishing is a professional book writers hub with an expert team. They are passionate about bringing stories to life from fiction to non-fiction, and much more." />
         <link rel="canonical" href="https://texasbookpublishing.com/" />
