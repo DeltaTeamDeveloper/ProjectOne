@@ -31,7 +31,9 @@ const Serviceproviders = (props) => {
 
                     </Col>
                     <Col md={3}>
+                        <div className='text-center'>
                         <Image alt='Texas Book Publishing' src={proposal} className="img-fluid"></Image>
+                        </div>
                     </Col>
                 </Row>
             </Container>

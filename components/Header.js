@@ -15,6 +15,7 @@ import headericon4 from '../public/images/headericon/4.png'
 import headericon5 from '../public/images/headericon/5.png'
 import headericon6 from '../public/images/headericon/6.png'
 import headericon7 from '../public/images/headericon/7.png'
+import headericon8 from '../public/images/headericon/8.png'
 import headericon9 from '../public/images/headericon/9.png'
 import headericon10 from '../public/images/headericon/10.png'
 import backarrow from '../public/back-arrow.webp'
@@ -93,30 +94,35 @@ const Header = () => {
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon1} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-publishing-services">Book Publishing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon3} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-writing-services">Book Writing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon4} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-editing-services">Book Editing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon5} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-marketing-services">Book Marketing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon7} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-formatting-services">Book Formatting Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                         </ul>
@@ -124,33 +130,38 @@ const Header = () => {
                       <Col lg={4}>
                         <ul className={`${styles.border}`} >
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
-                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon10} className='img-fluid'></Image>
+                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon6} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/illustration">Illustration</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon10} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/digital-marketing-services">Digital Marketing</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
-                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon10} className='img-fluid'></Image>
+                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon2} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-trailer-services">Book Trailer Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
-                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon6} className='img-fluid'></Image>
+                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon8} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-proofreading-services">Proofreading Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon9} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/ebook-writing-services">Ebook Writing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                         </ul>
@@ -161,24 +172,28 @@ const Header = () => {
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon10} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/audio-book-production">Audio book production </Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon3} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/ghostwriting-services">Ghostwriting Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon5} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/web-content-writing-services">Web Content Writing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={headericon2} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/business-plan-writing-services">Business Plan Writing Services</Link>
+                              <p>Get A Customized Solution By Best Publishing Services.</p>
                             </div>
                           </li>
                         </ul>

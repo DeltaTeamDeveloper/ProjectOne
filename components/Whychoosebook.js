@@ -29,7 +29,7 @@ const Whychoosebook = (props) => {
             </Col>
             <Col lg={6}>
               <div className={styles.whychoose}>
-                <div className='d-flex align-items-center gap-5'>
+                <div className={styles.chosRow}>
                   <div className='pb-2'>
                     <span className='font30 fw500 font-f textcolor'>01</span>
                   </div>
@@ -38,7 +38,7 @@ const Whychoosebook = (props) => {
                     <Image loading="lazy" className='img-fluid' src={icon1} alt='Texas Book Publishing' />
                   </div>
                 </div>
-                <div className='d-flex align-items-center gap-5'>
+                <div className={styles.chosRow}>
                   <div className='pb-2'>
                     <span className='font30 fw500 font-f textcolor'>02</span>
                   </div>
@@ -47,7 +47,7 @@ const Whychoosebook = (props) => {
                     <Image loading="lazy" className='img-fluid' src={icon2} alt='Texas Book Publishing' />
                   </div>
                 </div>
-                <div className='d-flex align-items-center gap-5'>
+                <div className={styles.chosRow}>
                   <div className='pb-2'>
                     <span className='font30 fw500 font-f textcolor'>03</span>
                   </div>
@@ -56,7 +56,7 @@ const Whychoosebook = (props) => {
                     <Image loading="lazy" className='img-fluid' src={icon3} alt='Texas Book Publishing' />
                   </div>
                 </div>
-                <div className='d-flex align-items-center gap-5'>
+                <div className={styles.chosRow}>
                   <div className='pb-2'>
                     <span className='font30 fw500 font-f textcolor'>04</span>
                   </div>
@@ -65,7 +65,7 @@ const Whychoosebook = (props) => {
                     <Image loading="lazy" className='img-fluid' src={icon4} alt='Texas Book Publishing' />
                   </div>
                 </div>
-                <div className='d-flex align-items-center gap-5'>
+                <div className={styles.chosRow}>
                   <div className='pb-2'>
                     <span className='font30 fw500 font-f textcolor'>05</span>
                   </div>

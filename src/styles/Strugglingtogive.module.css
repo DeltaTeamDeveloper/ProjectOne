@@ -1,134 +1,140 @@
 .strugglingtogive {
-    background-color: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    align-items: center;
-
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
 }
-.slow{
-    display: flex;
-    gap: 50px;
+.slow {
+  display: flex;
+  gap: 50px;
 }
 .btnget1 {
-    background-color: #049ea5;
-    font: inherit;
-    letter-spacing: inherit;
-    min-width: 200px;
-    height: 45px;
-    border: none;
-    border: 2px solid #049ea5;
-    border-radius: 5px;
-    text-transform: capitalize;
-    transition: color 1s;
-    color: #fff;
-    font-family: 'Montserrat';
-    border-radius: 50px;
-
+  background-color: #049ea5;
+  font: inherit;
+  letter-spacing: inherit;
+  min-width: 200px;
+  height: 45px;
+  border: none;
+  border: 2px solid #049ea5;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: color 1s;
+  color: #fff;
+  font-family: "Montserrat";
+  border-radius: 50px;
 }
-.btnget2{
-    background-color: rgba(255,255,255,0);
-    font: inherit;
-    letter-spacing: inherit;
-    min-width: 200px;
-    height: 45px;
-    border: none;
-    border: 2px solid #223235;
-    border-radius: 5px;
-    text-transform: capitalize;
-    transition: color 1s;
-    color: #223235;
-    font-family: 'Montserrat';
-    margin-left: 3%;
-    border-radius: 50px;
+.btnget2 {
+  background-color: rgba(255, 255, 255, 0);
+  font: inherit;
+  letter-spacing: inherit;
+  min-width: 200px;
+  height: 45px;
+  border: none;
+  border: 2px solid #223235;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: color 1s;
+  color: #223235;
+  font-family: "Montserrat";
+  margin-left: 3%;
+  border-radius: 50px;
 }
 .btnget2:hover {
-    animation: stripes-move 1s infinite linear;
-    background-color: #049ea5;
-    border: 2px solid #049ea5;
-    color: #fff;
+  animation: stripes-move 1s infinite linear;
+  background-color: #049ea5;
+  border: 2px solid #049ea5;
+  color: #fff;
 }
-.rightcolor{
-    color: #223235;
+.rightcolor {
+  color: #223235;
 }
-.slow ul li{
-    list-style: none;
+.slow ul li {
+  list-style: none;
 }
 
-.topper{
+.topper {
+  position: relative;
+  right: 54px;
+  top: 107px;
+}
+
+.forent {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1920px) {
+  .topper {
     position: relative;
-    right: 54px;
+    right: 0px;
+    top: 70px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .topper {
+    position: relative;
+    right: 0px;
     top: 107px;
+  }
 }
 
-.forent{
-    justify-content: center;
-    align-items: center;
+@media (max-width: 1200px) {
+  .slow {
+    display: unset;
+    gap: 0px;
+  }
+  .slow ul {
+    padding-left: 0;
+  }
+
+  .btnget2 {
+    margin-left: unset;
+    width: 100%;
+    margin-top: 3%;
+    min-width: 200px;
+    max-width: 220px;
+    margin-left: 15px;
+  }
+  .btnget1 {
+    width: 100%;
+    margin-top: 1%;
+    min-width: 200px;
+    max-width: 220px;
+  }
 }
 
-@media (max-width:1920px)  {
-    .topper{
-        position: relative;
-        right: 0px;
-        top: 70px;
-    }
-    
+@media (max-width: 1200px) {
+  .btnget2 {
+    margin-left: unset;
+    width: 100%;
+    margin-top: 3%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .btnget1 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 
-@media (max-width:1920px)  {
-    .topper{
-        position: relative;
-        right: 0px;
-        top: 107px;
-    }
-    
+@media (max-width: 767px) {
+  .topper {
+    right: 0;
+    top: 10px;
+  }
 }
-
-@media (max-width:1200px)  {
-    .slow{
-        display: unset;
-        gap: 0px;
-    }
-    .slow ul{
-        padding-left: 0;
-    }
-
-    .btnget2{
-        margin-left: unset;
-        width: 100%;
-        margin-top: 3%;
-    }
-    .btnget1{
-   
-        width: 100%;
-        margin-top: 1%;
-    }
-
-}
-
-@media (max-width:767px)  { 
-
-    .topper{
-
-        right: 0;
-        top: 10px;
-    }
-
-}
-@media (max-width:480px)  { 
-
-    .topper{
+@media (max-width: 480px) {
+  .topper {
     margin-top: 15%;
-    }
+  }
 
-    .btnget2{
-     
-        margin-top: 3%;
-    }
-    .btnget1{
-   
- 
-        margin-top: 3%;
-    }
-
+  .btnget2 {
+    margin-top: 3%;
+  }
+  .btnget1 {
+    margin-top: 3%;
+  }
 }

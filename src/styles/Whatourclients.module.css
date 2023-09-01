@@ -1,6 +1,6 @@
 .ourclients {
   font-family: "Montserrat";
-  padding: 50px 0 100px;
+  padding: 50px 0;
   display: flex;
   align-items: center;
 }
@@ -92,17 +92,21 @@
 
 @media (max-width: 767px) {
   .value {
-    font-size: 35px;
+    font-size: 20px;
+    line-height: 30px;
     font-family: "Montserrat";
     font-weight: 700;
-    line-height: 1;
     margin-bottom: 5%;
   }
-}
 
-@media (max-width: 480px) {
+  .reviews{
+    height: auto;
+  }
+
   .canva {
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
   }
 }
+
+

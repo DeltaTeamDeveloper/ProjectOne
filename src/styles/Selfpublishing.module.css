@@ -11,10 +11,10 @@
 .middle {
   justify-content: space-between;
 }
-.middle img{
-  transition: all .2s ease-in-out;
+.middle img {
+  transition: all 0.2s ease-in-out;
 }
-.middle:hover img{
+.middle:hover img {
   border: 3px solid #049ea5;
 }
 .marketyourbook {
@@ -36,18 +36,19 @@
   background-color: #049ea5;
   color: #fff;
   text-decoration: unset;
-  margin-left: 10px;
+  margin-left: 15px;
   border: 1px solid #049ea5;
   border-radius: 50px;
   font-family: "Montserrat";
 }
 .asnumber:hover {
   color: white;
+  border: 1px solid #223235;
 }
 .asdiscuss {
   font-size: 15px;
   font-weight: 500;
-  padding: 12px 18px;
+  padding: 12px 32px;
   border: 2px solid #049ea5;
   color: #223235;
   text-decoration: unset;

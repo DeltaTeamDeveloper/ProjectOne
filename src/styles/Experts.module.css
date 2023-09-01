@@ -39,7 +39,6 @@
   padding: 12px 30px;
   background-color: #223235;
   border: 1px solid #223235;
-  width: fit-content;
   border-radius: 50px;
   text-transform: uppercase;
   font-family: "Montserrat";
@@ -58,5 +57,10 @@
   .orBtns {
     flex-direction: column;
     gap: 40px;
+  }
+
+  .discuss1,
+  .discuss {
+    padding: 12px 100px;
   }
 }

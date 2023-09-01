@@ -28,6 +28,22 @@
   width: 100%;
 }
 
+.chosRow{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 991px) {
+  .chosRow{
+    gap: 20px;
+  }
+
+  .whychooseimge{
+    margin-top: 30px;
+  }
+}
+
 @media (max-width: 480px) {
   .choosebook p {
     padding-bottom: 30px;

@@ -60,12 +60,7 @@
 }
 
 @media (max-width: 991px) {
-  .btn1 {
-    padding: 1em 1em;
-  }
-  .btn2 {
-    padding: 1em 1em;
-  }
+
   .stopworrying {
     background-position: top;
     height: auto;
@@ -79,7 +74,7 @@
   .btn2 {
     display: block;
     margin-left: 0%;
-    margin-top: 3%;
+    margin-top: 5%;
   }
 
   .stopworrying h3{

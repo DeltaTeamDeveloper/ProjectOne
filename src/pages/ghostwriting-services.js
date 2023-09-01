@@ -345,6 +345,22 @@ const Bookpublishingservices = () => {
 
 
 
+      <Lululogos />
+
+      {/* Selfpublishing */}
+
+      <Selfpublishing
+        title='A Complete Solution To Your Ghost Writing Essentials Is Here!'
+        text='Texas Book Publishing has got you covered with the Best-Ghostwriting services. You are just one click away!'
+
+        number="(346) 502-3898"
+        discuss="LET'S DISCUSS"
+        image={newimagetwoo}
+        whychooseclass="marketyourbook"
+      />
+      {/* Lululogos components */}
+
+
       <Ourprocess
         title='Our Ghostwriting Service Process'
 
@@ -361,7 +377,7 @@ const Bookpublishingservices = () => {
         num3='03'
 
         heading4='Formatting And Designing Process'
-        para4='In this step, we determine what looks best where. The Formatting and Designing team critically looks into the finalized content and presents it with the best graphical details.'
+        para4='In this step, we determine what loosSSks best where. The Formatting and Designing team critically looks into the finalized content and presents it with the best graphical details.'
         num4='04'
 
         heading5='Market And Promote The Book'
@@ -371,30 +387,12 @@ const Bookpublishingservices = () => {
 
       />
 
-
-      {/* Selfpublishing */}
-
-      <Selfpublishing
-        title='A Complete Solution To Your Ghost Writing Essentials Is Here!'
-        text='Texas Book Publishing has got you covered with the Best-Ghostwriting services. You are just one click away!'
-
-        number="(346) 502-3898"
-        discuss="LET'S DISCUSS"
-        image={newimagetwoo}
-        whychooseclass="marketyourbook"
-      />
-      {/* Lululogos components */}
-
-
-
-
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
 
 
 
-      <Lululogos />
 
 
 

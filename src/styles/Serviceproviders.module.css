@@ -2,7 +2,6 @@
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #02adb54d;
-
 }
 .books {
   justify-content: space-between;
@@ -20,7 +19,7 @@
   background-color: #049ea5;
   font: inherit;
   letter-spacing: inherit;
-  padding: 1em 3em;
+  padding: 12px 25px;
   border: none;
   border-radius: 50px;
   text-transform: capitalize;
@@ -45,7 +44,7 @@
   background-color: #fff0;
   font: inherit;
   letter-spacing: inherit;
-  padding: 1em 2em;
+  padding: 12px 30px;
   border: none;
   border-radius: 50px;
   text-transform: capitalize;
@@ -59,32 +58,16 @@
   font-weight: 500;
 }
 
-@media (max-width: 1200px) { 
-
-  .btn1 {
-    padding: 1em 1em;
-}
-
-.btn2 {
-  padding: 1em 1em;
-}
-
-
-}
-
 @media (max-width: 991px) {
-
   .books {
     align-items: center;
-}
+  }
 
   .btn1 {
-    padding: 1em 1em;
     display: block;
     text-align: center;
   }
   .btn2 {
-    padding: 1em 1em;
     display: block;
     text-align: center;
     margin-left: unset;
