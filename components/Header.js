@@ -18,6 +18,7 @@ import headericon7 from '../public/images/headericon/7.png'
 import headericon8 from '../public/images/headericon/8.png'
 import headericon9 from '../public/images/headericon/9.png'
 import headericon10 from '../public/images/headericon/10.png'
+import animi from '../public/images/headericon/book.gif'
 import backarrow from '../public/back-arrow.webp'
 import Modal from 'react-bootstrap/Modal';
 import Getstarted from './Getstarted'
@@ -151,7 +152,7 @@ const Header = () => {
                             </div>
                           </li>
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
-                            <Image loading="lazy" alt="Texas Book Publishing" src={headericon8} className='img-fluid'></Image>
+                            <Image loading="lazy" alt="Texas Book Publishing" src={animi} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
                               <Link className={styles.menulinks} href="/book-proofreading-services">Proofreading Services</Link>
                               <p>Get A Customized Solution By Best Publishing Services.</p>
