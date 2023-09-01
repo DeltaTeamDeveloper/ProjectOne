@@ -1,6 +1,39 @@
-.professionalaudiobook{
-    background-color: #049ea5;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    
+.professionalaudiobook {
+  background-color: #049ea5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.asnumber {
+  border: 0;
+  padding: 12px 50px;
+  border-radius: 0;
+  background-color: #fff;
+  color: #000;
+  text-decoration: unset;
+  margin-left: 15px;
+  border: 0;
+  border-radius: 50px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 600;
+}
+.asnumber:hover {
+  color: #000;
+  border: 0;
+}
+.asdiscuss {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: unset;
+  font-family: "Montserrat";
+  border-radius: 50px;
+}
+
+.asdiscuss:hover {
+  background-color: #049ea5;
+  color: #fff;
 }

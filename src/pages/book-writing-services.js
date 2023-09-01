@@ -6,7 +6,7 @@ import { Container, Row } from 'react-bootstrap'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
+import publishmybook from '/public/images/selfpublishingservices/2.png'
 // components
 import Banner from '../../components/Banner'
 import Dowecome from '../../components/Dowecome'

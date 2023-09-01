@@ -1,6 +1,6 @@
 .ourclients {
   font-family: "Montserrat";
-  padding: 50px 0;
+  padding: 50px 0 100px;
   display: flex;
   align-items: center;
 }
@@ -10,7 +10,7 @@
 }
 
 .revCards{
-  padding: 10px 0;
+  padding: 0 0 20px 0;
 }
 
 .reviews{
