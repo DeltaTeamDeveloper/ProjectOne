@@ -20,7 +20,7 @@ const Banner = (props) => {
 
         <Container>
           <Row>
-            <Col md={6} className={styles[props.alignclass]}>
+            <Col lg={6} className={styles[props.alignclass]}>
 
               <div className={`${styles.homebannertext} ${styles.otherBanner}`}>
 

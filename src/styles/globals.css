@@ -930,6 +930,10 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
     font-size: 21px;
     line-height: 31px;
   }
+
+  .scrollBox {
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {

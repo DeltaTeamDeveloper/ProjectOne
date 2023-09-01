@@ -12,8 +12,8 @@ const Aspiring = (props) => {
             <div className={styles.aspiring}>
 
                 <Container>
-                    <Row className={`${styles.middle} gy-4`}>
-                        <Col md={7}>
+                    <Row className={`${styles.middle} gy-5`}>
+                        <Col lg={7}>
 
                             <h2 className="fw700 font40 colortextgrey font-f mb-4">{props.title}</h2>
                             <p className='color-lightgray font14 fw400 font-f mt-3'>{props.text}</p>
@@ -28,7 +28,7 @@ const Aspiring = (props) => {
                             </div>
 
                         </Col>
-                        <Col md={5}>
+                        <Col lg={5}>
                             {props.img ?
                                 <Image loading="lazy" alt="Texas Book Publishing" src={props.img} className='img-fluid mt-3' />
 

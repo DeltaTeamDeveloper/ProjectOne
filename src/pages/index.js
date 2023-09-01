@@ -18,9 +18,6 @@ import Script from 'next/script'
 
 export default function Home() {
 
-  const exprtSpan = <span className='fw700 font40 text-black font-f t-center font-f mb-4'>
-    From Imagination to Reality: Let’s Begin Your Journey</span>
-
   const newSpan = <>
     <h1 className='font50 fw500 text-blacks font-f hero-span'>
     <span className='fw700 color-blue'>Professional Book Writers</span>: Where Your Voice Finds Page</h1>
@@ -165,7 +162,7 @@ export default function Home() {
 
         {/* Talk To Our Experts! */}
         <Experts
-          title={exprtSpan}
+          title="From Imagination to Reality: Let’s Begin Your Journey"
           text="Think ebooks; think Texas Book Publishing’s professional book writers."
           text2="Whether you’re considering stepping into the portal world of fiction or non-fiction, children’s tales, comic books, or even captivating autobiographies, Texas Book Publishing’s book consultants are the librarians experts you need to guide you."
           text3="Our commitment to quality, creativity, and vision sets us apart as the best book publishing company in the USA."

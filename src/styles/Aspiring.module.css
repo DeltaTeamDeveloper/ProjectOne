@@ -22,6 +22,7 @@
   font-family: "Montserrat";
   text-decoration: none;
   transition: color 1s;
+  text-align: center;
 }
 
 .btn1:hover {
@@ -38,7 +39,6 @@
   font: inherit;
   letter-spacing: inherit;
   padding: 12px 55px;
-  height: 40px;
   border: none;
   border-radius: 50px;
   text-transform: capitalize;
@@ -49,28 +49,14 @@
   font-family: "Montserrat";
   text-decoration: none;
   margin-left: 3%;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
-  .btn1 {
-    display: block;
-    text-align: center;
-  }
-  .btn2 {
-    display: block;
-    margin-left: 0%;
-    margin-top: 2%;
-    text-align: center;
-  }
+
 }
 
 @media (max-width: 991px) {
-  .btn1 {
-    padding: 1em 1em;
-  }
-  .btn2 {
-    padding: 1em 1em;
-  }
   .stopworrying {
     background-position: top;
   }
@@ -83,6 +69,6 @@
   .btn2 {
     display: block;
     margin-left: 0%;
-    margin-top: 2%;
+    margin-top: 4%;
   }
 }
