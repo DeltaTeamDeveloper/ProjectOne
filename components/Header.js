@@ -210,6 +210,9 @@ const Header = () => {
                   <Link className={styles.menulinks} href="/pricing">Pricing</Link>
                 </li>
                 <li className={styles.navlinks} onClick={handleMenu}>
+                  <Link className={styles.menulinks} href="/about">About Us</Link>
+                </li>
+                <li className={styles.navlinks} onClick={handleMenu}>
                   <Link className={styles.menulinks} href="/contact">Contact us</Link>
                 </li>
                 <li onClick={modal} className={`${styles.navlinks} ${styles.headertel} ${styles.headerbtnspacing}`}>

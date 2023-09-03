@@ -1,139 +1,126 @@
-.whybookpublishing{
-    background-image: url(/images/whybookpublishing/bg.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-position: center;
-    font-family: 'Montserrat';
+.whybookpublishing {
+  background-image: url(/images/whybookpublishing/bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+  font-family: "Montserrat";
 }
 
-.publicservices{
-    padding-top: 50px;
-    background-color: #f8f8f8;
+.publicservices {
+  padding-top: 50px;
+  background-color: #f8f8f8;
 }
 
-.servicetitle{
-    background-color: #f8f8f8;
-    padding-top: 50px;
+.servicetitle {
+  background-color: #f8f8f8;
+  padding: 50px 0;
 }
 
 .posttitle:before {
-    position: absolute;
-    content: '';
-    background-image: url(/images/whybookpublishing/sideicon.png);
-    width: 46px;
-    height: 46px;
-    left: 0;
-    background-size: contain;
-    filter: brightness(0.4);
-
+  position: absolute;
+  content: "";
+  background-image: url(/images/whybookpublishing/sideicon.png);
+  width: 46px;
+  height: 46px;
+  left: 0;
+  background-size: contain;
+  filter: brightness(0.4);
 }
 .posttitle {
-    position: relative;
-    padding-left: 10%;
+  position: relative;
+  padding-left: 10%;
 }
 
-
-.whybookpublishing h2{
-    max-width: 85%;
-    margin: 0 auto;
+.whybookpublishing h2 {
+  max-width: 85%;
+  margin: 0 auto;
 }
 
-
-.keepit{
-    display: block;
+.keepit {
+  display: block;
 }
-.keepit li{
-    list-style: none;
-}
-
-.stillbookwritingservices{
-    background-color: #2c2c2c;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    counter-reset: section;
+.keepit li {
+  list-style: none;
 }
 
-.finetoothedbook{
-    padding-top: 50px;
-    background-color: #f8f8f8;
-    padding-bottom: 50px;
-   
-    
+.stillbookwritingservices {
+  background-color: #2c2c2c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  counter-reset: section;
 }
 
-.alignment{
-    display: block;
+.finetoothedbook {
+  padding-top: 50px;
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
 }
-.motive{
-    margin-top: 4%;
-    display: block;
-    cursor: pointer;
-    
+
+.alignment {
+  display: block;
 }
-.proper{
-    margin-top: 4%;
+.motive {
+  margin-top: 4%;
+  display: block;
+  cursor: pointer;
 }
-.design{
-    position: relative;
-    
+.proper {
+  margin-top: 4%;
 }
-.design:before{
-    position: absolute;
-    content: "";
-    background-color: #223235;
-    width: 7px;
-    height: 7px;
-    top: 9px;
-    left: -17px;
-    border-radius: 50px;
+.design {
+  position: relative;
 }
-.design{
-    display: none;
+.design:before {
+  position: absolute;
+  content: "";
+  background-color: #223235;
+  width: 7px;
+  height: 7px;
+  top: 9px;
+  left: -17px;
+  border-radius: 50px;
 }
-.active1{
-    display:block;
+.design {
+  display: none;
+}
+.active1 {
+  display: block;
 }
 .motive:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.childline{
-    justify-content: space-between;
+.childline {
+  justify-content: space-between;
 }
 
-@media (max-width:991px)  {
+@media (max-width: 991px) {
+  .posttitle {
+    padding-left: 18%;
+  }
 
-    .posttitle {
-        padding-left: 18%;
-    }
-    
+  .servicetitle {
+    background-color: #f8f8f8;
+    padding: 50px 0 0;
+  }
 }
-@media (max-width:767px)  {
-
-    .posttitle {
-        padding-left: 11%;
-    }
-    
+@media (max-width: 767px) {
+  .posttitle {
+    padding-left: 11%;
+  }
 }
-@media (max-width:480px)  {
+@media (max-width: 480px) {
+  .whybookpublishing p {
+    padding-top: 3%;
+  }
 
-    .whybookpublishing p {
-        padding-top: 3%;
-    }
+  .posttitle {
+    padding-left: 18%;
+  }
 
-    .posttitle {
-        padding-left: 18%;
-    }
-
-    .whybookpublishing{
-      
-
-        padding-bottom: 20px;
-
-    }
-    
+  .whybookpublishing {
+    padding-bottom: 20px;
+  }
 }
-
-

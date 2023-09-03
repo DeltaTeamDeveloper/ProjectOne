@@ -15,7 +15,7 @@ const Cta = () => {
                                 <h3 className="fw700 font40 text-white font-f mb-4">Leading <Link className='color-blue fw700 hover textdocationnone' href='/book-publishing-services'>Book Publishing Services</Link> in Texas
                                 </h3>
                                 <p className='font15 fw400 font-f text-white pe-lg-5 pe-0'>
-                                    Once you have created your masterpiece, your work is complete. Allow us to take the reins from here. Our comprehensive Amazon publishing services encompass the three essential aspects of the publishing journey: Production, Marketing, and Distribution. As industry-leading publishers, we possess vast expertise in successfully publishing numerous books written by professional authors. Our knowledgeable team has elevated countless writers to the esteemed rank of published book authors on a global scale. Now is the moment for you to embark on a journey to fame and recognition!
+                                    Your journey to fame and recognition begins now! With our comprehensive Amazon publishing services, we cover all the essential aspects of your publishing journey. From expert production and strategic marketing to wide-ranging distribution, we have successfully elevated countless professional authors to the esteemed rank of published book authors on a global scale. Let us take the reins and turn your masterpiece into a bestseller.
                                 </p>
                                 <div className='mt-5'>
 

@@ -42,37 +42,35 @@ const Bookpublishingservices = () => {
     {
       title: newSpan,
       pra: ideas,
-      subtext1:"But that’s not all we do. We make sure everything is perfect before hitting the ‘publish’ button. We bring your ideas and story to life. We make sure everything flows smoothly.",
-      subtext2:"We have the secret ingredients to making sure your book takes the world by storm. Whether it’s developmental editing, proofreading, basic editing; just leave it all to us.",
-      subtext3:"So, what are you waiting for? Get in touch with us today to get started.",
+      subtext1: "But that’s not all we do. We make sure everything is perfect before hitting the ‘publish’ button. We bring your ideas and story to life. We make sure everything flows smoothly.",
+      subtext2: "We have the secret ingredients to making sure your book takes the world by storm. Whether it’s developmental editing, proofreading, basic editing; just leave it all to us.",
+      subtext3: "So, what are you waiting for? Get in touch with us today to get started.",
       discuss: discuss,
       homebannernum: 'Call Us Now ',
       banners: 'bookeditingservices',
     }
   ]
 
-  const geta = <span>Reliable <Link className='color-blue textdocationnone hover fw700' href='/book-editing-services'> Editing Solutions <br></br> </Link> For All!</span>
-
-  const posdata = <span>Let The  <Link className='textdocationnone color-blue fw700 hover' href='/book-editing-services'>Best Book Editing Service </Link> Rescue Your Manuscript</span>
-
+  const posdata = <span>Let The  <Link className='textdocationnone color-blue fw500 hover' href='/book-editing-services'>Best Book Editing Service </Link> Rescue Your Manuscript</span>
 
 
   const finetitle = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing Service</Link>
 
-  const finepare = <span> While grammar checkers and self-editing can catch some errors, a professional book editor brings a superior level of proficiency into your work. Hiring a <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>book editing company</Link> is an investment in the success of your book. </span>
+  const finepare = <span>Don't settle for just any editor! Boost your book's success with the expertise and precision only a professional book editing service can offer. Invest in perfection and unlock the full potential of your work.</span>
 
 
 
   const finetitle1 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel Editing Service</Link>
 
-  const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Texas Book Publishing, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Don't settle for less and watch your story become the best seller!</span>
+  const finepare1 = <span>Unlock the powerful potential of your novel with Texas Book Publishing - the masters of storytelling and novel editing. Let our expert editors sculpt your words, unleash your characters' brilliance, and ignite your plot's success. Don't accept anything less - transform your story into a mesmerizing bestseller today!</span>
 
   const finetitle2 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-Fiction Editing Service</Link>
 
-  const finepare2 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-fiction editing</Link>, the art of transforming raw facts into a captivating narrative – Imagine your words infused with clarity, precision, and a touch of literary magic. Don't let your ideas languish in mediocrity and hire <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>non-fiction editors</Link> to help you make your manuscript a success.</span>
+  const finepare2 = <span>Transform your raw facts into a mesmerizing narrative with our non-fiction editing expertise. Discover the power of clarity, precision, and enchanting literary magic, ensuring your ideas soar above mediocrity. Elevate your manuscript to success by hiring our exceptional team of non-fiction editors now!</span>
 
 
-  const title2 = <span>A Glimpse into Our <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing</Link> Process</span>
+  const title2 = <span>A Glimpse Into Our <span className='color-blue'>Editing Process</span></span>
+
 
   const fine = [
 
@@ -106,36 +104,22 @@ const Bookpublishingservices = () => {
 
   ]
 
-  const dateset = <span>  Are You Ready to Bid Farewell to <br></br> the Nightmares of  <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>? </span>
+  const dateset = <span> Are You Ready to Bid Farewell to <br /> the Nightmares of  <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>? </span>
 
 
-  const maketitle = <span>Our Portfolio of <Link href='/book-editing-services' className='textdocationnone colortextgrey hover'> Book Editing</Link> Projects</span>
+  const maketitle = <span>Our Portfolio of <span className='textdocationnone color-blue hover'>Book Editing</span> Projects</span>
 
   const book = <span>Words Perfected, Stories Enhanced - By our  <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link> for a flawless reading experience!</span>
 
-  const then = <span>Our expert <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link> read your manuscript, line by line, and add suggestions to refine sentence structure, enhancing clarity, and ensuring grammatical accuracy to elevate the overall readability and impact of your book.</span>
-
   const collect = <span>Don't let your book collect dust on the shelf of mediocrity, hire the best <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link>  to polish your manuscript to perfection. </span>
 
-  const Editing = <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Developmental  Editing  Service</Link>
+  const mishaps = <span>Tired of False Promises? Hire A Professional <br /> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Service</Link>!</span>
 
-  const matters = <span>We understand the importance of every word, which is why our <Link className='textdocationnone color-blue hover1' href='/book-editing-services'>developmental editors</Link> are committed to edit and proofread stories of any length and style. Hire our <Link className='textdocationnone color-blue hover1' href='/book-editing-services'>developmental editing company</Link> for editing and book formatting services.</span>
+  const errorless = <span>We don’t make false promises. We deliver your book within the given time. Our editors will go above and beyond to meet deadlines.</span>
 
-  const structural = <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Structural Editing Service</Link>
+  const glance = <span>Let Our Professionals Take Care of Everything!</span>
 
-  const turn = <span>Our <Link className='textdocationnone color-blue hover' href='/book-editing-services'>structural editors</Link> scrutinize your book's structure, flow, and coherence to ensure a smooth reading experience. Hiring our <Link className='textdocationnone color-blue hover' href='/book-editing-services'>structural editing company</Link> will help you develop a well-paced, compelling story that keeps readers engaged from beginning to end.</span>
-
-  const approach = <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Copy Editing Service</Link>
-
-  const purview = <span>Trust our <Link className='textdocationnone color-blue hover' href='/book-editing-services'>copy editing company</Link> to improve language, grammar, and punctuation. Our copy editors pay close attention to every word, sentence, and paragraph to ensure clarity, and <Link className='textdocationnone color-blue hover' href='/book-editing-services'>professional editing</Link> . We eradicate errors and refine your prose with perfection.</span>
-
-  const mishaps = <span>Tired of Manuscript Mishaps? Hire A <br></br> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Company</Link>! </span>
-
-  const errorless = <span>Connect with us and experience the <Link className='textdocationnone color-blue hover' href='/book-editing-services'>best book editing service</Link> in the US.</span>
-
-  const glance = <span> Through the Complexity of <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>, Let Our Professional Book Editors Illuminate Your Path! </span>
-
-  const perplexing = <span>Let us help you navigate the maze of <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editing</Link>, proofreading, and self-publishing. your manuscript will become a best seller with our expert team of <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link>. Call, text, or email us today to make your dream of becoming an author a reality!</span>
+  const perplexing = <span>Turn your manuscript into a best-selling phenomenon with our expert book editors! Navigating the maze of editing, proofreading, and self-publishing has never been easier. Contact us today via call, text, or email to transform your dream of becoming a successful author into a reality!</span>
 
 
   // const schema = {
@@ -295,7 +279,6 @@ const Bookpublishingservices = () => {
 
 
 
-
       {/* banner components */}
 
       {bannertext.map((item, i) =>
@@ -315,14 +298,9 @@ const Bookpublishingservices = () => {
 
 
 
-
-
       {/* Dowecome */}
       <Dowecome
-        title={geta}
-        text='Errors are inevitable! But the solutions are not! The professional editing experts at Texas Book Publishing leave no gaps in assisting your writing drafts with top-notch, unique, and customized editing solutions. We further take complete guarantee of what we deliver and keep client satisfaction above everything.'
         Dowecome="publishmybook"
-
       />
 
       {/* Major */}
@@ -343,7 +321,7 @@ const Bookpublishingservices = () => {
       {/* Stopworrying */}
       <Stopworrying
         title='Lost in the Editing Maze? Or Trapped in the Editing Enigma?'
-        subtitle={posdata}
+        subtitle3={posdata}
         btn1='Get a free Proposal'
         btn2='Chat With Us Now!'
       />
@@ -353,9 +331,9 @@ const Bookpublishingservices = () => {
       <div className={`${styles.finetoothedbook} customizedbook`}>
         <Container>
           <Row >
-            <h2 className="colortextgrey font25 t-center font-f mb-2"> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Services</Link> That We’re Offering</h2>
+            <h2 className="colortextgrey font40 fw700 t-center font-f mb-2"> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Services</Link> That We’re Offering</h2>
 
-            <p className='font40 font-f fw500  colortextgrey t-center mb-5'> Find The Best Editing Style For Your Manuscript </p>
+            <p className='font18 font-f fw500 colortextgrey t-center mb-5'> Find The Best Editing Style For Your Manuscript </p>
 
           </Row>
 
@@ -377,23 +355,23 @@ const Bookpublishingservices = () => {
       <Ourprocess
         title2={title2}
         heading1='In-Depth Manuscript Analysis'
-        para1='We meticulously review every aspect of your book, analyzing its structure, pacing, character development, and plot coherence to identify areas for improvement and enhancement.'
+        para1={<>Discover the ultimate book optimization solution! Our expert team meticulously examines every element of your book, uncovering opportunities to amplify its structure, pace, character depth, and plot cohesion. Unleash your book's true potential with our unrivaled enhancement services.</>}
         num1='01'
 
         heading2='Line-by-Line Editing'
-        para2={then}
+        para2={<>Experience the transformative power of our elite team of book editors. With meticulous attention to detail, we meticulously analyze your manuscript, incorporating expert suggestions to optimize sentence structure, clarity, and grammatical precision.</>}
         num2='02'
 
         heading3='Comprehensive Feedback'
-        para3='We provide valuable feedback to help you strengthen your narrative, amplify emotional resonance, and tighten the storytelling, which results in a compelling and unforgettable reading experience.'
+        para3={<>Our expert feedback will elevate your narrative, intensify emotional impact, and refine your storytelling, culminating in an extraordinary and unforgettable reading adventure.</>}
         num3='03'
 
-        heading4='Collaborative Author-Editor Partnership'
-        para4='Texas Book Publishing believe in fostering a collaborative relationship with you, working closely together to maintain the authenticity of your voice while editing the manuscript.'
+        heading4='Author-Editor Collaboration'
+        para4={<>At Texas Book Publishing, we prioritize a strong partnership with you, collaborating closely to preserve the genuine essence of your voice while expertly refining your manuscript. Experience true authenticity in your work with our dedicated team.</>}
         num4='04'
 
         heading5='Quality Assurance '
-        para5='Our rigorous book QA ensures that your book undergoes a final review, ensuring that all edits have been implemented seamlessly and your manuscript is ready for publication.'
+        para5={<>Experience the power of our meticulous book QA process. We guarantee a flawless final review, incorporating all edits seamlessly. Trust us to prepare your manuscript for publication with unmatched precision.</>}
         num5='05'
 
 
@@ -415,7 +393,7 @@ const Bookpublishingservices = () => {
         <Container>
           <Row>
             <Col>
-              <h2 className='color-blue fw700 font40 font-f t-center'>Choose the Best: Hire <br></br> <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Top Book Editing Company</Link> in The US  </h2>
+              <h2 className='text-black fw700 font40 font-f t-center'>Choose the Best: Hire <br></br> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Top Book Editing Company</Link> in The US  </h2>
             </Col>
           </Row>
         </Container>
@@ -424,8 +402,8 @@ const Bookpublishingservices = () => {
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title={Editing}
-        text={matters}
+        title={<>Developmental Editing Service</>}
+        text={<>At Texas Book Publishing, we wholeheartedly embrace the power of words. Our dedicated editors are passionate about perfecting stories of any length and style. Experience exceptional developmental editing/line-by-line editing services by choosing us to take your work to new heights.</>}
         number="(346) 502-3898"
         discuss="Hire The Best Book Editing Company Now!"
         image={whychooseourbookeditingservices1}
@@ -435,8 +413,8 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='Editorial Assessment Service'
-        text='Our editorial assessment provides you with a comprehensive evaluation of your manuscript, highlighting its strengths and areas for improvement. With our expert analysis and detailed recommendations, you`ll gain valuable insights into your writing style, plot structure, pacing, and more.'
+        title={<>Editorial Assessment Services</>}
+        text={<>Get the inside scoop on your manuscript with our top-notch editorial assessment. We offer a comprehensive evaluation that delves into your writing style, plot structure, pacing, and more. Find out your strengths and get expert recommendations to take your manuscript to the next level!</>}
         number="(346) 502-3898"
         discuss="LET'S DISCUSS"
         image={whychooseourbookeditingservices2}
@@ -447,8 +425,8 @@ const Bookpublishingservices = () => {
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title={structural}
-        text={turn}
+        title={<>Structural Editing Service</>}
+        text={<>Let our expert structural editors meticulously analyze your book's structure, flow, and coherence, guaranteeing an impeccably smooth reading experience. Partnering with our acclaimed editing company will fuel the creation of a captivating, finely-tuned narrative that effortlessly captivates readers from start to finish.</>}
         number="(346) 502-3898"
         discuss="Chat With Us Now! "
         image={whychooseourbookeditingservices3}
@@ -458,8 +436,8 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title={approach}
-        text={purview}
+        title={<>Copy-Editing Services</>}
+        text={<>Our meticulous copy editors enhance language, elevate grammar, and perfect punctuation to ensure impeccable clarity. We eliminate errors and elevate your writing to a flawless and professional standard. Trust us to refine your prose to perfection.</>}
         number="(346) 502-3898"
         discuss="Discuss Your Project and Get Started With Us!"
         image={whychooseourbookeditingservices4}

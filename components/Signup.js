@@ -64,6 +64,7 @@ const Signup = (props) => {
         <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
         <input type="number" className={styles.nametext} required name="phone" placeholder="Phone Number:" />
         {/* <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea> */}
+        
         <button className={styles.freebtn} type="submit">{score} </button>
       </form>
     </div>

@@ -151,8 +151,7 @@ const Contact = () => {
 
             </Head>
 
-            <div className={styles.contactbg}>
-
+            <section className={styles.contactbg}>
                 <Container>
                     <Row className='gy-4'>
                         <Col md={5}>
@@ -184,60 +183,61 @@ const Contact = () => {
                         <Col md={6}>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.6609799252105!2d-95.3671296255554!3d29.758523332062968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3b02b00001%3A0x1b31520087aa9bd8!2s801%20Travis%20St%20Ste%202101%2C%20Houston%2C%20TX%2077002%2C%20USA!5e0!3m2!1sen!2s!4v1693162675788!5m2!1sen!2s" width='100%' height='252' ></iframe>
 
-                            <h4 className='font-f fw400 font20 text-black t-center mt-3' >(Operations)</h4>
-                            <p className='font-f fw300 mt-3 text-black t-center' >
+                            <h4 className='font-f fw600 font20 text-black t-center mt-3' >(Operations)</h4>
+                            <p className='font-f fw500 mt-3 text-black t-center' >
                                 801 Travis Street, 2101, Houston, TX 77002, United States
                             </p>
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </section>
 
-            <div className={styles.contfom}>
+            <section id='contpost' className={styles.contpost}>
+                <Container>
+                    <div className={styles.contfom}>
+                        <Row className={styles.conrow}>
+                            <Col md={9}>
+                                <h2 className='t-center fw700 font40 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
 
-                <Container className='contpost' id='contpost'>
-                    <Row className={styles.conrow}>
-                        <Col md={9}>
-                            <h2 className='t-center fw700 font40 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
+                                <form className={styles.label2} onSubmit={handleSubmit}>
 
-                            <form className={styles.label2} onSubmit={handleSubmit}>
+                                    <Row className='gy-3'>
+                                        <Col md={6}><input className={styles.inputfilet} required id='name' type='text' name='first' placeholder='Name' /></Col>
+                                        <Col md={6}><input className={styles.inputfilet} required id='email' type='text' name='last' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /></Col>
+                                    </Row>
 
-                                <Row className='gy-3'>
-                                    <Col md={6}><input className={styles.inputfilet} required id='name' type='text' name='first' placeholder='Name' /></Col>
-                                    <Col md={6}><input className={styles.inputfilet} required id='email' type='text' name='last' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /></Col>
-                                </Row>
+                                    <Row className='mt-3 mb-3 gy-3'>
+                                        <Col md={6}> <input className={styles.inputfilet} required id='phone' type='number' name='phone' placeholder='Phone' /> </Col>
+                                        <Col md={6}> <input className={styles.inputfilet} required id='tel' type='number' name='zip' placeholder='Location/Zip Code' /></Col>
+                                    </Row>
 
-                                <Row className='mt-3 mb-3 gy-3'>
-                                    <Col md={6}> <input className={styles.inputfilet} required id='phone' type='number' name='phone' placeholder='Phone' /> </Col>
-                                    <Col md={6}> <input className={styles.inputfilet} required id='tel' type='number' name='zip' placeholder='Location/Zip Code' /></Col>
-                                </Row>
+                                    <Row>
 
-                                <Row>
+                                        <Col>
+                                            <textarea type="text" id="message" className={styles.textarea1} name="message" placeholder="Tell Us More About Your Project and  Publishing Goals Here"></textarea>
+                                        </Col>
 
-                                    <Col>
-                                        <textarea type="text" id="message" className={styles.textarea1} name="message" placeholder="Tell Us More About Your Project and  Publishing Goals Here"></textarea>
+                                    </Row>
+
+                                    <Col className='mt-3 mb-5'>
+                                        <em className='textcolor'>
+                                            You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:support@texasbookpublishing.com"> <strong className={styles.numpost}>support@texasbookpublishing.com</strong></Link> This site is protected by reCAPTCHA and the Google
+                                            <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone colortextgrey' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
+                                        </em>
+
                                     </Col>
 
-                                </Row>
+                                    <button className={styles.submitform} type='submit'>{score}</button>
 
-                                <Col className='mt-3 mb-5'>
-                                    <em className='textcolor'>
-                                        You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:support@texasbookpublishing.com"> <strong className={styles.numpost}>support@texasbookpublishing.com</strong></Link> This site is protected by reCAPTCHA and the Google
-                                        <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone colortextgrey' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
-                                    </em>
+                                </form>
 
-                                </Col>
-
-                                <button className={styles.submitform} type='submit'>{score}</button>
-
-                            </form>
-
-                        </Col>
-                    </Row>
+                            </Col>
+                        </Row>
+                    </div>
                 </Container>
-            </div>
+            </section>
 
-            <div className={styles.contactdata}>
+            <section className={styles.contactdata}>
                 <Container>
                     <Row className={styles.conrow}>
                         <Col md={9}>
@@ -248,7 +248,7 @@ const Contact = () => {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </section>
         </>
     )
 }

@@ -12,11 +12,9 @@
   justify-content: space-between;
 }
 .middle img {
-  transition: all 0.2s ease-in-out;
-}
-.middle:hover img {
   border: 3px solid #049ea5;
 }
+
 .marketyourbook {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -69,6 +67,10 @@
     display: block;
     text-align: center;
   }
+
+  .marketyourbook {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -79,7 +81,5 @@
   .cube {
     margin-top: 5%;
   }
-  .marketyourbook {
-    padding-top: 50px;
-  }
+
 }

@@ -12,13 +12,13 @@ const Stopworrying = (props) => {
       <Container>
         <Row>
           <Col md={12}>
-            <h3 className='font25 font-f t-center text-white fw300'> {props.title} </h3>
+            <h3 className='font40 font-f t-center text-white fw700'> {props.title} </h3>
 
 
 
             {props.title2 ?
 
-              <h3 className='font40 font-f t-center text-white fw300'> {props.title2} </h3>
+              <h3 className='font40 font-f t-center text-white fw700'> {props.title2} </h3>
               :
 
               ''
@@ -27,7 +27,7 @@ const Stopworrying = (props) => {
 
             {props.subtitle3 ?
 
-              <p className='font15 text-white fw100 font-f t-center mt-4'>{props.subtitle3}</p>
+              <p className='font15 text-white fw100 font-f t-center mt-2'>{props.subtitle3}</p>
               :
               ''
 
@@ -50,10 +50,10 @@ const Stopworrying = (props) => {
             }
 
 
-            <h2 className='font40 text-white fw300 font-f t-center mt-4'>{props.subtitle}</h2>
+            <p className='font18 text-white fw300 font-f t-center m-0'>{props.subtitle}</p>
             {props.subtitle2 ?
 
-              <p className='font18 text-white fw100 font-f t-center mt-4'>{props.subtitle2}</p>
+              <p className='font18 text-white fw100 font-f t-center m-0'>{props.subtitle2}</p>
               :
               ''
 

@@ -22,7 +22,7 @@ import Major from '../../components/Major'
 
 const EbookWritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>Book Formatting Services</h1>
+  const newSpan = <h1 className='font50 fw700 text-black font-f hero-span'>Exceptional <span className='color-blue'>Book Formatting Services</span></h1>
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -30,9 +30,8 @@ const EbookWritingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'A well-formatted book is crucial for your success as an author. A good story needs a good layout so readers can get a reading experience that is second-to-none. A clear and readable typeface will give your book a professional look.',
-      subtext1:"Not only that, every section you include in your book will be handled by our team of experts, who will ensure once we’re done, you’re able to proudly show off your book!",
-      subtext2:"Get in touch with us today to get started.",
+      pra: 'Transform your book from an ordinary manuscript to a professionally formatted masterpiece! As an aspiring author, you know the importance of a captivating story, but have you considered the impact of an impeccable layout? Enhance your reader’s experience and set yourself apart with our team of exceptional experts.',
+      subtext1: "Don't settle for anything less than perfection. Contact us today to embark on your journey towards literary success. Let us transform your vision into a book that you can proudly showcase to the world!",
       discuss: discuss,
       homebannernum: 'Call Us Now',
       banners: 'bookformattingservices',
@@ -42,19 +41,17 @@ const EbookWritingservices = () => {
 
   const geta = <span className='fw700 color-black'>With Us, Get Ready To Finally See Your Hard Work In Print!</span>
 
-  const titleDb = <span className=' color-blue'>Do You Want To Captivate Your Readers From Beginning To End?
+  const titleDb = <span>Do You Want To Captivate Your Readers From Beginning To End?
   </span>
   const posdata = <span className='fw700' >Give Your Book The Professional Look It Deserves With Our <Link className='color-blue textdocationnone hover' href='/book-formatting-services'>Formatting Services!</Link> </span>
 
-
-  const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/ebook-writing-services' > Give Your Book An EBook Version?</Link></span>
 
   const fine = [
 
     {
       img: mission1,
-      title: 'Identifying and Rectifying the Flaws',
-      text: 'Our formatting professionals receive the manuscript from the clients to start spotting the flaws. With every possible error spotted, we jump-start fixing the imperfections to make the book impeccably flawless.',
+      title: 'Polishing Your Book',
+      text: 'Our team of skilled formatting professionals eagerly awaits your manuscript to begin transforming it into a masterpiece. Armed with a keen eye for detail, we meticulously identify any flaws and swiftly refine them, resulting in a flawlessly polished book that surpasses all expectations.',
       class: 'fintop',
 
 
@@ -62,8 +59,8 @@ const EbookWritingservices = () => {
 
     {
       img: mission2,
-      title: 'Bringing Right Expertise and Tools to the Table',
-      text: 'To format your book for success, our formatting pros go over the manuscript with a fine-tooth comb. They know how to best use the formatting tools to rectify the issues and make the book bright-eyed and bushy-tailed.',
+      title: 'Bringing the Right Expertise and Tools to the Table',
+      text: 'Our team of skilled professionals will leave no stone unturned as they polish every detail of your manuscript using the most effective formatting tools. Experience the magic as your book emerges with a vibrant and captivating charm that will captivate readers far and wide.',
       class: 'fintop',
 
 
@@ -71,8 +68,8 @@ const EbookWritingservices = () => {
 
     {
       img: mission3,
-      title: 'Customized Formatting Services',
-      text: 'Our best book formatting services are designed by keeping the genre of your book and the unique requirements in mind. We ensure to leave no stone unturned when it comes to delivering the formatting services for your masterpiece!',
+      title: 'Tailored Book Formatting Services',
+      text: 'Experience our unparalleled book formatting services tailored to your specific genre and individual requirements. We guarantee an uncompromising commitment to excellence, leaving no detail untouched in transforming your manuscript into a true work of art!',
       class: 'fintop',
 
 
@@ -81,58 +78,12 @@ const EbookWritingservices = () => {
 
   ]
 
-  const dateset = <span className='fw500'>  Are You On The Lookout For <br></br> <Link href='/book-formatting-services' className='color-blue textdocationnone hover fw700'>Professional Formatting Services?</Link> </span>
 
 
-  const datesettext = <span>  Texas Book Publishing is the perfect destination to stop by. You can confide in us for formatting your book up to the universal standards. Have us on your side and define the success of your book with our professional book formatting services!
+  const WaitingForSomeone = <span>Transform Your Book Into an <Link className='color-blue textdocationnone hover' href='/ebook-writing-services' >eBook!</Link></span>
 
+  const text = <span>Revolutionize your book-writing journey with our team of professional specialists. Don't miss the chance to tap into the expertise of our eBook Writing Experts, known for their exceptional ability to craft persuasive words and impeccable linguistics that will elevate your work to new heights. You no longer have to worry about originality, as our customized solutions guarantee unique content delivered right on time. Best of all, our services are affordable, so you can achieve your dreams without breaking the bank. Contact us today and witness the magic yourself!
   </span>
-
-  const reasons = [
-
-    {
-      title: 'A Top-Notch Group Of Writers',
-      text: 'Work with some of the industry`s top editors, authors, and publishing strategists. Our team-based strategy will give you the best chance of success.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Individualized Approach to Strategy',
-      text: 'In order to ensure that we develop a strategy that will help you achieve your goals, we first hold four extensive publishing strategy meetings.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Fine-Tuned Process',
-      text: 'Enjoy the dependability and effectiveness of our professionally managed book-writing process.',
-      classnum: 'number1',
-
-    },
-
-    {
-      title: 'Specialists in Books Composing',
-      text: 'Authors from practically every genre who have received accolades are on our team, along with #1 New York Times Book Writers.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'The Best of the Best Editors',
-      text: 'Your proposal will be supervised and edited by a former acquisitions editor from a Big-5 publisher with a number of New York Times’ book writing titles to their credit.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Publishing Process',
-      text: 'Publishing Process We will walk you through the entire book publication process. We can either place your book directly with traditional publishers or assist you in choosing the best hybrid publishing solution.',
-      classnum: 'number1',
-
-    },
-
-
-  ]
-
-  const text = <span>Get in touch with our professional book writing specialists today. Our eBooks Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!
-  </span>;
 
 
   // const schema = {
@@ -302,10 +253,7 @@ const EbookWritingservices = () => {
 
       {/* Dowecome */}
       <Dowecome
-        title={geta}
-        text='Document formatting services can save you a lot of time and hassle when it comes to getting your book ready for publication. A professional formatter will ensure that your book meets all the necessary requirements in terms of layout, design, and typography, as well as making sure it complies with any international standards. If you want to get rid of this tedious process, give our professionals a call and let your book outshine!'
         Dowecome="publishmybook"
-
       />
 
 
@@ -316,7 +264,7 @@ const EbookWritingservices = () => {
       {/* Stopworrying */}
       <Stopworrying
         title={titleDb}
-        title2={posdata}
+        subtitle3={posdata}
         btn1='Get a free Proposal'
         btn2='Talk to an expert'
       />
@@ -326,9 +274,9 @@ const EbookWritingservices = () => {
       <div className='pt-5 pb-5'>
         <Container>
           <Row className='pt-5 pb-5'>
-            <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
+            <h2 className="color-blue font25 fw600 t-center font-f mb-2">Our Approach</h2>
 
-            <p className='font30 font-f fw700 colortextgrey t-center pb-2'>We Take Your Raw Manuscript And Turn It Into A Finished, Print-Ready Book.
+            <p className='font30 font-f fw700 colortextgrey t-center pb-2'>Why Texas Book Publishing Is Your Best Bet For <span className='color-blue'>eBook Formatting</span>
             </p>
 
           </Row>
@@ -408,8 +356,8 @@ const EbookWritingservices = () => {
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title='Professional Book Formatting Services We Give New Life To Your Words'
-          text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
+          title='Unlock the Power of Your Words: Elevate Your Book with our Professional Formatting Services!'
+          text="Your groundbreaking idea deserves a partner that propels it from conception to reality. Trust us to handle every vital aspect, guiding your vision towards a lasting legacy. Together, let's transform your unique concept into an extraordinary endeavor, etched forever in the written word."
           number="Call Us Now"
           discuss="LET'S DISCUSS"
         />

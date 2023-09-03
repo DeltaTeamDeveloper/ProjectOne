@@ -25,7 +25,7 @@ const Whychoosebookwritingcube = (props) => {
 
                             <div className={styles.cube}>
 
-                                <h3 className="fw700 font30 colorexpertgrey font-f mb-3">{props.title}</h3>
+                                <h3 className="fw700 font30 color-blue font-f mb-3">{props.title}</h3>
                                 <p className='font15 textcolor font-f'>{props.text}</p>
                                 {props.subtext ?
 
@@ -35,7 +35,7 @@ const Whychoosebookwritingcube = (props) => {
                                 }
 
 
-                                <div className='mt-4'>
+                                <div className='mt-5'>
                                     <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
                                     <Link className={styles.asnumber} href="tel:(346) 502-3898"> {props.number}</Link>
 

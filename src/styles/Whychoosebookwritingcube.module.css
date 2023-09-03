@@ -10,18 +10,13 @@
 }
 .middle {
   justify-content: space-between;
-  padding: 75px 0;
+  padding: 50px 0;
 }
-.marketyourbook {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
 .middle img {
-  transition: all 0.2s ease-in-out;
-}
-.middle:hover img {
   border: 3px solid #049ea5;
 }
+
 .asnumber:hover {
   background-color: #223235;
 }
@@ -67,6 +62,10 @@
   .asdiscuss {
     display: block;
     text-align: center;
+  }
+
+  .middle {
+    padding: 0 0 50px 0;
   }
 }
 

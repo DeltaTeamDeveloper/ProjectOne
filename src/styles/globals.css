@@ -813,7 +813,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   border-radius: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(35, 35, 35, 0.2) !important;
+  background-color: rgba(35, 35, 35, 0.5) !important;
   transition: all 0.5s ease;
   display: block;
   border: none;
@@ -831,6 +831,16 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   border-radius: 4px;
   background-color: #049ea5 !important;
   transition: all 0.5s ease;
+}
+
+.revcard .slick-prev{
+left: -50px;
+}
+
+.revcard .slick-prev:before,
+.revcard .slick-next:before {
+  color: #000;
+  font-size: 25px;
 }
 
 /* ============================= */
@@ -869,6 +879,10 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 @media (max-width: 991px) {
+  br{
+    display: none;
+  }
+
   .border {
     align-items: unset;
   }

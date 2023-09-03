@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Script from 'next/script'
 // import components
 import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'
@@ -13,14 +14,13 @@ import Comprehensive from '../../components/Comprehensive'
 import Strugglingtogive from '../../components/Strugglingtogive'
 import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
-import Script from 'next/script'
 //
 
 export default function Home() {
 
   const newSpan = <>
     <h1 className='font50 fw500 text-blacks font-f hero-span'>
-    <span className='fw700 color-blue'>Professional Book Writers</span>: Where Your Voice Finds Page</h1>
+      <span className='fw700 color-blue'>Professional Book Writers</span>: Where Your Voice Finds Page</h1>
     <h5 className='font16 fw600 text-blacks font-f hero-span mt-3'>Your story = our expertise – we put the pages together.</h5>
   </>;
 
@@ -54,22 +54,26 @@ export default function Home() {
   //   "datePublished": "2022-03-21"
   // }
 
-  // const schema2 = {
-  //   "@context": "https://schema.org",
-  //   "@type": "Corporation",
-  //   "name": "bookwritingexperts",
-  //   "alternateName": "Texas Book Publishing",
-  //   "url": "https://texasbookpublishing.com/",
-  //   "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-  //   "sameAs": [
-  //     "https://texasbookpublishing.com/",
-  //     "https://www.facebook.com/bookwritingexperts",
-  //     "https://twitter.com/bookwritingexp",
-  //     "https://www.instagram.com/bookwritingexpert/",
-  //     "https://www.linkedin.com/company/book-writing-exp/",
-  //     "https://www.pinterest.com/bookwritingexperts/"
-  //   ]
-  // }
+  const schema2 = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Texas Book Publishing",
+    "alternateName": "Texas Book Publishing Hub",
+    "url": "https://www.texasbookpublishing.com/",
+    "logo": "https://www.texasbookpublishing.com/_next/image?ur…t%2Fstatic%2Fmedia%2Flogo.1b68673b.png&w=640&q=75",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "",
+      "contactType": ""
+    },
+    "sameAs": [
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/i/flow/login?redirect_after_login=%2Fbookwritingexp",
+      "https://www.linkedin.com/company/bookwritingexp/",
+      "https://www.youtube.com/channel/UCMwHkNiJzrMd6MlPOBFMmLA",
+      "https://www.instagram.com/bookwritingexp/"
+    ]
+  }
 
   // const schema3 = {
   //   "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
@@ -106,13 +110,14 @@ export default function Home() {
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
-        />
+        />*/}
 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-        <script
+
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
         /> */}
