@@ -171,27 +171,27 @@ const Footer = () => {
 
               <ul className={styles.socialiconfooter}>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.facebook.com/bookwritingexperts">
+                  <Link className={styles.styleset} href="https://www.facebook.com/profile.php?id=100095732733033">
                     <RiFacebookBoxFill size={20} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://twitter.com/bookwritingexp">
+                  <Link className={styles.styleset} href="https://www.pinterest.com/texasbookpublishing/">
                     <AiOutlineTwitter size={17} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.instagram.com/bookwritingexp/">
+                  <Link className={styles.styleset} href="https://www.instagram.com/texasbookpublishing/">
                     <AiOutlineInstagram size={17} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.youtube.com/channel/UCMwHkNiJzrMd6MlPOBFMmLA">
+                  <Link className={styles.styleset} href="https://www.tiktok.com/@texasbookpublishing?lang=en">
                     <BsYoutube size={17} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.linkedin.com/company/bookwritingexp">
+                  <Link className={styles.styleset} href="https://www.sitejabber.com/reviews/texasbookpublishing.com">
                     <FaLinkedinIn size={17} />
                   </Link>
                 </li>
