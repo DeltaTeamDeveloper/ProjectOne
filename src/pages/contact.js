@@ -21,21 +21,29 @@ const Contact = () => {
             first: event.target.first.value,
             email: event.target.last.value,
             phone: event.target.phone.value,
-            zip: event.target.zip.value,
-            checknow: event.target.checknow.value,
-            message: event.target.message.value,
+          
         }
 
 
         const JSONdata = JSON.stringify(data)
         setScore('Wating For Send Data');
-
-
-        axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-            .then((response) => {
-                setScore('Thank You');
-                console.log(response.data);
-            });
+        fetch('/api/email', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json, text/plain, */*',
+              'Content-Type': 'application/json'
+            },
+            body: JSONdata
+          }).then((res) => {
+            console.log('Response received')
+            if (res.status === 200) {
+              console.log('Response succeeded!')
+            }
+          })
+      
+      
+          
+       
         setScore('Thank You');
         const { pathname } = Router
         if (pathname == pathname) {

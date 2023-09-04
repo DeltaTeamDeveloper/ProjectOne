@@ -24,22 +24,29 @@ const Getstarted = (props) => {
     }
 
 
-
     const JSONdata = JSON.stringify(data)
-
     setScore('Wating For Send Data');
-
-
-    const response = await axios({
-      method: "post",
-      url: "https://jsonplaceholder.typicode.com/posts",
-      data: JSONdata,
-    });
-    console.log(response.data);
+    fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Content-Type': 'application/json'
+        },
+        body: JSONdata
+      }).then((res) => {
+        console.log('Response received')
+        if (res.status === 200) {
+          console.log('Response succeeded!')
+        }
+      })
+  
+  
+      
+   
     setScore('Thank You');
     const { pathname } = Router
     if (pathname == pathname) {
-      Router.push('/thank-you')
+        Router.push('/thank-you')
     }
 
   }
