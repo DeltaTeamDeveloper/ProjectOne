@@ -40,7 +40,7 @@ const Bookpublishingservices = () => {
         </>
       ),
       discuss: discuss,
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'offeringyoubook',
 
 
@@ -483,7 +483,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title={<>Your One-Stop Shop For Exceptional <span className='color-blue'>Proofreading Services</span></>}
           text={qualified}
-          number="+1 (346) 502-3898"
+          number="CAll US NOW"
         />
 
       </div>

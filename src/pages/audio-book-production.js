@@ -36,7 +36,7 @@ function Audiobookproduction() {
       pra1: "Don’t settle for anything less when you have access to a team of professional narrators! We offer a wide range of voices and accents. There’s no more guesswork now that we’re in the picture.",
       pra2: "Let us take care of everything! Get in touch with us today to get started with our professional audiobook services.",
       discuss: discuss,
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'audiobookproduction',
     }
   ]
@@ -190,7 +190,7 @@ function Audiobookproduction() {
           list8="Continuous Revisions"
           btn1="Get a free Proposal"
           btn2="Talk to an expert"
-          btn3="+1 (346) 502-3898"
+          btn3="CAll US NOW"
         />
 
         <Professionalaudiobook />

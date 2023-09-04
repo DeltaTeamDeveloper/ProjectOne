@@ -46,7 +46,7 @@ const Privacypolicy = () => {
                         <h3 className='font-f'>Objective test</h3>
 
                         <p className='font15  textcolor font-f'>
-                            Bookwriting Cube is committed to protecting your privacy when you visit our Site(s). We want you to know what Information we collect, how we use it, and how you can request that this Information is updated or corrected. The organization reserves the right to amend or otherwise modify this Privacy Policy at any time, so please re-visit this page periodically to check for updates. The date of last revision is shown at the top of this document.
+                            Texas Book Publishing is committed to protecting your privacy when you visit our Site(s). We want you to know what Information we collect, how we use it, and how you can request that this Information is updated or corrected. The organization reserves the right to amend or otherwise modify this Privacy Policy at any time, so please re-visit this page periodically to check for updates. The date of last revision is shown at the top of this document.
                         </p>
 
                         <h3 className='font-f'>Scope</h3>
@@ -75,7 +75,7 @@ const Privacypolicy = () => {
                             <li className='font15  textcolor font-f'>“Personal Information” means Information that may be used, alone or in combination, to identify
                                 a specific individual and includes Financial Information.
                             </li>
-                            <li className='font15  textcolor font-f'>“Site” or “Sites” means the Organization’s website located at www.bookwritingcube.com as any
+                            <li className='font15  textcolor font-f'>“Site” or “Sites” means the Organization’s website located at www.taxesbookpublishing.com as any
                                 other Organization-controlled or authorized Sites (including, without limitation, any Business
                                 Associate sites), regardless of domain name or IP address.
                             </li>
@@ -88,10 +88,10 @@ const Privacypolicy = () => {
                                 sounds and pictures that you upload to a Social Network. It also includes your Personal
                                 Information that may be displayed on other users’ Social Network pages.
                             </li>
-                            <li className='font15  textcolor font-f'>“Organization”, “we”, “us”, and “our” refer to the Bookwriting Cube.
+                            <li className='font15  textcolor font-f'>“Organization”, “we”, “us”, and “our” refer to the Texas Book Publishing.
                             </li>
                             <li className='font15  textcolor font-f'>“Unrelated Entities” means third parties that are not Educational Partners and who are not
-                                providing services to Bookwriting Cube. as Business Associates.
+                                providing services to Texas Book Publishing. as Business Associates.
                             </li>
                             <li className='font15  textcolor font-f'>“Web Analytical Information” means internet generated Information we collect when you visit our
                                 Sites. This Information may be linked to marketing and Personal Information. When linked with
@@ -224,7 +224,7 @@ const Privacypolicy = () => {
                         <h3 className='font-f'>Privacy Policy Changes</h3>
 
 
-                        <p className='font15  textcolor font-f'>Bookwriting Cube may update this Privacy Policy or revise it from time to time. If you are concerned about how your Personal Information is used or disclosed you should contact us as described below or check back at this Site periodically to obtain a current copy of this Privacy Policy. We urge you to review this Privacy Policy frequently to obtain the current version. Your continued provision of Personal Information or use of our services following any changes to this Privacy Policy constitutes your acceptance of such changes. If we intend to use Information that personally identifies you in a manner materially different from what we stated at the time it was collected, we will attempt to notify you at least 30 days in advance. You will be given a choice as to whether or not previously provided Information may be used in a new way.</p>
+                        <p className='font15  textcolor font-f'>Texas Book Publishing may update this Privacy Policy or revise it from time to time. If you are concerned about how your Personal Information is used or disclosed you should contact us as described below or check back at this Site periodically to obtain a current copy of this Privacy Policy. We urge you to review this Privacy Policy frequently to obtain the current version. Your continued provision of Personal Information or use of our services following any changes to this Privacy Policy constitutes your acceptance of such changes. If we intend to use Information that personally identifies you in a manner materially different from what we stated at the time it was collected, we will attempt to notify you at least 30 days in advance. You will be given a choice as to whether or not previously provided Information may be used in a new way.</p>
 
 
 
@@ -235,7 +235,7 @@ const Privacypolicy = () => {
 
                         <ul>
                             <li className='font15  textcolor font-f'>
-                                Toll-Free number: <Link className='textdocationnone color-blue hover' href="tel:213-289-3888">(346) 502-3898</Link>
+                                Toll-Free number: <Link className='textdocationnone color-blue hover' href="tel:(346) 502-3898">(346) 502-3898</Link>
                             </li>
                             <li className='font15  textcolor font-f'>
                                 E-mail: <Link className='textdocationnone color-blue hover' href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link>

@@ -102,7 +102,7 @@
 }
 
 .bookmarketingservices {
-  background-image: url(/images/bannerimages/bookmarketingservices.jpg);
+  background-image: url(/images/bannerimages/bookmarketingservices.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0 50px;
@@ -124,10 +124,10 @@
 }
 
 .illustrationbook {
-  background-image: url(/images/bannerimages/illustration.jpg);
+  background-image: url(/images/bannerimages/illustration.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 150px 0 50px;
+  padding: 170px 0 110px;
   display: flex;
   align-items: center;
   align-items: flex-start;

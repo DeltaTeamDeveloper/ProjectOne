@@ -28,7 +28,7 @@ const Pricing = () => {
       title: priceHead,
       pra: 'Do you wish to see your published work ranked among the best sellers? Want to earn the stellar reputation of a published author? Dream of having a well-written book to your name?',
       discuss: discuss,
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'pricing',
       classpost: 'classpost',
     }
@@ -169,7 +169,7 @@ const Pricing = () => {
       <Experts
         title={exprtSpan}
         text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
-        number="+1 (346) 502-3898"
+        number="CAll US NOW"
         discuss="LET'S DISCUSS"
       />
 
@@ -177,7 +177,7 @@ const Pricing = () => {
       <Dowecome
         title='Struggling To Sell More Books?'
         text="Why Not Hire Expert Book Marketing Professionals To Promote Your Book!"
-        number="+1 (346) 502-3898"
+        number="CAll US NOW"
         discuss="LET'S DISCUSS"
         image={howdoimg}
         Dowecome="Dowecome"

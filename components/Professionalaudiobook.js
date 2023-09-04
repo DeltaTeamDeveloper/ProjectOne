@@ -119,7 +119,7 @@ const Professionalaudiobook = () => {
 
                             <div className='mt-5'>
                                 <Link className={styles.asdiscuss} href="javascript:$zopim.livechat.window.show();">LET'S DISCUSS</Link>
-                                <Link className={styles.asnumber} href="tel:(346) 502-3898">+1 (346) 502-3898</Link>
+                                <Link className={styles.asnumber} href="tel:(346) 502-3898">CAll US NOW</Link>
 
                             </div>
 

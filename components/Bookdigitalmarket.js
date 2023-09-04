@@ -57,7 +57,7 @@ const BookDigitalMarket = (props) => {
                         {data.map((post, i) => (
                             <Col md={6} key={i}>
                                 <Row className={`${styles.bookcontent} content`} >
-                                    <Col md={8}>
+                                    <Col md={10}>
                                         <div>
 
                                             <h2 className="fw700 font40 color-blue font-f"> {post.title}</h2>
@@ -67,9 +67,7 @@ const BookDigitalMarket = (props) => {
 
                                         </div>
                                     </Col>
-                                    <Col md={4}>
-                                        <Image loading="lazy" src={post.bookbadges1} alt='Texas Book Publishing' className='img-fluid'></Image>
-                                    </Col>
+                                   
                                 </Row>
                             </Col>
                         ))}

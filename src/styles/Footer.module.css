@@ -1,9 +1,15 @@
 .footer {
   background-color: #288386;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(/images/testimonial/shade-01.png);
   color: #fff;
+  background-size: cover;
   padding-top: 80px;
   font-family: "Montserrat";
 }
+
+
 
 .footermenu1 {
   padding-left: unset;

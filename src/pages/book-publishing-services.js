@@ -43,7 +43,7 @@ const Bookpublishingservices = () => {
       subtext2: "Once everything is set, our publishers will publish your book on different platforms.",
       subtext3: "So, what are you waiting for? Give us a call and submit your book today.",
       discuss: (<>LET'S DISCUSS</>),
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'bookpublishingservices',
       process: 'OUR PROCESS, IN A MINUTE',
 

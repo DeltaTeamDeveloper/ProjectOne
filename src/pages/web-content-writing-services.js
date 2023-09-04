@@ -32,7 +32,7 @@ const EbookWritingservices = () => {
       title: newSpan,
       pra: 'Is your website content outdated? Let us help you with it! At Texas Book Publishing, we create Search Engine Optimized and high-quality website content that guarantees increased traffic and conversions. We have a team of writers with the experience and skill set required to provide the best and cost-effective writing solutions.',
       discuss: discuss,
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'webcontentwritingservices',
 
 
@@ -371,7 +371,7 @@ const EbookWritingservices = () => {
         <Selfpublishing
           title={WaitingForSomeone}
           text={text}
-          number="+1 (346) 502-3898"
+          number="CAll US NOW"
           discuss="LET'S DISCUSS"
           image={newimagetwoo}
           whychooseclass="marketyourbook"
@@ -398,7 +398,7 @@ const EbookWritingservices = () => {
         <Aspiring
           title='Professional Web Content Writing Services We Give New Life To Your Words'
           text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
-          number="+1 (346) 502-3898"
+          number="CAll US NOW"
           discuss="LET'S DISCUSS"
         />
       </div>

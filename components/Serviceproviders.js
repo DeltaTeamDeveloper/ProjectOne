@@ -25,7 +25,7 @@ const Serviceproviders = (props) => {
 
                             <Link href='#' className={styles.btn1}> Get A Free Proposal  </Link>
                             <Link href='#' className={styles.btn2}> Talk To An Expert  </Link>
-                            <Link href='tel:2132893888' className={styles.btn2}>+1 (346) 502-3898</Link>
+                            <Link href='tel:+13465023898' className={styles.btn2}>CAll US NOW</Link>
 
                         </div>
 

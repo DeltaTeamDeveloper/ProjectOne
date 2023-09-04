@@ -84,7 +84,7 @@ const Bookpublishingservices = () => {
       subtext1: "Our team consists of professional writers, editors, formatters, and publishing experts who will make sure your journey with us is as smooth as possible.",
       subtext2: "To get started, feel free to get in touch with us. ",
       discuss: 'LET S DISCUSS',
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'ghostwriting',
     }
   ]
@@ -402,7 +402,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title='When It Comes Down To It, You Need The Whole Nine Yards To Nail It!'
           text="Call us or send us an email, and our professionals will walk you through the full procedure, requirements, and packages for ghostwriting services for your book!"
-          number="+1 (346) 502-3898"
+          number="CAll US NOW"
           discuss="LET'S DISCUSS"
         />
       </div>

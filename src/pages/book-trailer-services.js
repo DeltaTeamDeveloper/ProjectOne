@@ -42,7 +42,7 @@ const BookTrailerServcies = () => {
       subtext2: "We offer professional book trailers that are not only budget-friendly, but exclusive, concise, and visually-captivating. From animated book trailers, to author interviews, we’ve got it all!",
       subtext3: "So, what are you waiting for? Give us a call to get started.",
       discuss: discuss,
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'bookvideotrailer',
     }
   ]
@@ -299,7 +299,7 @@ const BookTrailerServcies = () => {
         title={leveup}
         text='First impression is indeed the last impression, which is why Texas Book Publishing offer the best book video trailer services for our valued clients. Make the right impression on your readers with compelling book video trailers! '
 
-        number="+1 (346) 502-3898"
+        number="CAll US NOW"
         discuss="LET'S DISCUSS"
         image={newimagetwoo}
         whychooseclass="marketyourbook"
@@ -320,7 +320,7 @@ const BookTrailerServcies = () => {
         <Aspiring
           title='Let’s Commence On The Journey To Book Excellence!'
           text="Give us a call at (346) 502-3898, or hit us up with your queries by filling out the form below."
-          number="+1 (346) 502-3898"
+          number="CAll US NOW"
           discuss="LET'S DISCUSS"
         />
 

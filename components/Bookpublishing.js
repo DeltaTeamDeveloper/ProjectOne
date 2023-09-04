@@ -63,9 +63,7 @@ const BookPublishing = (props) => {
 
                                         </div>
                                     </Col>
-                                    <Col md={4}>
-                                        <Image loading="lazy" src={post.bookbadges1} alt='Texas Book Publishing' className='img-fluid'></Image>
-                                    </Col>
+                                    
                                 </Row>
                             </Col>
                         ))}

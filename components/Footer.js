@@ -161,7 +161,7 @@ const Footer = () => {
 
                 <li className={`${styles.footermenulinks} ${styles.footlik} pt-3`}>
                   <BsFillTelephoneFill size={12} />
-                  <Link className={styles.styleset} href="tel:213-289-3888"> (346) 502-3898 </Link>
+                  <Link className={styles.styleset} href="tel:(346) 502-3898"> (346) 502-3898 </Link>
                 </li>
                 <li className={`${styles.footermenulinks} ${styles.footlik} pt-3`}>
                   <ImLocation2 size={16} />

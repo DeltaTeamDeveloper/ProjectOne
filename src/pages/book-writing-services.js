@@ -41,7 +41,7 @@ const Bookpublishingservices = () => {
       subtext1: "Our writers will work closely with you to create a personalized, engaging, and well-written narrative that will leave your readers anticipating for more!",
       subtext2: "Whether it’s fiction, non-fiction, autobiographies, or children’s books, you can trust us to take charge and exceed your expectations!",
       discuss: discuss,
-      homebannernum: '+1 (346) 502-3898',
+      homebannernum: 'CAll US NOW',
       banners: 'bookwritingservices',
     }
   ]
