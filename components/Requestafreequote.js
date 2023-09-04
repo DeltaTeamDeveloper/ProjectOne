@@ -58,6 +58,10 @@ const Requestafreequote = () => {
 
               <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </Col>
             </Row>
+            <p className='font14 fw400 mt-3'>
+              <span className='fw700 d-block'>Note:</span>
+              <span>By providing your phone number and clicking "Submit," you consent to receive text messages from Texas Book Publishing for marketing purposes, including promotions, updates, and offers related to our books and publishing services. You understand that message and data rates may apply, and you may opt-out at any time by texting "STOP" to [Short Code]. Your consent is in compliance with Texas state laws, including the Texas Business and Commerce Code, Chapter 35 (Electronic Transactions), and the Texas Finance Code, Chapter 35 (Consumer Protection).</span>
+            </p>
             <button className={styles.freebtn} type="submit"> {score} </button>
           </form>
           <Row className={styles.leftemail}>

@@ -13,6 +13,20 @@
   font-size: 14px;
 }
 
+.ourform form .nametext.margin {
+  margin-bottom: 0;
+}
+
+.ourform form .newPara {
+  display: block;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.nametext.margin {
+  margin-bottom: 20px;
+}
+
 .nametext::placeholder {
   font-family: "Montserrat";
   font-size: 14px;
