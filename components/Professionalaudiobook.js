@@ -115,11 +115,11 @@ const Professionalaudiobook = () => {
                         <Col lg={9}>
 
                             <h3 className='text-white font-f font14 fw400'>Continue Reading</h3>
-                            <h2 className='text-white font-f linh mt-3'> <Link href="#" className='color-black font-f fw700 textdocationnone hover1'>Texas Book Publishing</Link> Is waiting for you to Ask <br className="d-none d-xl-block" /> for a <Link href="#" className='color-black font-f fw700 textdocationnone hover1'> Professional Audio Book Production</Link></h2>
+                            <h2 className='text-white font-f linh mt-3'> <Link href="javascript:$zopim.livechat.window.show();" className='color-black font-f fw700 textdocationnone hover1'>Texas Book Publishing</Link> Is waiting for you to Ask <br className="d-none d-xl-block" /> for a <Link href="javascript:$zopim.livechat.window.show();" className='color-black font-f fw700 textdocationnone hover1'> Professional Audio Book Production</Link></h2>
 
                             <div className='mt-5'>
-                                <Link className={styles.asdiscuss} href="#">LET'S DISCUSS</Link>
-                                <Link className={styles.asnumber} href="tel:(346) 502-3898">Call Us Now</Link>
+                                <Link className={styles.asdiscuss} href="javascript:$zopim.livechat.window.show();">LET'S DISCUSS</Link>
+                                <Link className={styles.asnumber} href="tel:(346) 502-3898">+1 (346) 502-3898</Link>
 
                             </div>
 

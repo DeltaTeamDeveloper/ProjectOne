@@ -46,7 +46,7 @@ const Bookpublishingservices = () => {
       subtext2: "That’s because we firmly believe your book deserves to be a bestseller. Whether you’re looking for full-scale marketing services, or a small campaign, you can count on our experts.",
       subtext3: (<>Get in touch with us today to get started on your <strong>book marketing</strong> campaign!</>),
       discuss: discuss,
-      homebannernum: 'Call Us Now',
+      homebannernum: '+1 (346) 502-3898',
       banners: 'bookmarketingservices',
     }
   ]

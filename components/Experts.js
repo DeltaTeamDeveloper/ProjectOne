@@ -20,7 +20,7 @@ const Experts = (props) => {
                   <Link className={`${styles.discuss}`} href="tel:(346) 502-3898">{props.number}</Link>
                 </div>
                 <div className={styles.expertdiscuss}>
-                  <Link className={`${styles.discuss1}`} href="#">{props.discuss}</Link>
+                  <Link className={`${styles.discuss1}`} href="javascript:$zopim.livechat.window.show();">{props.discuss}</Link>
                 </div>
               </div>
             </Col>

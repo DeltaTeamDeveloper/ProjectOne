@@ -46,7 +46,7 @@ const Bookpublishingservices = () => {
       subtext2: "We have the secret ingredients to making sure your book takes the world by storm. Whether it’s developmental editing, proofreading, basic editing; just leave it all to us.",
       subtext3: "So, what are you waiting for? Get in touch with us today to get started.",
       discuss: discuss,
-      homebannernum: 'Call Us Now ',
+      homebannernum: '+1 (346) 502-3898 ',
       banners: 'bookeditingservices',
     }
   ]

@@ -30,7 +30,7 @@ const Selfpublishing = (props) => {
 
 
                                 <div className='mt-5'>
-                                    <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
+                                    <Link className={styles.asdiscuss} href="javascript:$zopim.livechat.window.show();">{props.discuss}</Link>
                                     <Link className={styles.asnumber} href="tel:(346) 502-3898"> {props.number}</Link>
 
                                 </div>

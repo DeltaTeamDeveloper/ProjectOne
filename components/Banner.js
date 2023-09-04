@@ -74,7 +74,7 @@ const Banner = (props) => {
 
                 {props.discuss ?
                   <div className={`${styles.bannerBtns} mt-5`}>
-                    <Link className={styles.discuss} href="#">{props.discuss}</Link>
+                    <Link className={styles.discuss} href="javascript:$zopim.livechat.window.show();">{props.discuss}</Link>
                     <Link className={styles.homenumer} href="tel:(346) 502-3898"> {props.homebannernum}</Link>
 
 
@@ -100,7 +100,7 @@ const Banner = (props) => {
                 {props.free ?
                   <div className='mt-4 mb-5'>
 
-                    <Link className={styles.free} href="#"> {props.free} </Link>
+                    <Link className={styles.free} href="javascript:$zopim.livechat.window.show();"> {props.free} </Link>
                   </div>
                   : ''}
               </div>

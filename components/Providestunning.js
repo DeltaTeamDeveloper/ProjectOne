@@ -137,7 +137,7 @@ const Providestunning = (props) => {
 
                     <Col lg={12}>
 
-                        <Link className={`${styles.portfolio} mt-5`} href="#">OUR PORTFOLIO</Link>
+                        <Link className={`${styles.portfolio} mt-5`} href="javascript:$zopim.livechat.window.show();">OUR PORTFOLIO</Link>
 
                     </Col>
                 </Row>

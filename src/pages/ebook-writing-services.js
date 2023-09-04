@@ -34,7 +34,7 @@ const EbookWritingservices = () => {
         <> Let us be the voice of your creativity and bring your novels to life with our expert <Link className='textdocationnone text-black hover' href="/ebook-writing-services/">ebook writers</Link>. We breathe life into your ideas, crafting exceptional narratives. </>
       ),
       discuss: "LET'S DISCUSS",
-      homebannernum: 'Call Us Now',
+      homebannernum: '+1 (346) 502-3898',
       banners: 'ebook',
 
     }

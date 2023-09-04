@@ -36,7 +36,7 @@ const businessplanWringservices = () => {
       title: newSpan,
       pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business. If you need help getting your business off the ground, our team at Texas Book Publishing can assist you. We specialize in creating customized business plans that will help you secure funding and launch your company successfully.',
       discuss: discuss,
-      homebannernum: 'Call Us Now',
+      homebannernum: '+1 (346) 502-3898',
       banners: 'business',
     }
   ]
@@ -143,7 +143,7 @@ const businessplanWringservices = () => {
   //     "@id": "https://texasbookpublishing.com/business-plan-writing-services"
   //   },
   //   "headline": "Business Plan Writing Services - Texas Book Publishing",
-  //   "description": "Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now.",
+  //   "description": "Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. +1 (346) 502-3898.",
   //   "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
   //   "author": {
   //     "@type": "Organization",
@@ -234,12 +234,12 @@ const businessplanWringservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Business Plan Writing Services - Texas Book Publishing</title>
-        <meta name="description" content="Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now." />
+        <meta name="description" content="Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. +1 (346) 502-3898." />
         <link rel="canonical" href="/business-plan-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Business Plan Writing Services - Texas Book Publishing" />
-        <meta property="og:description" content="Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now." />
+        <meta property="og:description" content="Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. +1 (346) 502-3898." />
         <meta property="og:url" content="/business-plan-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
@@ -415,7 +415,7 @@ const businessplanWringservices = () => {
         <Selfpublishing
           title='Helping Entrepreneurs And Small Businesses Achieve Their Goals'
           text={text}
-          number="Call Us Now"
+          number="+1 (346) 502-3898"
           discuss="LET'S DISCUSS"
           image={newimagetwoo}
           whychooseclass="marketyourbook"
@@ -442,7 +442,7 @@ const businessplanWringservices = () => {
         <Aspiring
           title='Professional Business Plan Writing Services We Give New Life To Your Words'
           text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
-          number="Call Us Now"
+          number="+1 (346) 502-3898"
           discuss="LET'S DISCUSS"
         />
       </div>

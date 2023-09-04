@@ -61,7 +61,7 @@ const Stunningillustrations = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h2 className="font-f font40 fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="#">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
+                            <h2 className="font-f font40 fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="javascript:$zopim.livechat.window.show();">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
@@ -112,7 +112,7 @@ const Stunningillustrations = () => {
 
                     {/* <Row>
                         <Col>
-                            <Link className={styles.btn1} href="#">OUR PORTFOLIO</Link>
+                            <Link className={styles.btn1} href="javascript:$zopim.livechat.window.show();">OUR PORTFOLIO</Link>
                         </Col>
                     </Row> */}
 
@@ -125,7 +125,7 @@ const Stunningillustrations = () => {
 
                 <Container>
 
-                    <h2 className="font-f fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="#">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
+                    <h2 className="font-f fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="javascript:$zopim.livechat.window.show();">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
 
 
                     <Slider {...makestories}>
@@ -182,7 +182,7 @@ const Stunningillustrations = () => {
 
                     <Row className='mt-5'>
                         <Col>
-                            <Link className={styles.btn1} href="#">OUR PORTFOLIO</Link>
+                            <Link className={styles.btn1} href="javascript:$zopim.livechat.window.show();">OUR PORTFOLIO</Link>
                         </Col>
                     </Row>
 

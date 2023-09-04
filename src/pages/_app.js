@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
 
       <div>
         <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
-        {/* <div href="#" onClick={openZendeskChat}>Open Zendesk Chat</div> */}
+        {/* <div href="javascript:$zopim.livechat.window.show();" onClick={openZendeskChat}>Open Zendesk Chat</div> */}
       </div>
 
     </>

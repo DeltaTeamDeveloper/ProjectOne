@@ -19,8 +19,8 @@ const Cta = () => {
                                 </p>
                                 <div className='mt-5'>
 
-                                    <Link className={styles.btn1} href="#">Chat With Our Expert Now!</Link>
-                                    <Link className={styles.btn2} href="tel:(346) 502-3898">Call Us Now</Link>
+                                    <Link className={styles.btn1} href="javascript:$zopim.livechat.window.show();">Chat With Our Expert Now!</Link>
+                                    <Link className={styles.btn2} href="tel:(346) 502-3898">+1 (346) 502-3898</Link>
                                 </div>
                             </div>
                         </Col>
