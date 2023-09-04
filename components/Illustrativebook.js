@@ -17,7 +17,7 @@ const Illustrativebook = (props) => {
 
                    <div className='mt-5'>
                         <Link className={styles.discuss} href="telto:(346) 502-3898">(346) 502-3898</Link>
-                        <Link className={styles.homenumer} href="#"> LET'S DISCUSS</Link>
+                        <Link className={styles.homenumer} href="javascript:$zopim.livechat.window.show();"> LET'S DISCUSS</Link>
                   </div>
 
                 </Col>

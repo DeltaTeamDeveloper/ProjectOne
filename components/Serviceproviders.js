@@ -18,14 +18,14 @@ const Serviceproviders = (props) => {
                         <h3 className='font25 font-f text-black fw300'> Stop worrying about publishing books! </h3>
 
                         <h2 className='font40 font-f text-black fw300'>
-                            Let Our Best <Link className='color-blue fw700 textdocationnone hover' href="#">Amazon Kindle Direct  <br className="d-none d-xl-block" /> Publishing (KDP)</Link> Service Providers  <br className="d-none d-xl-block" /> Handle All Your Publishing Troubles!
+                            Let Our Best <Link className='color-blue fw700 textdocationnone hover' href="javascript:$zopim.livechat.window.show();">Amazon Kindle Direct  <br className="d-none d-xl-block" /> Publishing (KDP)</Link> Service Providers  <br className="d-none d-xl-block" /> Handle All Your Publishing Troubles!
                         </h2>
 
                         <div className={styles.aligntop}>
 
                             <Link href='#' className={styles.btn1}> Get A Free Proposal  </Link>
                             <Link href='#' className={styles.btn2}> Talk To An Expert  </Link>
-                            <Link href='tel:2132893888' className={styles.btn2}>Call Us Now</Link>
+                            <Link href='tel:2132893888' className={styles.btn2}>+1 (346) 502-3898</Link>
 
                         </div>
 

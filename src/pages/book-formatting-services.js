@@ -33,7 +33,7 @@ const EbookWritingservices = () => {
       pra: 'Transform your book from an ordinary manuscript to a professionally formatted masterpiece! As an aspiring author, you know the importance of a captivating story, but have you considered the impact of an impeccable layout? Enhance your reader’s experience and set yourself apart with our team of exceptional experts.',
       subtext1: "Don't settle for anything less than perfection. Contact us today to embark on your journey towards literary success. Let us transform your vision into a book that you can proudly showcase to the world!",
       discuss: discuss,
-      homebannernum: 'Call Us Now',
+      homebannernum: '+1 (346) 502-3898',
       banners: 'bookformattingservices',
     }
   ]
@@ -331,7 +331,7 @@ const EbookWritingservices = () => {
         <Selfpublishing
           title={WaitingForSomeone}
           text={text}
-          number="Call Us Now"
+          number="+1 (346) 502-3898"
           discuss="LET'S DISCUSS"
           image={newimagetwoo}
           whychooseclass="marketyourbook"
@@ -358,7 +358,7 @@ const EbookWritingservices = () => {
         <Aspiring
           title='Unlock the Power of Your Words: Elevate Your Book with our Professional Formatting Services!'
           text="Your groundbreaking idea deserves a partner that propels it from conception to reality. Trust us to handle every vital aspect, guiding your vision towards a lasting legacy. Together, let's transform your unique concept into an extraordinary endeavor, etched forever in the written word."
-          number="Call Us Now"
+          number="+1 (346) 502-3898"
           discuss="LET'S DISCUSS"
         />
       </div>

@@ -37,7 +37,7 @@ function Illustrationbook() {
       subtext2: "Our experts will work with text, images, formatting, and colors to create the book cover of your dreams. From customized logos or symbols for each chapter, to captivating graphics for children’s books; we’ve got everything you’re looking for. ",
       subtext3: "Give us a call to get started today!",
       discuss: discuss,
-      homebannernum: 'Call Us Now',
+      homebannernum: '+1 (346) 502-3898',
       banners: 'illustrationbook',
     }
   ]

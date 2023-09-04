@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from '@/styles/Strugglingtogive.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { TiTick } from 'react-icons/ti'
 import Signup from './Signup'
 
 const Strugglingtogive = (props) => {
+
+
+  
+    const [click, setclick] = useState(false);
+
+  function toggle() {
+
+    setclick((prevState) => !prevState);
+  }
+
+  const [show, setShow] = useState(false);
+
+  function modal(e) { e.preventDefault(); setShow(true); }
+  function closemodal() { setShow(false); }
+  
+    function modal(e) { e.preventDefault(); setShow(true); }
+    function closemodal() { setShow(false); }
+
     return (
         <div className={styles.strugglingtogive}>
 
@@ -20,9 +38,9 @@ const Strugglingtogive = (props) => {
                             <p className='textcolor font-f font15'>With our assistance, you can confidently navigate the world of <strong>self-publishing on Amazon</strong> like a pro.</p>
                         </div>
                         <div>
-                            <a href="#footercontact"> <button className={styles.btnget1}> {props.btn1} </button></a>
-                            <a href="#"><button className={styles.btnget2}> {props.btn2} </button></a>
-                            <a href="tel:(346) 502-3898"><button className={styles.btnget2}> {props.btn3} </button></a>
+                            <a href="javascript:void(0)" onClick={modal}> <button  className={styles.btnget1}> {props.btn1} </button></a>
+                            <a href="javascript:$zopim.livechat.window.show();"><button className={styles.btnget2}> {props.btn2} </button></a>
+                            <a href='tel:(346) 502-3898'><button className={styles.btnget2}> {props.btn3} </button></a>
                         </div>
                     </Col>
 

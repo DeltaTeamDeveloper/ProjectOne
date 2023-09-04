@@ -30,7 +30,7 @@ const Digitalmarketingservices = () => {
         <> Looking to take your business to new heights in the Lone Star State? Look no further than our top-notch digital marketing services in Texas. From expertly crafted social media campaigns to cutting-edge SEO strategies, we'll help you reach your target audience, boost your online presence, and achieve unparalleled success in the competitive world of digital marketing. Get ready to transform your business and watch it thrive like never before. </>
       ),
       discuss: "LET'S DISCUSS",
-      homebannernum: 'Call Us Now',
+      homebannernum: '+1 (346) 502-3898',
       banners: 'digitalmarketingservices',
     }
   ]
@@ -248,7 +248,7 @@ const Digitalmarketingservices = () => {
       <Aspiring
         title='Captivating Book Cover Designs At Your Disposal'
         text={<> Our top-notch digital book marketing services offer customized cover designs, page layouts, and book designs tailored perfectly for your business. Our team of highly skilled graphic designers has created countless compelling book covers and page layouts. By employing our talented designers, we guarantee that your book and cover will be specifically customized to suit your unique business needs and requirements. </>}
-        number="Call Us Now"
+        number="+1 (346) 502-3898"
         discuss="Chat With Us Today!"
       />
 
@@ -271,7 +271,7 @@ const Digitalmarketingservices = () => {
         <Aspiring
           title={<> Let Us Take Care of Your <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Book Marketing</Link> Needs! </>}
           text={<> Book marketing can be difficult for many people, but not for Texas Book Publishing. We are experts in advertising, from creating persuasive pitches to developing successful social media campaigns and more. While these tasks may seem overwhelming to you, we have the knowledge and experience to handle them effortlessly. Let us take on the marketing workload and set the stage for your success! </>}
-          number="Call Us Now"
+          number="+1 (346) 502-3898"
           img={youareonestepcloserto}
 
         />
@@ -281,7 +281,7 @@ const Digitalmarketingservices = () => {
       <Companypull
         title={<> Expanding Your Story's Global Presence through Comprehensive <Link className='textdocationnone text-white hover' href="/digital-marketing-services/">Digital Marketing Services</Link>! </>}
         text={<> Contact Us Today to Illuminate Your Book's Path to Success. </>}
-        number="Call Us Now"
+        number="+1 (346) 502-3898"
       />
 
 

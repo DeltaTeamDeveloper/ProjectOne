@@ -151,7 +151,7 @@ export default function Home() {
           text='Dreaming of becoming an author but don’t know where to start? You’ve come to the right place!'
           text2='Welcome to Texas Book Publishing: where professional book writers build your dreams, self-publishing on Amazon becomes a breeze, and the best in the USA await your story’s arrival.'
           discuss={discuss}
-          homebannernum='Call Us Now'
+          homebannernum='+1 (346) 502-3898'
           bannershome='banner'
         />
 
