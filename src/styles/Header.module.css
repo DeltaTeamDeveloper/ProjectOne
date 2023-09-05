@@ -160,11 +160,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.serviceshover:hover .megamenu {
+/* .serviceshover:hover .megamenu {
   display: block;
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
-}
+} */
 
 @keyframes growDown {
   0% {
@@ -244,7 +244,7 @@
   padding: 0px 15px;
 }
 
-.border .navlinks{
+.border .navlinks {
   align-items: flex-start;
 }
 
@@ -352,6 +352,12 @@
   display: none;
 }
 
+.opnMenu {
+  display: block;
+  animation: 0.7s ease-in-out forwards growDown;
+  transform-origin: top;
+}
+
 /* ========================= */
 
 @media (min-width: 1440px) {
@@ -366,8 +372,8 @@
   }
 
   .align_menu {
-    gap: 40px;
-    margin-left: 60px;
+    gap: 35px;
+    margin-left: 30px;
   }
 
   .align_menu.cntct {
@@ -404,12 +410,11 @@
   }
 }
 @media (max-width: 991px) {
-
-  .mblMega{
+  .mblMega {
     display: flex !important;
   }
 
-  .DeskMega{
+  .DeskMega {
     display: none !important;
   }
 
@@ -535,7 +540,7 @@
     flex-direction: column;
     margin-top: 0;
     margin-left: 0;
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   .align_menu.cntct {
@@ -596,6 +601,8 @@
 
   .opnMenu {
     left: 0%;
+    animation: unset;
+    transform-origin: unset;
   }
 
   .serviceshover:hover .megamenu {
@@ -620,6 +627,29 @@
   .backArrow img {
     width: 25px;
     height: 25px;
+  }
+
+  .headerbtnspacing {
+    border: 0px;
+    width: 75%;
+  }
+
+  .num {
+    background-color: #fff;
+  }
+
+  .num:hover {
+    background-color: #fff;
+  }
+
+  .num a {
+    color: #000;
+    font-weight: 600;
+  }
+
+  .num a:hover {
+    color: #000;
+    background-color: #fff;
   }
 }
 

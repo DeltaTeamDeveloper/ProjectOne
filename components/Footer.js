@@ -28,11 +28,8 @@ import logonew5 from '../public/images/footer/logonew5.png'
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import { ImLocation2 } from 'react-icons/im';
-import { RiFacebookBoxFill } from 'react-icons/ri';
-import { AiOutlineTwitter } from 'react-icons/ai';
-import { AiOutlineInstagram } from 'react-icons/ai';
-import { BsYoutube } from 'react-icons/bs';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTiktok, FaInstagram, FaPinterestP } from 'react-icons/fa';
+import jabber from '../public/images/headericon/jabber.png'
 // slick css
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -171,28 +168,28 @@ const Footer = () => {
 
               <ul className={styles.socialiconfooter}>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.facebook.com/profile.php?id=100095732733033">
-                    <RiFacebookBoxFill size={20} />
+                  <Link className={`${styles.styleset} ${styles.sLink}`} href="https://www.facebook.com/profile.php?id=100095732733033">
+                    <FaFacebookF size={20} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.pinterest.com/texasbookpublishing/">
-                    <AiOutlineTwitter size={17} />
+                  <Link className={`${styles.styleset} ${styles.sLink}`} href="https://www.pinterest.com/texasbookpublishing/">
+                    <FaPinterestP size={20} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.instagram.com/texasbookpublishing/">
-                    <AiOutlineInstagram size={17} />
+                  <Link className={`${styles.styleset} ${styles.sLink}`} href="https://www.instagram.com/texasbookpublishing/">
+                    <FaInstagram size={20} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.tiktok.com/@texasbookpublishing?lang=en">
-                    <BsYoutube size={17} />
+                  <Link className={`${styles.styleset} ${styles.sLink}`} href="https://www.tiktok.com/@texasbookpublishing?lang=en">
+                    <FaTiktok size={20} />
                   </Link>
                 </li>
                 <li className={styles.socaillinks}>
-                  <Link className={styles.styleset} href="https://www.sitejabber.com/reviews/texasbookpublishing.com">
-                    <FaLinkedinIn size={17} />
+                  <Link className={`${styles.styleset} ${styles.sLink}`} href="https://www.sitejabber.com/reviews/texasbookpublishing.com">
+                    <Image className={`${styles.jabber} img-fluid`} src={jabber} alt='Texas Book Publishing' />
                   </Link>
                 </li>
               </ul>

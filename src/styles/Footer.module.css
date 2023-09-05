@@ -9,8 +9,6 @@
   font-family: "Montserrat";
 }
 
-
-
 .footermenu1 {
   padding-left: unset;
 }
@@ -55,6 +53,7 @@
   color: #fff;
   text-decoration: none;
 }
+
 .rightlogo {
   text-align: center;
 }
@@ -102,14 +101,30 @@
   padding-bottom: 15px;
 }
 
-.footlik{
+.footlik {
   display: flex;
   align-items: flex-start;
   gap: 10px;
 }
 
-.footlik svg{
+.footlik svg {
   margin-top: 3px;
+}
+
+.sLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sLink:hover img{
+  filter: invert(1);
+}
+
+.jabber{
+  width: 84%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media (max-width: 991px) {

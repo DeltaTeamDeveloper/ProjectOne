@@ -60,10 +60,9 @@ const Header = () => {
   }
 
 
-
   return (
     <>
-      <header  className={styles.headerhome}>
+      <header className={styles.headerhome}>
         <Container className={styles.headerContainer}>
           <div className={styles.navLogo}>
             <Link href="/">
@@ -94,7 +93,7 @@ const Header = () => {
                     </div>
                     <Row>
                       <Col lg={4}>
-                        <ul  className={`${styles.border}`} >
+                        <ul className={`${styles.border}`} >
                           <li className={`${styles.navlinks} ${styles.megaLinks}`} onClick={handleMenu}>
                             <Image loading="lazy" alt="Texas Book Publishing" src={publish} className='img-fluid'></Image>
                             <div className={styles.megaDiv}>
@@ -218,7 +217,7 @@ const Header = () => {
                 <li onClick={modal} className={`${styles.navlinks} ${styles.headertel} ${styles.headerbtnspacing}`}>
                   <Link className={styles.headerbtncolor} href="">Get A Quote</Link>
                 </li>
-                <li className={`${styles.navlinks} ${styles.headertel}`} onClick={handleMenu}>
+                <li className={`${styles.navlinks} ${styles.headertel} ${styles.num}`} onClick={handleMenu}>
                   <Link className={`${styles.headerbtncolor} ${styles.headericon}`} href="tel:(346) 502-3898"> +1 (346) 502-3898 </Link>
                 </li>
               </ul>
@@ -238,7 +237,6 @@ const Header = () => {
 
       <Modal show={show} centered onHide={closemodal} className='getmodal'>
         <Modal.Body> <Getstarted /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
-
       </Modal>
 
 
