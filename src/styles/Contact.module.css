@@ -63,6 +63,12 @@
   width: 100%;
   height: 150px;
   margin-top: 3%;
+  resize: none;
+}
+
+.inputfilet:focus,
+.textarea1:focus {
+  outline: none;
 }
 
 .submitform {

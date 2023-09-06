@@ -1,10 +1,59 @@
 import Head from 'next/head'
 import React from 'react'
+import { useState } from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Stripe.module.css'
 
 
 const Stripe = () => {
+
+    const [score, setScore] = useState('CREATE URL');
+
+    const handleSubmit = async (event) => {
+
+        event.preventDefault()
+
+
+
+        const data = {
+            clName: event.target.clName.value,
+            clEmail: event.target.clEmail.value,
+            clPhone: event.target.clPhone.value,
+            zipcode: event.target.clZip.value,
+            message: event.target.clMessage.value,
+            
+            agName: event.target.agName.value,
+            packages: event.target.packgs.value,
+            price: event.target.price.value,
+        }
+
+
+        const JSONdata = JSON.stringify(data)
+        setScore('Wating For Send Data');
+        fetch('/api/email', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log('Response received')
+            if (res.status === 200) {
+                console.log('Response succeeded!')
+            }
+        })
+
+
+
+
+        setScore('Thank You');
+        const { pathname } = Router
+        if (pathname == pathname) {
+            Router.push('/thank-you')
+        }
+
+    }
 
     return (
         <>
@@ -36,56 +85,49 @@ const Stripe = () => {
                 <Container>
                     <Row className='gy-4'>
                         <Col md={12}>
-                            <div className={`${styles.contfom} ${styles.client}`}>
-                                <h2 className='t-center fw700 font30 color-blue font-f mb-5'>
-                                    Client Details
-                                </h2>
-
-                                <form className={styles.stripeForm}>
+                            <form className={styles.stripeForm} id='strpForm' onSubmit={handleSubmit}>
+                                <div className={`${styles.contfom} ${styles.client}`}>
+                                    <h2 className='t-center fw700 font30 color-blue font-f mb-4 mb-md-5'>
+                                        Client Details
+                                    </h2>
                                     <Row className='gy-3'>
                                         <Col md={6}>
-                                            <input required id='name' type='text' name='name' placeholder='Full Name' />
+                                            <input required id='clName' type='text' name='clName' placeholder='Full Name' />
                                         </Col>
                                         <Col md={6}>
-                                            <input required id='email' type='text' name='email' placeholder='Email Address' />
+                                            <input required id='clEmail' type='text' name='clEmail' placeholder='Email Address' />
                                         </Col>
                                         <Col md={6}>
-                                            <input required id='phone' type='tel' name='phone' placeholder='Phone Number' />
+                                            <input required id='clPhone' type='tel' name='clPhone' placeholder='Phone Number' />
                                         </Col>
                                         <Col md={6}>
-                                            <input required id='zip' type='number' name='zip' placeholder='Location/Zip Code' />
+                                            <input required id='clZip' type='number' name='clZip' placeholder='Location/Zip Code' />
                                         </Col>
                                         <Col md={12}>
-                                            <textarea type="text" id="message" name="message" placeholder="Message"></textarea>
-                                        </Col>
-                                        <Col md={12}>
-                                            <button type='submit'>Submit</button>
+                                            <textarea id="clMessage" type="text" name="clMessage" placeholder="Message"></textarea>
                                         </Col>
                                     </Row>
-                                </form>
-                            </div>
-                            <div className={`${styles.contfom} ${styles.agent} mt-5`}>
-                                <h2 className='t-center fw700 font30 color-blue font-f mb-5'>
-                                    Agent Details
-                                </h2>
-
-                                <form className={styles.stripeForm}>
+                                </div>
+                                <div className={`${styles.contfom} ${styles.agent} mt-5`}>
+                                    <h2 className='t-center fw700 font30 color-blue font-f mb-4 mb-md-5'>
+                                        Agent Details
+                                    </h2>
                                     <Row className='gy-3'>
                                         <Col md={6}>
-                                            <input required id='name' type='text' name='name' placeholder='Full Name' />
+                                            <input required id='agName' type='text' name='agName' placeholder='Full Name' />
                                         </Col>
                                         <Col md={6}>
-                                            <input required id='email' type='text' name='email' placeholder='Email Address' />
-                                        </Col>
-                                        <Col md={12}>
                                             <input required id='packgs' type='text' name='packgs' placeholder='Package' />
                                         </Col>
                                         <Col md={12}>
-                                            <button type='submit'>Submit</button>
+                                            <input required id='price' type='text' name='price' placeholder='Email Address' />
+                                        </Col>
+                                        <Col md={12}>
+                                            <button id='submitBtn' type='submit'>{score}</button>
                                         </Col>
                                     </Row>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </Col>
                     </Row>
                 </Container>

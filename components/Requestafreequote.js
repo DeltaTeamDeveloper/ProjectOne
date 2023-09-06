@@ -25,6 +25,7 @@ const Requestafreequote = () => {
       name: e.target.name.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
+      message: e.target.message.value,
     });
 
     const JSONdata = JSON.stringify(bodyContent)
@@ -52,11 +53,20 @@ const Requestafreequote = () => {
           <h2 className="fw700 font40 color-blue font-f t-center mb-3 pt-5">Request A Free Quote</h2>
           <form className={styles.formalign} onSubmit={handleSubmit}>
             <Row>
-              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name' /></Col>
+              <Col md={4}>
+                <input type="text" className={styles.formfree} required name="name" placeholder='Name' />
+              </Col>
 
-              <Col md={4}>  <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></Col>
+              <Col md={4}>
+                <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+              </Col>
 
-              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </Col>
+              <Col md={4}>
+                <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+              </Col>
+              <Col md={12}>
+              <textarea type="text" id="message" className={styles.textarea1} name="message" placeholder="Tell Us More About Your Project and Publishing Goals Here"></textarea>
+              </Col>
             </Row>
             <p className='font14 fw400 mt-3'>
               <span className='fw700 d-block'>Note:</span>

@@ -17,7 +17,7 @@ const Signup = (props) => {
       first: event.target.first.value,
       email: event.target.email.value,
       phone: event.target.phone.value,
-      // message: event.target.message.value,
+      message: event.target.message.value,
     }
 
 
@@ -63,7 +63,7 @@ const Signup = (props) => {
         <input type="text" className={styles.nametext} required name="first" placeholder="Full Name:" />
         <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
         <input type="number" className={`${styles.nametext} ${styles.margin}`} required name="phone" placeholder="Phone Number:" />
-        {/* <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea> */}
+        <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea>
 
         <p className={`${styles.newPara} font14 fw400`}>
           <span className='fw700 d-block'>Note:</span>
