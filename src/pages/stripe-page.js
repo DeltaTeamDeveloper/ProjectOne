@@ -4,54 +4,80 @@ import { useState } from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Stripe.module.css'
 
-
 const Stripe = () => {
 
     const [score, setScore] = useState('CREATE URL');
+    const [paymentLink, setLink] = useState('');
 
     const handleSubmit = async (event) => {
 
         event.preventDefault()
 
+        const stripe = require('stripe')('sk_test_51Hk6kuDiglXWKM9fDktljA9mbikQXEWRcQPTHxcHN5FWwj75lik39DAsZd0LqGYgCB5Xpn0Ji2GMYAsZkM27sdaP00l7jXCZ7k');
 
+        stripe.customers.create({
+            name: event.target.clName.value,
+            phone: event.target.clPhone.value,
+            email: event.target.clEmail.value,
+        }).then((customer) => {
+            stripe.products.create({
+                name: event.target.packgs.value,
+            }).then((products) => {
+                stripe.prices.create({
+                    unit_amount: event.target.price.value,
+                    currency: 'usd',
+                    product: products.id,
+                }).then((prices) => {
+                    stripe.paymentLinks.create({
+                        line_items: [
+                            {
+                                price: prices.id,
+                                quantity: 1,
+                            },
+                        ],
+                    }).then((paymentLinks) => {
 
-        const data = {
-            clName: event.target.clName.value,
-            clEmail: event.target.clEmail.value,
-            clPhone: event.target.clPhone.value,
-            zipcode: event.target.clZip.value,
-            message: event.target.clMessage.value,
-            
-            agName: event.target.agName.value,
-            packages: event.target.packgs.value,
-            price: event.target.price.value,
-        }
+                        const data = {
+                            clName: event.target.clName.value,
+                            clEmail: event.target.clEmail.value,
+                            clPhone: event.target.clPhone.value,
+                            zipcode: event.target.clZip.value,
 
+                            agName: event.target.agName.value,
+                            packages: event.target.packgs.value,
+                            price: event.target.price.value,
+                            paymentLink: paymentLinks.url
+                        }
 
-        const JSONdata = JSON.stringify(data)
-        setScore('Wating For Send Data');
-        fetch('/api/email', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSONdata
-        }).then((res) => {
-            console.log('Response received')
-            if (res.status === 200) {
-                console.log('Response succeeded!')
-            }
+                        const JSONdata = JSON.stringify(data)
+                        setScore('Wating For Send Data');
+                        fetch('/api/email', {
+                            method: 'POST',
+                            headers: {
+                                'Accept': 'application/json, text/plain, */*',
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSONdata
+                        }).then((res) => {
+                            console.log('Response received')
+                            if (res.status === 200) {
+                                console.log('Response succeeded!')
+                            }
+                        })
+                        console.log(paymentLinks.url);
+                        setLink(paymentLinks.url)
+                    })
+                });
+            });
         })
+            .catch(error => console.error(error));
 
 
-
-
-        setScore('Thank You');
-        const { pathname } = Router
-        if (pathname == pathname) {
-            Router.push('/thank-you')
-        }
+        // setScore('Thank You');
+        // const { pathname } = Router
+        // if (pathname == pathname) {
+        //     Router.push('/thank-you')
+        // }
 
     }
 
@@ -103,9 +129,6 @@ const Stripe = () => {
                                         <Col md={6}>
                                             <input required id='clZip' type='number' name='clZip' placeholder='Location/Zip Code' />
                                         </Col>
-                                        <Col md={12}>
-                                            <textarea id="clMessage" type="text" name="clMessage" placeholder="Message"></textarea>
-                                        </Col>
                                     </Row>
                                 </div>
                                 <div className={`${styles.contfom} ${styles.agent} mt-5`}>
@@ -120,10 +143,11 @@ const Stripe = () => {
                                             <input required id='packgs' type='text' name='packgs' placeholder='Package' />
                                         </Col>
                                         <Col md={12}>
-                                            <input required id='price' type='text' name='price' placeholder='Email Address' />
+                                            <input required id='price' type='text' name='price' placeholder='Price' />
                                         </Col>
                                         <Col md={12}>
                                             <button id='submitBtn' type='submit'>{score}</button>
+                                            <p className='t-center fw600 font20 text-black font-f mt-4 mb-0'>{paymentLink}</p>
                                         </Col>
                                     </Row>
                                 </div>
