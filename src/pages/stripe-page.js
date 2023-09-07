@@ -13,7 +13,7 @@ const Stripe = () => {
 
         event.preventDefault()
 
-        const stripe = require('stripe')('sk_test_51Hk6kuDiglXWKM9fDktljA9mbikQXEWRcQPTHxcHN5FWwj75lik39DAsZd0LqGYgCB5Xpn0Ji2GMYAsZkM27sdaP00l7jXCZ7k');
+        const stripe = require('stripe')('sk_test_51NVWLjLLTR69UjiEvrkpcoHY7Zx660S2ZKK6kHZXuqXuzBu983s7KmPNVayYoHgbmGQNYAa2RLlvg7eclzjppTm600m6nyJSrZ');
 
         stripe.customers.create({
             name: event.target.clName.value,

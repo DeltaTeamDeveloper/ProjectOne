@@ -21,7 +21,7 @@ const Contact = () => {
             first: event.target.first.value,
             email: event.target.last.value,
             phone: event.target.phone.value,
-          
+
         }
 
 
@@ -30,20 +30,20 @@ const Contact = () => {
         fetch('/api/email', {
             method: 'POST',
             headers: {
-              'Accept': 'application/json, text/plain, */*',
-              'Content-Type': 'application/json'
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
             },
             body: JSONdata
-          }).then((res) => {
+        }).then((res) => {
             console.log('Response received')
             if (res.status === 200) {
-              console.log('Response succeeded!')
+                console.log('Response succeeded!')
             }
-          })
-      
-      
-          
-       
+        })
+
+
+
+
         setScore('Thank You');
         const { pathname } = Router
         if (pathname == pathname) {
@@ -176,8 +176,8 @@ const Contact = () => {
                                     <span className=''>Phone:</span> <Link href='tel:(346) 502-3898' className={` ${styles.numpost} fw700 text-black textdocationnone`}> (346) 502-3898 </Link>
                                 </p>
                                 <p className='font20 fw500 font-f text-black'>
-                                    <span className=''>Email:</span> <Link href='mailto:info(@)bookwritingcube(.)com' className={` ${styles.numpost} fw700 text-black textdocationnone`}>
-                                        support@texasbookpublishing.com </Link>
+                                    <span className=''>Email:</span> 
+                                    <Link href='info@texasbookpublishing.com' className={`${styles.numpost} fw700 text-black textdocationnone`}> info@texasbookpublishing.com</Link>
                                 </p>
                             </div>
 

@@ -38,10 +38,20 @@ const Header = () => {
     setclick((prevState) => !prevState);
   }
 
+
   const [show, setShow] = useState(false);
 
-  function modal(e) { e.preventDefault(); setShow(true); }
+  function modal(e) {
+    e.preventDefault();
+    setShow(true);
+
+    setTimeout(() => {
+      setShow(false);
+    }, 30000);
+  }
+
   function closemodal() { setShow(false); }
+
 
 
   const router = useRouter();
