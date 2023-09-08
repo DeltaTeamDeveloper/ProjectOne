@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Script from 'next/script'
+
 // import components
 import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'
@@ -29,31 +29,7 @@ export default function Home() {
   const discuss = <span>LET'S DISCUSS</span>
 
 
-  // const schema1 = {
-  //   "@context": "https://schema.org",
-  //   "@type": "Article",
-  //   "mainEntityOfPage": {
-  //     "@type": "WebPage",
-  //     "@id": "https://texasbookpublishing.com/"
-  //   },
-  //   "headline": "Book Writing Company",
-  //   "description": "Book Writing Company",
-  //   "image": "",
-  //   "author": {
-  //     "@type": "Organization",
-  //     "name": "Mini Investments"
-  //   },
-  //   "publisher": {
-  //     "@type": "Organization",
-  //     "name": "",
-  //     "logo": {
-  //       "@type": "ImageObject",
-  //       "url": ""
-  //     }
-  //   },
-  //   "datePublished": "2022-03-21"
-  // }
-
+  
   const schema2 = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -75,10 +51,6 @@ export default function Home() {
     ]
   }
 
-  // const schema3 = {
-  //   "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
-  //   "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
-  // }
 
 
 
@@ -107,41 +79,20 @@ export default function Home() {
         <meta name="twitter:data1" content="13 minutes" />
         <link rel="icon" href="/favicon.png" />
 
-        {/* <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
-        />*/}
-
+      
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
 
-        {/* <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        /> */}
-
-        {/* <Schema /> */}
+      
 
       </Head>
 
 
       {/* googletagmanager */}
 
-      {/* <Script
-        src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-210274244-13');
-        `}
-      </Script> */}
+      
 
       <main>
         {/* banner components */}

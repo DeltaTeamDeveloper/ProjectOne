@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
+import Script from 'next/script'
+
 
 const Thankyou = () => {
 
@@ -39,7 +41,11 @@ const Thankyou = () => {
         <meta name="twitter:data1" content="1 minute" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=AW-11198021158`}
+      />
+      <Script>{`  gtag('event', 'conversion', {'send_to': 'AW-11198021158/N8gCCJHiyd4YEKb80Nsp'});`}</Script>
       {/* banner components */}
 
       {bannertext.map((item, i) =>
