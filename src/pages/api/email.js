@@ -1,8 +1,8 @@
 export default function (req, res) {
   let nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport({
-    port: 465,
-    host: "smtpout.secureserver.net ",
+    port: 587,
+    host: "smtp.office365.com",
     auth: {
       user: 'info@texasbookpublishing.com',
       pass: "P@ssw0rd.",
