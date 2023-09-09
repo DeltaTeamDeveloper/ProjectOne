@@ -17,7 +17,7 @@ const Signup = (props) => {
       first: event.target.first.value,
       email: event.target.email.value,
       phone: event.target.phone.value,
-      message: event.target.message.value,
+      message: (event.target.message.value == "") ? event.target.message.value : "No Message",
     }
 
 

@@ -38,7 +38,7 @@ const Getstarted = (props) => {
         if (res.status === 200) {
           console.log('Response succeeded!')
         }
-      })
+    })
   
   
       
