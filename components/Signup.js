@@ -17,15 +17,15 @@ const Signup = (props) => {
       first: event.target.first.value,
       email: event.target.email.value,
       phone: event.target.phone.value,
-      message: (event.target.message.value == "") ? event.target.message.value : "No Message",
+      // message: (event.target.message.value == "") ? event.target.message.value : "No Message",
     }
 
 
 
     const JSONdata = JSON.stringify(data)
-
+    console.log(JSONdata)
     setScore('Wating For Send Data');
-
+  
     // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
     //   .then((response) => {
     //     setScore('Thank You');
@@ -40,9 +40,9 @@ const Signup = (props) => {
       },
       body: JSONdata
     }).then((res) => {
-      console.log('Response received')
+      console.log(res)
       if (res.status === 200) {
-        console.log('Response succeeded!')
+        console.log(res.status)
       }
     })
 
@@ -61,13 +61,13 @@ const Signup = (props) => {
       <p className='font-f t-center'> <em>Drop your details, and we'll soon respond to your inquiry!</em> </p>
       <form onSubmit={handleSubmit}>
         <input type="text" className={styles.nametext} required name="first" placeholder="Full Name:" />
-        <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
+        <input type="email" className={styles.nametext} required name="email"  placeholder="Email Address:" />
         <input type="number" className={`${styles.nametext} ${styles.margin}`} required name="phone" placeholder="Phone Number:" />
         {/* <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea> */}
 
         <p className={`${styles.newPara} font14 fw400`}>
           <span className='fw700 d-block'>Note:</span>
-          <span>By providing your phone number and clicking "Submit," you consent to receive text messages from Texas Book Publishing for marketing purposes, including promotions, updates, and offers related to our books and publishing services. You understand that message and data rates may apply, and you may opt-out at any time by texting "STOP" to [Short Code]. Your consent is in compliance with Texas state laws, including the Texas Business and Commerce Code, Chapter 35 (Electronic Transactions), and the Texas Finance Code, Chapter 35 (Consumer Protection).</span>
+          <span>By providing your phone number and clicking "Submit" you consent to receive text messages from Texas Book Publishing for marketing purposes, including promotions, updates, and offers related to our books and publishing services. You understand that message and data rates may apply, and you may opt-out at any time by texting "STOP" to [Short Code]. Your consent is in compliance with Texas state laws, including the Texas Business and Commerce Code, Chapter 35 (Electronic Transactions), and the Texas Finance Code, Chapter 35 (Consumer Protection).</span>
         </p>
 
         <button className={styles.freebtn} type="submit">{score} </button>
