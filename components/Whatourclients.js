@@ -12,6 +12,7 @@ import avtar5 from '../public/images/testimonial/05.png'
 import avtar6 from '../public/images/testimonial/06.png'
 import avtar7 from '../public/images/testimonial/07.png'
 import avtar8 from '../public/images/testimonial/08.png'
+import avtar9 from '../public/images/testimonial/avatar-1.png'
 
 // footer icons
 import { AiFillStar } from 'react-icons/ai';
@@ -86,7 +87,7 @@ const Whatourclients = () => {
                     <div className={styles.clientData}>
                       <div>
                         <Image loading="lazy" className='img-fluid'
-                          src={avtar4}
+                          src={avtar9}
                           alt='bookwritingexperts'
                         />
                       </div>
